@@ -17,6 +17,6 @@
 ## Contact Information
   - ### Phone : +91-8857916707
   - ### Email: shubham.bramhane75@gmail.com
-  - ### Linkdin: <a href="https://www.linkedin.com/in/shubham1602/">Shubham Bramhane</a>
+  - ### Linkedin: <a href="https://www.linkedin.com/in/shubham1602/">Shubham Bramhane</a>
 
 
