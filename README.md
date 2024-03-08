@@ -3,8 +3,8 @@
 Versatile IT professional with a Bachelor's in Computer Science and expertise in Python, data analytics, and project management. Proven track record in designing and implementing impactful solutions, optimizing processes, and driving successful projects. Experienced in database management, data science, and proficient in a range of technical tools and frameworks.
 
 ## Educational Qualifications
-🎓 Bachelor of Engineering In CSE.
-Concentration: Data Analysis, Machine Learning.
+🎓 Bachelor of Engineering In Computer Science at Gondwana University(OCT 2020)
+Concentration: Data Analysis, Machine Learning, Deep Learning.
 
 ## Technical Skills
 - **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php , Ajax , Javascript.
