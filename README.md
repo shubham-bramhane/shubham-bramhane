@@ -1,4 +1,4 @@
-# Shubham Bramhane - Data Analyst
+# Shubham Bramhane - Full Stack Developer
 
 Versatile IT professional with a Bachelor's in Computer Science and expertise in Python, data analytics, and project management. Proven track record in designing and implementing impactful solutions, optimizing processes, and driving successful projects. Experienced in database management, data science, and proficient in a range of technical tools and frameworks.
 
