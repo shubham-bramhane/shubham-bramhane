@@ -8,7 +8,7 @@ Concentration: Data Analysis, Machine Learning, Deep Learning, Web Development
 
 ## Technical Skills
 - **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php, Ajax, Javascript.
-- **Databases:** MySQL, Dynamo DB, Relational Database Services(RDS).
+- **Databases:** MySQL, Dynamo DB, Relational Database Services (RDS).
 - **Framework:** Django, Flask, Laravel
 - **Cloud Provider:** Amazon Web Services (AWS)
 - **Other Tools:** GitHub, JIRA
