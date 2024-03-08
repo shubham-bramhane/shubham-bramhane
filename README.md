@@ -4,7 +4,7 @@ Versatile IT professional with a Bachelor's in Computer Science and expertise in
 
 ## Educational Qualifications
 🎓 Bachelor of Engineering In Computer Science at Gondwana University (OCT 2020)
-Concentration: Data Analysis, Machine Learning, Deep Learning.
+Concentration: Data Analysis, Machine Learning, Deep Learning, Web Development
 
 ## Technical Skills
 - **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php , Ajax , Javascript.
