@@ -13,8 +13,9 @@ Concentration: Data Analysis, Machine Learning, Deep Learning.
 - **Cloud Provider:** Amazon Web Services (AWS)
 - **Other Tools:** GitHub, JIRA
 
-  ## Contact Information
+## Contact Information
 - **Phone:** +91-8857916707
 - **Email:** shubham.bramhane75@gmail.com
 - **LinkedIn:** [Shubham Bramhane](https://www.linkedin.com/in/shubham1602/)
 
+## Resume : [Shubham Bramhane](https://shubhambramhane.in/assets/resume/Shubham-Bramhane-resume.pdf)
