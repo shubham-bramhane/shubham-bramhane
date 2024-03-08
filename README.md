@@ -1,22 +1,20 @@
-# Shubhan Bramhane - Laravel Developer | Machine Learning
+# Shubham Bramhane - Data Analyst
 
-
+Versatile IT professional with a Bachelor's in Computer Science and expertise in Python, data analytics, and project management. Proven track record in designing and implementing impactful solutions, optimizing processes, and driving successful projects. Experienced in database management, data science, and proficient in a range of technical tools and frameworks.
 
 ## Educational Qualifications
-🎓 bachelor of engineering in computer science and engineering 
-
+🎓 Bachelor of Engineering In CSE.
+Concentration: Data Analysis, Machine Learning.
 
 ## Technical Skills
-  - ### Language: Python , Laravel, Node js, PHP
-  - ### Databases : MySQL, RDS
-  - ### Framework: Django, LARAVEL
-  - ### Cloud Provider : AWS
-  - ### Other Tools : Github.
+- **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php , Ajax , Javascript.
+- **Databases:** MySQL, Dynamo DB, Relational Database Services(RDS).
+- **Framework:** Django, Flask, Laravel
+- **Cloud Provider:** Amazon Web Services (AWS)
+- **Other Tools:** GitHub, JIRA
 
-
-## Contact Information
-  - ### Phone : +91-8857916707
-  - ### Email: shubham.bramhane75@gmail.com
-  - ### Linkedin: <a href="https://www.linkedin.com/in/shubham1602/">Shubham Bramhane</a>
-
+  ## Contact Information
+- **Phone:** +91-8857916707
+- **Email:** shubham.bramhane75@gmail.com
+- **LinkedIn:** [Shubham Bramhane](https://www.linkedin.com/in/shubham1602/)
 
