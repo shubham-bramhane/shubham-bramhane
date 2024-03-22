@@ -7,7 +7,7 @@ Versatile IT professional with a Bachelor's in Computer Science and expertise in
 Concentration: Data Analysis, Machine Learning, Deep Learning, Web Development
 
 ## Technical Skills
-- **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php, Ajax, Javascript.
+- **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn, OpenCV), Php, Ajax, Javascript.
 
 - **Databases:** MySQL, Dynamo DB, Relational Database Services (RDS).
 
