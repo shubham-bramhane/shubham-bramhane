@@ -8,16 +8,24 @@ Concentration: Data Analysis, Machine Learning, Deep Learning, Web Development
 
 ## Technical Skills
 - **Languages:** Python (Pandas, NumPy, SciPy, Matplotlib, Scikit-learn, Seaborn), Php, Ajax, Javascript.
+
 - **Databases:** MySQL, Dynamo DB, Relational Database Services (RDS).
+
 - **Framework:** Django, Flask, Laravel
+
 - **Cloud Provider:** Amazon Web Services (AWS)
+
 - **Other Tools:** GitHub, JIRA
 
 ## Contact Information
 - **Phone:** +91-8857916707
+
 - **Email:** shubham.bramhane75@gmail.com
+
 - **LinkedIn:** [Shubham Bramhane](https://www.linkedin.com/in/shubham1602/)
+
 - **Website:** [Shubham Bramhane Website](https://shubhambramhane.in)
+
 - **Resume:** [Shubham Bramhane Resume](https://shubhambramhane.in/assets/resume/Shubham-Bramhane-resume.pdf)
 
 
