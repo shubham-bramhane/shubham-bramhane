@@ -27,6 +27,6 @@ Concentration: Data Analysis, Machine Learning, Deep Learning, Web Development
 
 - **Website:** [Shubham Bramhane Website](https://shubhambramhane.in)
 
-- **Resume:** [Shubham Bramhane Resume](https://shubhambramhane.in/assets/resume/Shubham-Bramhane-resume.pdf)
+- **Resume:** [Shubham Bramhane Resume](https://bit.ly/49rwVpH)
 
 
