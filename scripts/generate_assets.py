@@ -415,7 +415,7 @@ def build_hero(theme_name: str) -> str:
   <!-- Top Badges Row -->
   <g>
     <rect x="36" y="28" width="66" height="28" rx="9" fill="url(#sbSeal)"/>
-    <text x="69" y="46.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="12.2" font-weight="800" fill="#FFFFFF">&lt;SB/&gt;</text>
+    <text x="69" y="46.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="12.2" font-weight="700" fill="#FFFFFF">&lt;SB/&gt;</text>
 
     <rect x="111" y="28" width="268" height="28" rx="14" fill="{t['mint_bg']}" stroke="{t['mint_border']}" stroke-width="1"/>
     <circle cx="126" cy="42" r="3.6" fill="{t['mint']}" class="pulse-dot"/>
@@ -427,9 +427,9 @@ def build_hero(theme_name: str) -> str:
 
   <!-- Main Editorial Heading -->
   <g>
-    <text x="36" y="108" font-family="{FONT_SANS}" font-size="43" font-weight="800" letter-spacing="-1.0" fill="{t['text']}">Shubham Bramhane</text>
-    <text x="36" y="142" font-family="{FONT_SANS}" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">Architecting High-Throughput Systems</text>
-    <text x="36" y="168" font-family="{FONT_SANS}" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">with AI-Augmented Velocity.</text>
+    <text x="36" y="108" font-family="{FONT_SANS}" font-size="43" font-weight="700" letter-spacing="-1.0" fill="{t['text']}">Shubham Bramhane</text>
+    <text x="36" y="142" font-family="{FONT_SANS}" font-size="21.8" font-weight="700" letter-spacing="-0.25" fill="url(#headlineGrad)">Architecting High-Throughput Systems</text>
+    <text x="36" y="168" font-family="{FONT_SANS}" font-size="21.8" font-weight="700" letter-spacing="-0.25" fill="url(#headlineGrad)">with AI-Augmented Velocity.</text>
 
     <text x="36" y="198" font-family="{FONT_SANS}" font-size="12.5" font-weight="700" fill="{t['mint']}">Senior Full-Stack Architect &amp; AI-Augmented Engineer</text>
     <text x="362" y="198" font-family="{FONT_MONO}" font-size="10.6" font-weight="600" fill="{t['text_muted']}">· 5+ Yrs · MBA Finance &amp; IT</text>
@@ -530,9 +530,9 @@ def build_cta_button(theme_name: str, key: str, label: str, sub: str, style: str
   <g transform="translate(14, 15)">
     {icon.format(c=icon_col)}
   </g>
-  <text x="48" y="27.5" font-family="{FONT_SANS}" font-size="13.2" font-weight="800" fill="{fg}">{esc(label)}</text>
+  <text x="48" y="27.5" font-family="{FONT_SANS}" font-size="13.2" font-weight="700" fill="{fg}">{esc(label)}</text>
   <text x="48" y="43.5" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{sub_fg}">{esc(sub)}</text>
-  <text x="{w - 15}" y="34" text-anchor="end" font-family="{FONT_SANS}" font-size="14" font-weight="800" fill="{icon_col}">↗</text>
+  <text x="{w - 15}" y="34" text-anchor="end" font-family="{FONT_SANS}" font-size="14" font-weight="700" fill="{icon_col}">↗</text>
 </svg>
 """
 
@@ -571,7 +571,7 @@ def build_metrics(theme_name: str) -> str:
             "m2",
             f'<circle cx="192" cy="42" r="20" fill="none" stroke="{t["border_strong"]}" stroke-width="4.2"/>'
             f'<circle cx="192" cy="42" r="20" fill="none" stroke="{t["blue"]}" stroke-width="4.2" stroke-dasharray="104 130" stroke-linecap="round" transform="rotate(-90 192 42)"/>'
-            f'<text x="192" y="45.5" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="800" fill="{t["cyan_bright"]}">AI</text>',
+            f'<text x="192" y="45.5" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{t["cyan_bright"]}">AI</text>',
         ),
         (
             "10+ hrs",
@@ -605,7 +605,7 @@ def build_metrics(theme_name: str) -> str:
     <rect x="0" y="0" width="236" height="118" rx="16" fill="none" stroke="{t['border']}" stroke-width="1.15"/>
     <line x1="18" y1="0.8" x2="218" y2="0.8" stroke="url(#metSpec)" stroke-width="1"/>
     <rect x="20" y="0" width="48" height="2.8" rx="1.4" fill="{acc}"/>
-    <text x="20" y="46" font-family="{FONT_SANS}" font-size="30" font-weight="800" letter-spacing="-0.6" fill="{t['text']}">{esc(big)}</text>
+    <text x="20" y="46" font-family="{FONT_SANS}" font-size="30" font-weight="700" letter-spacing="-0.6" fill="{t['text']}">{esc(big)}</text>
     <text x="20" y="76" font-family="{FONT_SANS}" font-size="13" font-weight="700" fill="{acc}">{esc(title)}</text>
     <text x="20" y="96" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_muted']}">{esc(sub)}</text>
     {viz}
@@ -976,7 +976,7 @@ def build_project_card(
   <text x="{20 + badge_w / 2:.1f}" y="30.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{acc}">{esc(badge)}</text>
   <text x="{20 + badge_w + 10}" y="30.2" font-family="{FONT_MONO}" font-size="9.8" fill="{t['text_muted']}">{esc(period)} · {esc(category)}</text>
 
-  <text x="20" y="65" font-family="{FONT_SANS}" font-size="16" font-weight="800" fill="{t['text']}">{esc(title)}</text>
+  <text x="20" y="65" font-family="{FONT_SANS}" font-size="16" font-weight="700" fill="{t['text']}">{esc(title)}</text>
   <text x="20" y="87" font-family="{FONT_SANS}" font-size="11.8" fill="{t['text_sub']}">{esc(desc1)}</text>
   <text x="20" y="104" font-family="{FONT_SANS}" font-size="11.8" fill="{t['text_sub']}">{esc(desc2)}</text>
 
@@ -1061,7 +1061,7 @@ def build_telemetry_ethos(theme_name: str) -> str:
     <rect x="602" y="38" width="58" height="2.8" rx="1.4" fill="url(#ethArcticBar)"/>
 
     <text x="604" y="67" font-family="{FONT_MONO}" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="{t['cyan_bright']}">ENGINEERING PHILOSOPHY</text>
-    <text x="604" y="102" font-family="{FONT_SANS}" font-size="19.5" font-weight="800" fill="{t['text']}">धैर्यं सर्वत्र साधनम्।</text>
+    <text x="604" y="102" font-family="{FONT_SANS}" font-size="19.5" font-weight="700" fill="{t['text']}">धैर्यं सर्वत्र साधनम्।</text>
     <text x="604" y="124" font-family="{FONT_MONO}" font-size="11" font-weight="600" fill="{t['cyan_bright']}">&quot;Patience is the solution to everything.&quot;</text>
     <text x="604" y="150" font-family="{FONT_SANS}" font-size="11.4" fill="{t['text_sub']}">Architecting calm, resilient software where clean</text>
     <text x="604" y="167" font-family="{FONT_SANS}" font-size="11.4" fill="{t['text_sub']}">engineering meets measurable business ROI.</text>
@@ -1471,7 +1471,6 @@ def main() -> None:
     generated = []
     for theme in ("dark", "light"):
         outputs = {
-            f"hero-{theme}.svg": build_hero(theme),
             f"metrics-{theme}.svg": build_metrics(theme),
             f"architecture-flow-{theme}.svg": build_architecture_flow(theme),
             f"tech-stack-{theme}.svg": build_tech_stack_radar(theme),

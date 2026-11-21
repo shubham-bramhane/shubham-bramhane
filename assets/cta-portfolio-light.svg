@@ -17,7 +17,7 @@
   <g transform="translate(14, 15)">
     <circle cx="14" cy="14" r="9.5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/><ellipse cx="14" cy="14" rx="4.2" ry="9.5" fill="none" stroke="#FFFFFF" stroke-width="1.5"/><line x1="4.5" y1="14" x2="23.5" y2="14" stroke="#FFFFFF" stroke-width="1.5"/>
   </g>
-  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="800" fill="#FFFFFF">Explore Portfolio</text>
+  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="700" fill="#FFFFFF">Explore Portfolio</text>
   <text x="48" y="43.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#E0F2FE">LIVE NEXT.JS SHOWCASE</text>
-  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">↗</text>
+  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">↗</text>
 </svg>

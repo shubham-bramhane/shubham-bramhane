@@ -105,7 +105,7 @@
     <rect x="602" y="38" width="58" height="2.8" rx="1.4" fill="url(#ethArcticBar)"/>
 
     <text x="604" y="67" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="#7DD3FC">ENGINEERING PHILOSOPHY</text>
-    <text x="604" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19.5" font-weight="800" fill="#F8FAFC">धैर्यं सर्वत्र साधनम्।</text>
+    <text x="604" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19.5" font-weight="700" fill="#F8FAFC">धैर्यं सर्वत्र साधनम्।</text>
     <text x="604" y="124" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#7DD3FC">&quot;Patience is the solution to everything.&quot;</text>
     <text x="604" y="150" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#9EB0C7">Architecting calm, resilient software where clean</text>
     <text x="604" y="167" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#9EB0C7">engineering meets measurable business ROI.</text>

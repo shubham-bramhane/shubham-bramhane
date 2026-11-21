@@ -11,8 +11,8 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 ## 3. Goals & Non-Goals
 ### Goals
 - Craft an independent, crisp **Arctic Midnight Blue & Glacier Cyan** visual identity (deep navy-slate glass surfaces, electric sky cyan, royal sapphire, arctic mint indicators, and frosted ice silver) — completely distinct from his purple/coral web portfolio theme.
-- Provide native GitHub Dark & Light mode adaptation across all 50 self-hosted SVG visuals (`25` Dark + `25` Light) via `<picture>`.
-- Elevate the profile with Midnight Glass depth (icy specular top rims, ambient corner halos, glacier silk ribbons), bespoke vector data visualizations (live photon sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar, stacked language spectrum), and a signature `धैर्यं सर्वत्र साधनम्।` Engineering Philosophy card.
+- Provide native GitHub Dark & Light mode adaptation across studio 3D Hero Banners (`hero-banner-{dark,light}.png`) and 48 self-hosted Bento SVG visuals (`24` Dark + `24` Light) via `<picture>`.
+- Elevate the profile with a clean, spacious 3D frosted-glass editorial hero banner (zero cramped paragraphs or redundant code boxes), Midnight Glass Bento depth (icy specular top rims, ambient corner halos), bespoke vector data visualizations (KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar, stacked language spectrum), and a signature `धैर्यं सर्वत्र साधनम्।` Engineering Philosophy card.
 - Make the Hero CTA bar (4 buttons), featured production case studies (6 cards), and contact channels (6 cards) individually clickable with responsive percentage widths (`24%`, `48.5%`, `32%`) so multi-column alignment holds across laptop and desktop screens.
 - Preserve all verified credentials from both the live portfolio and original README (Python Data Science libraries, AWS RDS/DynamoDB, Django/Flask/Laravel, MBA Finance & IT, B.E. CSE).
 

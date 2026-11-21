@@ -11,14 +11,14 @@ docs/shubham-bramhane-overview.html ──▶ Chrome headless (--print-to-pdf) �
 
 ## 2. Technology Stack
 - **Markup:** GitHub Flavored Markdown + GitHub-allowed HTML (`<div>`, `<p>`, `<a>`, `<picture>`, `<source>`, `<img>`, `<details>`, `<summary>`, `<br/>`).
-- **Visual Assets:** 50 standalone SVG files (`25` Dark + `25` Light) styled in the **Arctic Midnight Blue & Glacier Cyan** system (deep navy-slate `#111A29`/`#090E18`, electric glacier cyan `#38BDF8`/`#7DD3FC`, royal sapphire `#2563EB`/`#60A5FA`, arctic mint `#2DD4BF`, frosted silver `#CBD5E1`, glacier white light mode `#FFFFFF`/`#F3F8FE`), using specular top hairlines, ambient corner halos, celestial orbit geometry, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
+- **Visual Assets:** 2 bespoke 3D studio-lit Hero Banner PNGs (`hero-banner-{dark,light}.png`, `1200×594`, transparent rounded corners) + 48 standalone Bento SVG files (`24` Dark + `24` Light) styled in the **Arctic Midnight Blue & Glacier Cyan** system (deep navy-slate `#111A29`/`#090E18`, electric glacier cyan `#38BDF8`/`#7DD3FC`, royal sapphire `#2563EB`/`#60A5FA`, arctic mint `#2DD4BF`, frosted silver `#CBD5E1`, glacier white light mode `#FFFFFF`/`#F3F8FE`), using refined semibold/bold typography, specular top hairlines, ambient corner halos, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
 - **Tooling:** Python 3 standard library only (`pathlib`, `html`, `math`, `xml.etree.ElementTree`, `re`, `sys`).
 - **PDF Pipeline:** Print-styled HTML/CSS compiled via Google Chrome headless (`--print-to-pdf`).
 
 ## 3. Asset Inventory & Dimensions
 | Asset Pattern | ViewBox | Rendered Width | Purpose |
 | :--- | :---: | :---: | :--- |
-| `assets/hero-{dark,light}.svg` | `1000×404` | `100%` | Aurora Glass Hero + `Architecture.ts` + Animated Photon Sparkline |
+| `assets/hero-banner-{dark,light}.png` | `1200×594` | `100%` | Minimalist 3D Studio Frosted-Glass & Glacier Light Hero Banner |
 | `assets/cta-{portfolio,resume,linkedin,contact}-{dark,light}.svg` | `238×58` | `24%` | 4-across specular glowing clickable Hero Action Bar |
 | `assets/metrics-{dark,light}.svg` | `1000×130` | `100%` | 4-card KPI strip with embedded bar/sparkline/radial/pipeline charts |
 | `assets/architecture-flow-{dark,light}.svg` | `1000×280` | `100%` | Animated 4-layer Architecture Blueprint with gliding fiber-optic light orbs |

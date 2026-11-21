@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- HERO BANNER WITH LIVE TELEMETRY SPARKLINE -->
+<!-- STUDIO 3D HERO BANNER (DARK & LIGHT ADAPTIVE) -->
 <a href="https://my-portfolio-beta-bay-93.vercel.app/" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-    <img alt="Shubham Bramhane — Senior Full-Stack Architect & AI-Augmented Engineer" src="./assets/hero-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-banner-light.png">
+    <img alt="Shubham Bramhane — Senior Full-Stack Architect | Laravel, React & Next.js, Python, AWS, AI Systems" src="./assets/hero-banner-dark.png" width="100%">
   </picture>
 </a>
 
