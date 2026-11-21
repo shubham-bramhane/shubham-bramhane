@@ -1,19 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="486" height="152" viewBox="0 0 486 152" role="img" aria-label="Next-Gen Portfolio &amp; Hotel POS">
-  <rect x="2" y="2" width="482" height="148" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
-  <rect x="20" y="2" width="56" height="3" rx="1.5" fill="#7C3AED"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="488" height="160" viewBox="0 0 488 160" role="img" aria-label="Next-Gen Portfolio &amp; Hotel POS">
+  <rect x="2" y="2" width="484" height="156" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
+  <rect x="20" y="2" width="58" height="3" rx="1.5" fill="#7C3AED"/>
 
-  <rect x="20" y="16" width="112" height="22" rx="11" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="0.9"/>
-  <text x="76.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#7C3AED">LIVE SHOWCASE</text>
-  <text x="142" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748B">2024–Present · Full-Stack</text>
-  <text x="466" y="31" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">↗</text>
+  <!-- Mini Architectural Visual Preview Thumbnail (Top-Right) -->
+  <g transform="translate(382, 16)">
+    <rect x="0" y="0" width="88" height="54" rx="10" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="1"/>
+    <rect x="12" y="10" width="36" height="16" rx="4" fill="#7C3AED" fill-opacity="0.35" stroke="#7C3AED" stroke-width="1.4"/><rect x="52" y="10" width="24" height="34" rx="4" fill="none" stroke="#7C3AED" stroke-width="1.4"/><rect x="12" y="30" width="16" height="14" rx="4" fill="none" stroke="#7C3AED" stroke-width="1.4"/><rect x="32" y="30" width="16" height="14" rx="4" fill="#7C3AED"/>
+  </g>
 
-  <text x="20" y="61" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Next-Gen Portfolio &amp; Hotel POS</text>
-  <text x="20" y="82" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">Interactive Next.js 16 + TypeScript portfolio hub alongside</text>
-  <text x="20" y="99" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">offline-first Laravel LAN POS &amp; open-source repositories.</text>
+  <rect x="20" y="16" width="109" height="22" rx="11" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="0.9"/>
+  <text x="74.5" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#7C3AED">LIVE SHOWCASE</text>
+  <text x="139" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#64748B">2024–Present · Full-Stack</text>
 
-  <rect x="20" y="114" width="90" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="65.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">Next.js 16</text><rect x="116" y="114" width="55" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="143.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">React</text><rect x="177" y="114" width="90" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="222.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">TypeScript</text><rect x="273" y="114" width="97" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="321.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">Laravel POS</text>
+  <text x="20" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="800" fill="#0F172A">Next-Gen Portfolio &amp; Hotel POS</text>
+  <text x="20" y="86" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#475569">Interactive Next.js 16 + TypeScript portfolio hub alongside</text>
+  <text x="20" y="103" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#475569">offline-first Laravel LAN POS &amp; open-source repositories.</text>
+
+  <rect x="20" y="121" width="88" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="64.0" y="136.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">Next.js 16</text><rect x="114" y="121" width="54" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="141.0" y="136.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">React</text><rect x="174" y="121" width="88" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="218.0" y="136.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">TypeScript</text><rect x="268" y="121" width="95" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="315.5" y="136.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">Laravel POS</text>
+
+  <!-- Live CTA Indicator Bottom-Right -->
+  <circle cx="422" cy="132.5" r="3" fill="#7C3AED"/>
+  <text x="430" y="136" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#7C3AED">LIVE ↗</text>
 </svg>

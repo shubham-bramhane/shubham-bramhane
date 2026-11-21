@@ -2,13 +2,13 @@
 
 ## 1. Test Pyramid
 1. **Automated Static Verification (`scripts/verify_profile.py`):**
-   - XML well-formedness & `viewBox` presence across all 40 SVG files in `assets/`.
+   - XML well-formedness & `viewBox` presence across all 48 SVG files in `assets/`.
    - Security/sandbox checks ensuring zero `<script>`, `@import`, or external `http(s)` references inside SVGs.
-   - Link integrity verifying every local `src` and `srcset` path in `README.md` exists on disk.
+   - Link integrity verifying every local `src` and `srcset` path (`72` refs) in `README.md` exists on disk.
    - Fact & deliverable checks verifying core URLs (Portfolio, Resume PDF, LinkedIn, X, Email, Phone, flagship platforms) and all 6 mandatory `docs/` deliverables exist and are linked.
 2. **Visual Regression & Layout Inspection (Headless Chrome):**
-   - Render a simulated GitHub README container (`896px` wide) in both Dark (`#0D1117`) and Light (`#FFFFFF`) modes and capture full-page PNG screenshots.
-   - Inspect screenshots to verify zero text truncation/overlap inside `Architecture.ts`, wrapped pills, 2×3 case study grid alignment, 3×2 contact grid alignment, and timeline spacing.
+   - Render a simulated GitHub README container (`780px` laptop viewport width) in both Dark (`#0D1117`) and Light (`#FFFFFF`) modes and capture full-page PNG screenshots.
+   - Inspect screenshots to verify zero text truncation/overlap inside `Architecture.ts`, 5-axis Engineering Radar labels, animated System Architecture Blueprint nodes, 4-across CTA bar, 2×3 case study grid, and 3×2 contact grid.
 3. **PDF Print Inspection:**
    - Render `docs/shubham-bramhane-overview.html` to `docs/shubham-bramhane-overview.pdf` and verify clean pagination and typography.
 4. **Post-Push Live GitHub QA:**

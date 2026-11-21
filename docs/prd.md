@@ -11,8 +11,9 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 ## 3. Goals & Non-Goals
 ### Goals
 - Align the GitHub Profile README 1:1 with the Obsidian + Electric Purple / Sunset Coral-Amber / Emerald Bento visual identity of `https://my-portfolio-beta-bay-93.vercel.app/`.
-- Provide native GitHub Dark & Light mode adaptation across all 40 self-hosted SVG visuals (`20` Dark + `20` Light) via `<picture>`.
-- Make every featured production case study (6 cards) and every contact channel (6 cards) individually clickable.
+- Provide native GitHub Dark & Light mode adaptation across all 48 self-hosted SVG visuals (`24` Dark + `24` Light) via `<picture>`.
+- Elevate the profile beyond text cards using bespoke vector data visualizations: live Hero telemetry sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar chart, and custom case-study preview thumbnails.
+- Make the Hero CTA bar (4 buttons), featured production case studies (6 cards), and contact channels (6 cards) individually clickable with responsive percentage widths (`24%`, `48.5%`, `32%`) so multi-column alignment holds across laptop and desktop screens.
 - Preserve all verified credentials from both the live portfolio and original README (Python Data Science libraries, AWS RDS/DynamoDB, Django/Flask/Laravel, MBA Finance & IT, B.E. CSE).
 
 ### Non-Goals
@@ -20,16 +21,17 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 - No JavaScript execution inside GitHub Markdown.
 
 ## 4. Functional Requirements
-1. **Hero Banner (`hero-*.svg`):** `<SB/>` monogram, live availability & `3.5x AI Velocity` pills, gradient display headline, executive summary, stack pills, and styled `Architecture.ts` code card.
-2. **Impact KPI Strip (`metrics-*.svg`):** 4 Bento metric cards (`5+ Yrs`, `+30%`, `3.5x`, `10+ hrs`).
-3. **Core Technical Pillars (`pillars-*.svg`):** 4 Bento competence cards (Full-Stack Architecture, AI-Augmented Velocity, Performance & Caching, Data & Tech-Finance).
-4. **Skills & Tech Stack (`tech-stack-*.svg`):** 2×2 asymmetric Bento matrix covering Backend & Python Data, AI Agentic Engineering, Frontend & UI Systems, and Databases, Cloud & DevOps.
-5. **Featured Case Studies (`proj-*-*.svg`):** 6 individually clickable visual case study cards linking live production platforms (Oncquest Healthcare, OncqFieldAssist, Lal Path Labs, Big Basket TMS, Magical Umbrella, Next-Gen Portfolio & Hotel POS).
-6. **Career Journey & Credentials (`journey-*.svg`):** Two-column visual timeline displaying 3 production roles (`Abym Technology`, `Finesoft Technologies`, `Magical Umbrella`), Academic Qualifications (`MBA Finance & IT`, `B.E. CSE 74.60% Distinction`), and Profile Snapshot.
-7. **Clickable Contact Bento Grid (`card-*-*.svg`):** 3×2 symmetric row of individually clickable cards (Live Portfolio, Resume PDF, LinkedIn, Email, X/Twitter, Phone) plus gradient wave footer and collapsible plain-text `<details>` section.
-8. **Shareable Overview PDF (`docs/shubham-bramhane-overview.pdf`):** Clean executive overview tracked in Git and linked in `README.md`.
+1. **Hero Banner (`hero-*.svg`):** `<SB/>` monogram, animated circuit traces & top shimmer scanline, live availability & `3.5x AI Velocity` pills, 2-line gradient display headline, stack pills, and `Architecture.ts` IDE window with embedded live Redis+SQL throughput sparkline.
+2. **Hero Action CTA Bar (`cta-*-*.svg`):** 4 individually clickable glowing CTA buttons (`Explore Portfolio`, `Download Resume`, `LinkedIn Profile`, `Initiate Contact`) at `width="24%"`.
+3. **Impact KPI Strip (`metrics-*.svg`):** 4 Bento metric cards (`5+ Yrs`, `+30%`, `3.5x`, `10+ hrs`) with embedded bar histogram, area sparkline, radial gauge, and automated pipeline visuals.
+4. **Animated System Architecture Blueprint (`architecture-flow-*.svg`):** 4-stage production flow diagram with animated dashed packet streams connecting Client Edge → Laravel 11 & AI Engine → Data & Cloud → Production Impact.
+5. **Capability Radar & Tech Stack (`tech-stack-*.svg`):** 5-axis Pentagon Engineering Radar paired with a 4-quadrant full-stack + AI capabilities Bento matrix.
+6. **Featured Case Studies (`proj-*-*.svg`):** 6 individually clickable visual case study cards (`width="48.5%"`) featuring bespoke mini architectural thumbnails and `● LIVE ↗` indicators.
+7. **Career Journey & Credentials (`journey-*.svg`):** Two-column visual timeline displaying 3 production roles (`Abym Technology`, `Finesoft Technologies`, `Magical Umbrella`), Academic Qualifications (`MBA Finance & IT`, `B.E. CSE 74.60% Distinction`), and Profile Snapshot.
+8. **Clickable Contact Bento Grid (`card-*-*.svg`):** 3×2 symmetric row (`width="32%"`) of individually clickable cards (Live Portfolio, Resume PDF, LinkedIn, Email, X/Twitter, Phone) plus animated shimmer wave footer and collapsible plain-text `<details>` section.
+9. **Shareable Overview PDF (`docs/shubham-bramhane-overview.pdf`):** Clean 1-page executive overview tracked in Git and linked in `README.md`.
 
 ## 5. Success Metrics
-- 100% self-hosted SVG assets (`40` files) with zero external runtime image dependencies.
+- 100% self-hosted SVG assets (`48` files) with zero external runtime image dependencies.
 - 100% pass rate on `python scripts/verify_profile.py`.
-- Visual QA pass in headless Chrome for both GitHub Dark (`#0D1117`) and GitHub Light (`#FFFFFF`) simulated `896px` containers.
+- Visual QA pass in headless Chrome for both GitHub Dark (`#0D1117`) and GitHub Light (`#FFFFFF`) simulated `780px` containers.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="56" viewBox="0 0 238 56" role="img" aria-label="Download Resume">
+  
+  <rect x="2" y="2" width="234" height="52" rx="13" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1.2"/>
+  <g transform="translate(14, 14)">
+    <path d="M8 4 H16 L21 9 V23 H8 Z" fill="none" stroke="#EA580C" stroke-width="1.8" stroke-linejoin="round"/><polyline points="16,4 16,9 21,9" fill="none" stroke="#EA580C" stroke-width="1.5"/><line x1="11" y1="14.5" x2="18" y2="14.5" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/><line x1="11" y1="18.5" x2="16" y2="18.5" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="48" y="26.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="800" fill="#0F172A">Download Resume</text>
+  <text x="48" y="42.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" font-weight="600" fill="#EA580C">VERIFIED PDF CV</text>
+  <text x="223" y="33" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#EA580C">↗</text>
+</svg>

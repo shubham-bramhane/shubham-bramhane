@@ -7,11 +7,11 @@
 
 ## 2. Regeneration & Validation Steps
 ```powershell
-# 1. Regenerate 40 Dark/Light SVG visuals
+# 1. Regenerate 48 Dark/Light SVG visuals (v2.0 Data-Driven Bento Edition)
 python scripts/generate_assets.py
 
-# 2. Regenerate shareable PDF overview (after editing docs/shubham-bramhane-overview.html)
-& "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --disable-gpu --no-pdf-header-footer --print-to-pdf="D:\shubham-bramhane\docs\shubham-bramhane-overview.pdf" "file:///D:/shubham-bramhane/docs/shubham-bramhane-overview.html"
+# 2. Regenerate shareable 1-page PDF overview (after editing docs/shubham-bramhane-overview.html)
+Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList @('--headless=new','--disable-gpu','--no-pdf-header-footer','--print-to-pdf=D:\shubham-bramhane\docs\shubham-bramhane-overview.pdf','file:///D:/shubham-bramhane/docs/shubham-bramhane-overview.html') -Wait
 
 # 3. Validate all assets, links, facts & documentation deliverables
 python scripts/verify_profile.py
