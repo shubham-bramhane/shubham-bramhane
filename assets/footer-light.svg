@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="68" viewBox="0 0 1000 68" role="img" aria-label="Shubham Bramhane Footer">
+  <defs>
+    <clipPath id="footClip">
+      <rect x="4" y="4" width="992" height="60" rx="16"/>
+    </clipPath>
+    <linearGradient id="footWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#EA580C" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#footClip)">
+    <rect x="4" y="4" width="992" height="60" fill="#FFFFFF"/>
+    <path d="M0 44 Q250 18 500 38 T1000 30 L1000 68 L0 68 Z" fill="url(#footWave)"/>
+    <rect x="4" y="61" width="992" height="3" fill="url(#footLine)"/>
+  </g>
+  <rect x="4" y="4" width="992" height="60" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="500" y="39" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="600" letter-spacing="0.9" fill="#475569">&lt;SB/&gt;  SHUBHAM BRAMHANE  ·  LARAVEL · FULL-STACK ARCHITECTURE · AI-AUGMENTED VELOCITY</text>
+</svg>

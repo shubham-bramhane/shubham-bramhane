@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="486" height="152" viewBox="0 0 486 152" role="img" aria-label="Oncquest Healthcare &amp; Admin">
+  <rect x="2" y="2" width="482" height="148" rx="16" fill="#10121B" stroke="#22273D" stroke-width="1.2"/>
+  <rect x="20" y="2" width="56" height="3" rx="1.5" fill="#34D399"/>
+
+  <rect x="20" y="16" width="112" height="22" rx="11" fill="#0C2B22" stroke="#165745" stroke-width="0.9"/>
+  <text x="76.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#34D399">+30% VELOCITY</text>
+  <text x="142" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B7490">2023–Present · Healthcare</text>
+  <text x="466" y="31" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#34D399">↗</text>
+
+  <text x="20" y="61" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">Oncquest Healthcare &amp; Admin</text>
+  <text x="20" y="82" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#A1A9C0">Pan-India diagnostic booking platform &amp; centralized admin</text>
+  <text x="20" y="99" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#A1A9C0">control center with Redis caching &amp; optimized SQL pipelines.</text>
+
+  <rect x="20" y="114" width="69" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="54.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">Laravel</text><rect x="95" y="114" width="76" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="133.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">React.js</text><rect x="177" y="114" width="62" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="208.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">Vue.js</text><rect x="245" y="114" width="55" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="272.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">Redis</text><rect x="306" y="114" width="55" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="333.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">MySQL</text>
+</svg>

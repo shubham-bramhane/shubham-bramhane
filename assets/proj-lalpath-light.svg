@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="486" height="152" viewBox="0 0 486 152" role="img" aria-label="Lal Path Labs &amp; SEO Engine">
+  <rect x="2" y="2" width="482" height="148" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
+  <rect x="20" y="2" width="56" height="3" rx="1.5" fill="#7C3AED"/>
+
+  <rect x="20" y="16" width="106" height="22" rx="11" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="0.9"/>
+  <text x="73.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#7C3AED">SEO &amp; GROWTH</text>
+  <text x="136" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748B">2023–2024 · Healthcare</text>
+  <text x="466" y="31" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">↗</text>
+
+  <text x="20" y="61" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Lal Path Labs &amp; SEO Engine</text>
+  <text x="20" y="82" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">Continuous feature engineering &amp; custom dynamic SEO engine</text>
+  <text x="20" y="99" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">for a premier pan-India healthcare diagnostics chain.</text>
+
+  <rect x="20" y="114" width="69" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="54.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">Laravel</text><rect x="95" y="114" width="52" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="121.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">PHP</text><rect x="153" y="114" width="90" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="198.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">SEO Engine</text><rect x="249" y="114" width="55" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+<text x="276.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#475569">MySQL</text>
+</svg>

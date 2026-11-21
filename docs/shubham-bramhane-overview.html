@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shubham Bramhane — Senior Full-Stack Architect &amp; AI-Augmented Engineer</title>
+  <style>
+    @page { size: A4; margin: 8.5mm; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      color: #0f172a;
+      background: #ffffff;
+      line-height: 1.38;
+      font-size: 9pt;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0d1117 0%, #151828 100%);
+      color: #f8fafc;
+      border-radius: 12px;
+      padding: 15px 19px;
+      border-top: 3.5px solid #a855f7;
+      margin-bottom: 10px;
+    }
+    .badge-row { display: flex; gap: 7px; margin-bottom: 6px; align-items: center; }
+    .badge {
+      font-family: 'Cascadia Code', Consolas, monospace;
+      font-size: 7.4pt;
+      font-weight: 700;
+      padding: 2.5px 8px;
+      border-radius: 999px;
+    }
+    .badge.green { color: #34d399; background: rgba(52,211,153,0.14); border: 1px solid rgba(52,211,153,0.4); }
+    .badge.amber { color: #fbbf24; background: rgba(251,191,36,0.14); border: 1px solid rgba(251,191,36,0.4); }
+    .badge.mark { color: #f8fafc; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; }
+    .hero h1 { font-size: 18.5pt; font-weight: 800; letter-spacing: -0.4px; margin-bottom: 2px; }
+    .hero .sub { font-size: 10pt; font-weight: 700; color: #c084fc; margin-bottom: 5px; }
+    .hero p { color: #cbd5e1; font-size: 8.4pt; }
+    .contact-strip { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+    .chip {
+      font-family: 'Cascadia Code', Consolas, monospace;
+      font-size: 7.2pt;
+      color: #e2e8f0;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(148,163,184,0.28);
+      padding: 2.5px 7px;
+      border-radius: 5px;
+    }
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 10px; }
+    .kpi { border: 1px solid #e2e8f0; border-top: 3px solid #7c3aed; border-radius: 9px; padding: 7px 10px; background: #f8fafc; }
+    .kpi.emerald { border-top-color: #059669; }
+    .kpi.amber { border-top-color: #ea580c; }
+    .kpi.cyan { border-top-color: #0284c7; }
+    .kpi strong { display: block; font-size: 13.5pt; font-weight: 800; color: #0f172a; line-height: 1.2; }
+    .kpi span { display: block; font-size: 8pt; font-weight: 700; color: #334155; }
+    .kpi small { font-size: 7.1pt; color: #64748b; }
+    h2 {
+      font-family: 'Cascadia Code', Consolas, monospace;
+      font-size: 8pt;
+      letter-spacing: 1.3px;
+      color: #6d28d9;
+      text-transform: uppercase;
+      margin: 9px 0 6px;
+      padding-bottom: 2.5px;
+      border-bottom: 1.2px solid #e2e8f0;
+    }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+    .card { border: 1px solid #e2e8f0; border-radius: 9px; padding: 8px 10px; background: #f8fafc; }
+    .card h3 { font-size: 9pt; color: #0f172a; margin-bottom: 2px; }
+    .card p { font-size: 7.9pt; color: #475569; }
+    .meta { font-family: 'Cascadia Code', Consolas, monospace; font-size: 6.9pt; font-weight: 700; color: #7c3aed; }
+    .meta.emerald { color: #059669; }
+    .meta.amber { color: #d97706; }
+    .pill-wrap { display: flex; flex-wrap: wrap; gap: 3.5px; margin-top: 4px; }
+    .pill {
+      font-family: 'Cascadia Code', Consolas, monospace;
+      font-size: 7pt;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: #f3e8ff;
+      color: #6d28d9;
+      border: 1px solid #ddd6fe;
+    }
+    .pill.amber { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
+    .pill.cyan { background: #e0f2fe; color: #0369a1; border-color: #bae6fd; }
+    .pill.emerald { background: #ecfdf5; color: #047857; border-color: #a7f3d0; }
+    .exp-item { margin-bottom: 5px; padding-bottom: 4.5px; border-bottom: 1px dashed #e2e8f0; }
+    .exp-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+    footer {
+      margin-top: 9px;
+      padding-top: 5px;
+      border-top: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 7.3pt;
+      color: #64748b;
+      font-family: 'Cascadia Code', Consolas, monospace;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="badge-row">
+      <span class="badge mark">&lt;SB/&gt;</span>
+      <span class="badge green">● Available for High-Impact Roles &amp; Advisory</span>
+      <span class="badge amber">⚡ 3.5x AI Velocity</span>
+    </div>
+    <h1>Shubham Bramhane</h1>
+    <div class="sub">Senior Full-Stack Architect &amp; AI-Augmented Engineer · Laravel · React/Next.js · Python · AWS</div>
+    <p>
+      5+ years of production mastery across the Laravel ecosystem, high-concurrency MySQL/PostgreSQL &amp; Redis
+      architectures, pan-India healthcare portals, and Python automation pipelines — pioneering agentic AI
+      engineering with Google Antigravity IDE, GitHub Copilot, Claude 3.7, and GPT-4.
+    </p>
+    <div class="contact-strip">
+      <span class="chip">Portfolio: my-portfolio-beta-bay-93.vercel.app</span>
+      <span class="chip">LinkedIn: linkedin.com/in/shubham1602</span>
+      <span class="chip">Email: shubham.bramhane75@gmail.com</span>
+      <span class="chip">Phone: +91-8857916707</span>
+      <span class="chip">X: @shubhbramhane16</span>
+    </div>
+  </section>
+
+  <div class="kpi-grid">
+    <div class="kpi"><strong>5+ Yrs</strong><span>Laravel Ecosystem</span><small>Enterprise &amp; Microservices</small></div>
+    <div class="kpi emerald"><strong>+30%</strong><span>Query Velocity</span><small>Redis &amp; SQL Profiling</small></div>
+    <div class="kpi amber"><strong>3.5x</strong><span>AI Sprint Velocity</span><small>Antigravity &amp; Copilot</small></div>
+    <div class="kpi cyan"><strong>10+ hrs</strong><span>Weekly Automated</span><small>Python Data Pipelines</small></div>
+  </div>
+
+  <h2>Featured Production Case Studies</h2>
+  <div class="grid-3">
+    <div class="card">
+      <span class="meta emerald">+30% VELOCITY · 2023–PRESENT</span>
+      <h3>Oncquest Healthcare &amp; Admin</h3>
+      <p>Pan-India diagnostics portal &amp; admin control center (Laravel, React, Vue, Redis, MySQL).</p>
+    </div>
+    <div class="card">
+      <span class="meta">LIVE LOGISTICS · 2023–2024</span>
+      <h3>OncqFieldAssist</h3>
+      <p>Real-time home sample collection &amp; phlebotomist field logistics app (Laravel, PHP, MySQL).</p>
+    </div>
+    <div class="card">
+      <span class="meta">SEO &amp; GROWTH · 2023–2024</span>
+      <h3>Lal Path Labs Platform</h3>
+      <p>Diagnostics platform enhancements &amp; custom dynamic SEO engine (Laravel, PHP, MySQL).</p>
+    </div>
+    <div class="card">
+      <span class="meta amber">ENTERPRISE TMS · 2023–2024</span>
+      <h3>TMS (Big Basket)</h3>
+      <p>Enterprise training management, certifications &amp; analytics (Laravel, MySQL, REST API).</p>
+    </div>
+    <div class="card">
+      <span class="meta emerald">10+ HRS/WK SAVED · 2021–2022</span>
+      <h3>Magical Umbrella Automation</h3>
+      <p>Python data processing automation pipelines &amp; REST workflows (Python, MySQL).</p>
+    </div>
+    <div class="card">
+      <span class="meta">SHOWCASE · 2024–PRESENT</span>
+      <h3>Portfolio &amp; Hotel LAN POS</h3>
+      <p>Next.js 16 + TypeScript portfolio &amp; offline-first Laravel restaurant POS on GitHub.</p>
+    </div>
+  </div>
+
+  <h2>Technical Stack &amp; AI Capabilities</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Backend, Python Data &amp; AI Agentic Stack</h3>
+      <div class="pill-wrap">
+        <span class="pill">PHP 8.3</span><span class="pill">Laravel 11</span><span class="pill">Python</span>
+        <span class="pill">Django / Flask</span><span class="pill">Node.js</span><span class="pill">Swagger REST</span>
+        <span class="pill cyan">Pandas / NumPy / SciPy</span><span class="pill cyan">Scikit-learn / OpenCV</span>
+        <span class="pill amber">Google Antigravity IDE</span><span class="pill amber">GitHub Copilot</span><span class="pill amber">Claude 3.7 / GPT-4</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Frontend, Databases, Cloud &amp; DevOps</h3>
+      <div class="pill-wrap">
+        <span class="pill cyan">React.js</span><span class="pill cyan">Next.js 16</span><span class="pill cyan">Vue.js / Vuex</span>
+        <span class="pill cyan">TypeScript</span><span class="pill cyan">Tailwind CSS</span><span class="pill cyan">Blade</span>
+        <span class="pill emerald">MySQL</span><span class="pill emerald">PostgreSQL</span><span class="pill emerald">Redis</span>
+        <span class="pill amber">AWS (RDS / DynamoDB)</span><span class="pill">GitHub CI/CD</span><span class="pill">JIRA / Postman</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Experience, Credentials &amp; GitHub Profile Architecture</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Work Experience (5+ Years)</h3>
+      <div class="exp-item">
+        <span class="meta emerald">2023 – PRESENT</span> · <strong>Laravel Developer — Abym Technology, Noida</strong>
+        <p>+30% query velocity via SQL optimization &amp; Redis · Laravel, React.js, Vue.js &amp; Swagger APIs.</p>
+      </div>
+      <div class="exp-item">
+        <span class="meta">2022 – 2023</span> · <strong>Laravel Developer — Finesoft Technologies, Noida</strong>
+        <p>Blade &amp; Vue.js delivery, payment gateways, SMS telemetry &amp; high-concurrency DB schemas.</p>
+      </div>
+      <div class="exp-item">
+        <span class="meta">2021 – 2022</span> · <strong>Python Developer — Magical Umbrella Pvt. Ltd</strong>
+        <p>Python automation saving 10+ hrs/week &amp; REST API backend engineering.</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Academic Qualifications &amp; Repo Highlights</h3>
+      <div class="exp-item">
+        <span class="meta emerald">PURSUING · 2024–PRESENT</span> · <strong>MBA in Finance &amp; IT</strong>
+        <p>Gondwana University · Blending engineering architecture with finance &amp; IT governance.</p>
+      </div>
+      <div class="exp-item">
+        <span class="meta">OCT 2020 · 74.60% DISTINCTION</span> · <strong>B.E. in Computer Science</strong>
+        <p>Gondwana University · Data Analysis, Machine Learning, Deep Learning, Web Development.</p>
+      </div>
+      <div class="exp-item">
+        <span class="meta amber">GITHUB PROFILE ARCHITECTURE</span>
+        <p>40 self-hosted Dark/Light SVGs via <code>scripts/generate_assets.py</code>, validated via <code>scripts/verify_profile.py</code>, deployed to <code>github.com/shubham-bramhane</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>github.com/shubham-bramhane · Chandrapur, Maharashtra</span>
+    <span>&lt;SB/&gt; Profile &amp; Documentation Overview</span>
+  </footer>
+</body>
+</html>

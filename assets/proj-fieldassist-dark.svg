@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="486" height="152" viewBox="0 0 486 152" role="img" aria-label="OncqFieldAssist Logistics">
+  <rect x="2" y="2" width="482" height="148" rx="16" fill="#10121B" stroke="#22273D" stroke-width="1.2"/>
+  <rect x="20" y="2" width="56" height="3" rx="1.5" fill="#38BDF8"/>
+
+  <rect x="20" y="16" width="119" height="22" rx="11" fill="#0E283D" stroke="#184C6E" stroke-width="0.9"/>
+  <text x="79.5" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#38BDF8">LIVE LOGISTICS</text>
+  <text x="149" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#6B7490">2023–2024 · Healthcare Ops</text>
+  <text x="466" y="31" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#38BDF8">↗</text>
+
+  <text x="20" y="61" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">OncqFieldAssist Logistics</text>
+  <text x="20" y="82" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#A1A9C0">Real-time field operations app for phlebotomists managing</text>
+  <text x="20" y="99" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#A1A9C0">home sample collections, verification &amp; live order dispatch.</text>
+
+  <rect x="20" y="114" width="69" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="54.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">Laravel</text><rect x="95" y="114" width="52" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="121.0" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">PHP</text><rect x="153" y="114" width="55" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="180.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">MySQL</text><rect x="214" y="114" width="83" height="23" rx="11" fill="#1A1E30" stroke="#22273D" stroke-width="1"/>
+<text x="255.5" y="129.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" font-weight="600" fill="#A1A9C0">Field Ops</text>
+</svg>
