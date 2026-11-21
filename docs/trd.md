@@ -11,7 +11,7 @@ docs/shubham-bramhane-overview.html ──▶ Chrome headless (--print-to-pdf) �
 
 ## 2. Technology Stack
 - **Markup:** GitHub Flavored Markdown + GitHub-allowed HTML (`<div>`, `<p>`, `<a>`, `<picture>`, `<source>`, `<img>`, `<details>`, `<summary>`, `<br/>`).
-- **Visual Assets:** 2 bespoke 3D studio-lit Hero Banner PNGs (`hero-banner-{dark,light}.png`, `1200×594`, transparent rounded corners) + 48 standalone Bento SVG files (`24` Dark + `24` Light) styled in the **Arctic Midnight Blue & Glacier Cyan** system (deep navy-slate `#111A29`/`#090E18`, electric glacier cyan `#38BDF8`/`#7DD3FC`, royal sapphire `#2563EB`/`#60A5FA`, arctic mint `#2DD4BF`, frosted silver `#CBD5E1`, glacier white light mode `#FFFFFF`/`#F3F8FE`), using refined semibold/bold typography, specular top hairlines, ambient corner halos, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
+- **Visual Assets:** 2 bespoke GTA VI Vice-Sunset painterly Hero Banner PNGs (`hero-banner-{dark,light}.png`, transparent rounded corners) + 48 standalone Bento SVG files (`24` Dark + `24` Light) styled in the **GTA VI Vice Sunset** system (Vice twilight glass `#161024`/`#0B0814`, flamingo pink `#FF4D94`, Miami sunset coral-gold `#FF9248`/`#FFC457`, Ocean Drive aqua `#00E5FF`, palm mint `#2CE6B8`, pastel sunlit Light Mode `#FFFFFF`/`#FFF6FA`), using refined typography, specular top hairlines, ambient corner halos, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
 - **Tooling:** Python 3 standard library only (`pathlib`, `html`, `math`, `xml.etree.ElementTree`, `re`, `sys`).
 - **PDF Pipeline:** Print-styled HTML/CSS compiled via Google Chrome headless (`--print-to-pdf`).
 

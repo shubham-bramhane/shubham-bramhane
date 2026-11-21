@@ -2,22 +2,22 @@
   <defs>
     
     <linearGradient id="prCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#111A29"/>
-      <stop offset="100%" stop-color="#090E18"/>
+      <stop offset="0%" stop-color="#161024"/>
+      <stop offset="100%" stop-color="#0B0814"/>
     </linearGradient>
     <linearGradient id="prSpec" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#BAE6FD" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFD6EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFD6EB" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFD6EB" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="prArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2563EB"/>
-      <stop offset="48%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#2DD4BF"/>
+    <linearGradient id="prViceBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4D94"/>
+      <stop offset="50%" stop-color="#FFC457"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
     </linearGradient>
     <radialGradient id="prGlow" cx="92%" cy="18%" r="55%">
-      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FF9248" stop-opacity="0.17"/>
+      <stop offset="100%" stop-color="#FF9248" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="prClip"><rect x="2" y="2" width="484" height="158" rx="16"/></clipPath>
     <style>
@@ -30,30 +30,30 @@
     <rect x="2" y="2" width="484" height="158" fill="url(#prCard)"/>
     <rect x="2" y="2" width="484" height="158" fill="url(#prGlow)"/>
   </g>
-  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#1E2E47" stroke-width="1.15"/>
+  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#2B2042" stroke-width="1.15"/>
   <line x1="20" y1="2.8" x2="468" y2="2.8" stroke="url(#prSpec)" stroke-width="1"/>
-  <rect x="20" y="2" width="58" height="2.8" rx="1.4" fill="#0EA5E9"/>
+  <rect x="20" y="2" width="58" height="2.8" rx="1.4" fill="#FF9248"/>
 
   <!-- Mini Architectural Visual Preview Thumbnail -->
   <g transform="translate(382, 16)">
-    <rect x="0" y="0" width="88" height="54" rx="10" fill="#092338" stroke="#144D73" stroke-width="1"/>
-    <rect x="12" y="11" width="64" height="32" rx="5" fill="none" stroke="#0EA5E9" stroke-width="1.5"/><line x1="12" y1="20" x2="76" y2="20" stroke="#0EA5E9" stroke-width="1.2"/><rect x="18" y="25" width="22" height="5" rx="2" fill="#0EA5E9" fill-opacity="0.75"/><rect x="18" y="33" width="38" height="5" rx="2" fill="#0EA5E9" fill-opacity="0.4"/><circle cx="65" cy="31" r="6" fill="none" stroke="#0EA5E9" stroke-width="1.6"/>
+    <rect x="0" y="0" width="88" height="54" rx="10" fill="#2E1910" stroke="#6E3B21" stroke-width="1"/>
+    <rect x="12" y="11" width="64" height="32" rx="5" fill="none" stroke="#FF9248" stroke-width="1.5"/><line x1="12" y1="20" x2="76" y2="20" stroke="#FF9248" stroke-width="1.2"/><rect x="18" y="25" width="22" height="5" rx="2" fill="#FF9248" fill-opacity="0.75"/><rect x="18" y="33" width="38" height="5" rx="2" fill="#FF9248" fill-opacity="0.4"/><circle cx="65" cy="31" r="6" fill="none" stroke="#FF9248" stroke-width="1.6"/>
   </g>
 
-  <rect x="20" y="16" width="116" height="22" rx="11" fill="#092338" stroke="#144D73" stroke-width="0.9"/>
-  <text x="78.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#0EA5E9">ENTERPRISE TMS</text>
-  <text x="146" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#647894">2023–2024 · Enterprise</text>
+  <rect x="20" y="16" width="116" height="22" rx="11" fill="#2E1910" stroke="#6E3B21" stroke-width="0.9"/>
+  <text x="78.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#FF9248">ENTERPRISE TMS</text>
+  <text x="146" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#837399">2023–2024 · Enterprise</text>
 
-  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC">TMS (Big Basket) Training System</text>
-  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#9EB0C7">Centralized enterprise training platform handling trainer</text>
-  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#9EB0C7">allocations, participant tracking, certs &amp; eval analytics.</text>
+  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFF8FC">TMS (Big Basket) Training System</text>
+  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#C4B5D4">Centralized enterprise training platform handling trainer</text>
+  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#C4B5D4">allocations, participant tracking, certs &amp; eval analytics.</text>
 
-  <rect x="20" y="122" width="67" height="23" rx="11" fill="#152136" stroke="#1E2E47" stroke-width="1"/>
-<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#9EB0C7">Laravel</text><rect x="93" y="122" width="50" height="23" rx="11" fill="#152136" stroke="#1E2E47" stroke-width="1"/>
-<text x="118.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#9EB0C7">PHP</text><rect x="149" y="122" width="54" height="23" rx="11" fill="#152136" stroke="#1E2E47" stroke-width="1"/>
-<text x="176.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#9EB0C7">MySQL</text><rect x="209" y="122" width="74" height="23" rx="11" fill="#152136" stroke="#1E2E47" stroke-width="1"/>
-<text x="246.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#9EB0C7">REST API</text>
+  <rect x="20" y="122" width="67" height="23" rx="11" fill="#1D1530" stroke="#2B2042" stroke-width="1"/>
+<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#C4B5D4">Laravel</text><rect x="93" y="122" width="50" height="23" rx="11" fill="#1D1530" stroke="#2B2042" stroke-width="1"/>
+<text x="118.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#C4B5D4">PHP</text><rect x="149" y="122" width="54" height="23" rx="11" fill="#1D1530" stroke="#2B2042" stroke-width="1"/>
+<text x="176.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#C4B5D4">MySQL</text><rect x="209" y="122" width="74" height="23" rx="11" fill="#1D1530" stroke="#2B2042" stroke-width="1"/>
+<text x="246.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#C4B5D4">REST API</text>
 
-  <circle cx="422" cy="133.5" r="3" fill="#0EA5E9" class="lp"/>
-  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#0EA5E9">LIVE ↗</text>
+  <circle cx="422" cy="133.5" r="3" fill="#FF9248" class="lp"/>
+  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#FF9248">LIVE ↗</text>
 </svg>

@@ -8,17 +8,17 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-      color: #0b1324;
+      color: #180e29;
       background: #ffffff;
       line-height: 1.38;
       font-size: 9pt;
     }
     .hero {
-      background: linear-gradient(135deg, #090e18 0%, #111c30 100%);
-      color: #f8fafc;
+      background: linear-gradient(135deg, #0b0816 0%, #1d1030 60%, #2b1328 100%);
+      color: #fff8fc;
       border-radius: 12px;
       padding: 15px 19px;
-      border-top: 3.5px solid #38bdf8;
+      border-top: 3.5px solid #ff4d94;
       margin-bottom: 10px;
     }
     .badge-row { display: flex; gap: 7px; margin-bottom: 6px; align-items: center; }
@@ -29,47 +29,49 @@
       padding: 2.5px 8px;
       border-radius: 999px;
     }
-    .badge.mint { color: #2dd4bf; background: rgba(45,212,191,0.14); border: 1px solid rgba(45,212,191,0.4); }
-    .badge.cyan { color: #7dd3fc; background: rgba(56,189,248,0.15); border: 1px solid rgba(56,189,248,0.45); }
-    .badge.mark { color: #ffffff; background: linear-gradient(135deg,#2563eb,#0ea5e9); border-radius: 6px; }
-    .hero h1 { font-size: 18.5pt; font-weight: 800; letter-spacing: -0.4px; margin-bottom: 2px; }
-    .hero .sub { font-size: 10pt; font-weight: 700; color: #7dd3fc; margin-bottom: 5px; }
-    .hero p { color: #cbd5e1; font-size: 8.4pt; }
+    .badge.aqua { color: #6ef2ff; background: rgba(0,229,255,0.14); border: 1px solid rgba(0,229,255,0.42); }
+    .badge.coral { color: #ffc457; background: rgba(255,146,72,0.15); border: 1px solid rgba(255,146,72,0.45); }
+    .badge.mark { color: #ffffff; background: linear-gradient(135deg,#ff2e88,#ff9248); border-radius: 6px; }
+    .hero h1 { font-size: 18.5pt; font-weight: 700; letter-spacing: -0.4px; margin-bottom: 2px; }
+    .hero .sub { font-size: 10pt; font-weight: 700; color: #ff80b5; margin-bottom: 5px; }
+    .hero p { color: #dfd4eb; font-size: 8.4pt; }
     .contact-strip { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
     .chip {
       font-family: 'Cascadia Code', Consolas, monospace;
       font-size: 7.2pt;
-      color: #e2e8f0;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(125,211,252,0.28);
+      color: #f8eff9;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,128,181,0.32);
       padding: 2.5px 7px;
       border-radius: 5px;
     }
     .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 10px; }
-    .kpi { border: 1px solid #d8e4f2; border-top: 3px solid #0284c7; border-radius: 9px; padding: 7px 10px; background: #f7fafe; }
+    .kpi { border: 1px solid #eadae5; border-top: 3px solid #db2777; border-radius: 9px; padding: 7px 10px; background: #fff8fb; }
+    .kpi.aqua { border-top-color: #0891b2; }
+    .kpi.coral { border-top-color: #ea580c; }
     .kpi.mint { border-top-color: #0d9488; }
-    .kpi.blue { border-top-color: #1d4ed8; }
-    .kpi strong { display: block; font-size: 13.5pt; font-weight: 800; color: #0b1324; line-height: 1.2; }
-    .kpi span { display: block; font-size: 8pt; font-weight: 700; color: #334155; }
-    .kpi small { font-size: 7.1pt; color: #64748b; }
+    .kpi strong { display: block; font-size: 13.5pt; font-weight: 700; color: #180e29; line-height: 1.2; }
+    .kpi span { display: block; font-size: 8pt; font-weight: 700; color: #3f3056; }
+    .kpi small { font-size: 7.1pt; color: #7c6b94; }
     h2 {
       font-family: 'Cascadia Code', Consolas, monospace;
       font-size: 8pt;
       letter-spacing: 1.4px;
-      color: #0369a1;
+      color: #be185d;
       text-transform: uppercase;
       margin: 9px 0 6px;
       padding-bottom: 2.5px;
-      border-bottom: 1.2px solid #d8e4f2;
+      border-bottom: 1.2px solid #eadae5;
     }
     .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
     .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
-    .card { border: 1px solid #d8e4f2; border-radius: 9px; padding: 8px 10px; background: #ffffff; }
-    .card h3 { font-size: 9pt; color: #0b1324; margin-bottom: 2px; }
-    .card p { font-size: 7.9pt; color: #44556e; }
-    .meta { font-family: 'Cascadia Code', Consolas, monospace; font-size: 6.9pt; font-weight: 700; color: #0284c7; }
+    .card { border: 1px solid #eadae5; border-radius: 9px; padding: 8px 10px; background: #ffffff; }
+    .card h3 { font-size: 9pt; color: #180e29; margin-bottom: 2px; }
+    .card p { font-size: 7.9pt; color: #53426b; }
+    .meta { font-family: 'Cascadia Code', Consolas, monospace; font-size: 6.9pt; font-weight: 700; color: #db2777; }
+    .meta.aqua { color: #0891b2; }
+    .meta.coral { color: #ea580c; }
     .meta.mint { color: #0d9488; }
-    .meta.blue { color: #1d4ed8; }
     .pill-wrap { display: flex; flex-wrap: wrap; gap: 3.5px; margin-top: 4px; }
     .pill {
       font-family: 'Cascadia Code', Consolas, monospace;
@@ -77,23 +79,24 @@
       font-weight: 600;
       padding: 2px 6px;
       border-radius: 999px;
-      background: #e0f2fe;
-      color: #0369a1;
-      border: 1px solid #bae6fd;
+      background: #fce7f3;
+      color: #be185d;
+      border: 1px solid #f9a8d4;
     }
-    .pill.blue { background: #dbeafe; color: #1d4ed8; border-color: #bfdbfe; }
-    .pill.silver { background: #eef2f6; color: #334155; border-color: #cbd5e1; }
+    .pill.aqua { background: #ecfeff; color: #0e7490; border-color: #a5f3fc; }
+    .pill.coral { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
     .pill.mint { background: #ccfbf1; color: #0f766e; border-color: #99f6e4; }
-    .exp-item { margin-bottom: 5px; padding-bottom: 4.5px; border-bottom: 1px dashed #d8e4f2; }
+    .pill.palm { background: #f3e8ff; color: #6d28d9; border-color: #ddd6fe; }
+    .exp-item { margin-bottom: 5px; padding-bottom: 4.5px; border-bottom: 1px dashed #eadae5; }
     .exp-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
     footer {
       margin-top: 9px;
       padding-top: 5px;
-      border-top: 1px solid #d8e4f2;
+      border-top: 1px solid #eadae5;
       display: flex;
       justify-content: space-between;
       font-size: 7.3pt;
-      color: #64748b;
+      color: #7c6b94;
       font-family: 'Cascadia Code', Consolas, monospace;
     }
   </style>
@@ -102,8 +105,8 @@
   <section class="hero">
     <div class="badge-row">
       <span class="badge mark">&lt;SB/&gt;</span>
-      <span class="badge mint">● Available for High-Impact Roles &amp; Advisory</span>
-      <span class="badge cyan">✦ 3.5x AI Velocity</span>
+      <span class="badge aqua">● Available for High-Impact Roles &amp; Advisory</span>
+      <span class="badge coral">✦ 3.5x AI Velocity</span>
     </div>
     <h1>Shubham Bramhane</h1>
     <div class="sub">Senior Full-Stack Architect &amp; AI-Augmented Engineer · Laravel · React/Next.js · Python · AWS</div>
@@ -123,9 +126,9 @@
 
   <div class="kpi-grid">
     <div class="kpi"><strong>5+ Yrs</strong><span>Laravel Ecosystem</span><small>Enterprise &amp; Microservices</small></div>
-    <div class="kpi mint"><strong>+30%</strong><span>Query Velocity</span><small>Redis &amp; SQL Profiling</small></div>
-    <div class="kpi blue"><strong>3.5x</strong><span>AI Sprint Velocity</span><small>Antigravity &amp; Copilot</small></div>
-    <div class="kpi"><strong>10+ hrs</strong><span>Weekly Automated</span><small>Python Data Pipelines</small></div>
+    <div class="kpi aqua"><strong>+30%</strong><span>Query Velocity</span><small>Redis &amp; SQL Profiling</small></div>
+    <div class="kpi coral"><strong>3.5x</strong><span>AI Sprint Velocity</span><small>Antigravity &amp; Copilot</small></div>
+    <div class="kpi mint"><strong>10+ hrs</strong><span>Weekly Automated</span><small>Python Data Pipelines</small></div>
   </div>
 
   <h2>Featured Production Case Studies</h2>
@@ -136,27 +139,27 @@
       <p>Pan-India diagnostics portal &amp; admin control center (Laravel, React, Vue, Redis, MySQL).</p>
     </div>
     <div class="card">
-      <span class="meta">LIVE LOGISTICS · 2023–2024</span>
+      <span class="meta aqua">LIVE LOGISTICS · 2023–2024</span>
       <h3>OncqFieldAssist</h3>
       <p>Real-time home sample collection &amp; phlebotomist field logistics app (Laravel, PHP, MySQL).</p>
     </div>
     <div class="card">
-      <span class="meta blue">SEO &amp; GROWTH · 2023–2024</span>
+      <span class="meta">SEO &amp; GROWTH · 2023–2024</span>
       <h3>Lal Path Labs Platform</h3>
       <p>Diagnostics platform enhancements &amp; custom dynamic SEO engine (Laravel, PHP, MySQL).</p>
     </div>
     <div class="card">
-      <span class="meta">ENTERPRISE TMS · 2023–2024</span>
+      <span class="meta coral">ENTERPRISE TMS · 2023–2024</span>
       <h3>TMS (Big Basket)</h3>
       <p>Enterprise training management, certifications &amp; analytics (Laravel, MySQL, REST API).</p>
     </div>
     <div class="card">
-      <span class="meta mint">10+ HRS/WK SAVED · 2021–2022</span>
+      <span class="meta aqua">10+ HRS/WK SAVED · 2021–2022</span>
       <h3>Magical Umbrella Automation</h3>
       <p>Python data processing automation pipelines &amp; REST workflows (Python, MySQL).</p>
     </div>
     <div class="card">
-      <span class="meta blue">SHOWCASE · 2024–PRESENT</span>
+      <span class="meta">SHOWCASE · 2024–PRESENT</span>
       <h3>Portfolio &amp; Hotel LAN POS</h3>
       <p>Next.js 16 + TypeScript portfolio &amp; offline-first Laravel restaurant POS on GitHub.</p>
     </div>
@@ -168,18 +171,18 @@
       <h3>Backend, Python Data &amp; AI Agentic Stack</h3>
       <div class="pill-wrap">
         <span class="pill">PHP 8.3</span><span class="pill">Laravel 11</span><span class="pill">Python</span>
-        <span class="pill silver">Django / Flask</span><span class="pill silver">Node.js</span><span class="pill silver">Swagger REST</span>
-        <span class="pill blue">Pandas / NumPy / SciPy</span><span class="pill blue">Scikit-learn / OpenCV</span>
-        <span class="pill">Google Antigravity IDE</span><span class="pill">GitHub Copilot</span><span class="pill silver">Claude 3.7 / GPT-4</span>
+        <span class="pill palm">Django / Flask</span><span class="pill palm">Node.js</span><span class="pill palm">Swagger REST</span>
+        <span class="pill aqua">Pandas / NumPy / SciPy</span><span class="pill aqua">Scikit-learn / OpenCV</span>
+        <span class="pill coral">Google Antigravity IDE</span><span class="pill coral">GitHub Copilot</span><span class="pill palm">Claude 3.7 / GPT-4</span>
       </div>
     </div>
     <div class="card">
       <h3>Frontend, Databases, Cloud &amp; DevOps</h3>
       <div class="pill-wrap">
-        <span class="pill blue">React.js</span><span class="pill blue">Next.js 16</span><span class="pill blue">Vue.js / Vuex</span>
-        <span class="pill silver">TypeScript</span><span class="pill silver">Tailwind CSS</span><span class="pill silver">Blade</span>
+        <span class="pill aqua">React.js</span><span class="pill aqua">Next.js 16</span><span class="pill aqua">Vue.js / Vuex</span>
+        <span class="pill palm">TypeScript</span><span class="pill palm">Tailwind CSS</span><span class="pill palm">Blade</span>
         <span class="pill mint">MySQL</span><span class="pill mint">PostgreSQL</span><span class="pill mint">Redis</span>
-        <span class="pill">AWS (RDS / DynamoDB)</span><span class="pill silver">GitHub CI/CD</span><span class="pill silver">JIRA / Postman</span>
+        <span class="pill coral">AWS (RDS / DynamoDB)</span><span class="pill palm">GitHub CI/CD</span><span class="pill palm">JIRA / Postman</span>
       </div>
     </div>
   </div>
@@ -189,7 +192,7 @@
     <div class="card">
       <h3>Work Experience (5+ Years)</h3>
       <div class="exp-item">
-        <span class="meta mint">2023 – PRESENT</span> · <strong>Laravel Developer — Abym Technology, Noida</strong>
+        <span class="meta aqua">2023 – PRESENT</span> · <strong>Laravel Developer — Abym Technology, Noida</strong>
         <p>+30% query velocity via SQL optimization &amp; Redis · Laravel, React.js, Vue.js &amp; Swagger APIs.</p>
       </div>
       <div class="exp-item">
@@ -197,14 +200,14 @@
         <p>Blade &amp; Vue.js delivery, payment gateways, SMS telemetry &amp; high-concurrency DB schemas.</p>
       </div>
       <div class="exp-item">
-        <span class="meta blue">2021 – 2022</span> · <strong>Python Developer — Magical Umbrella Pvt. Ltd</strong>
+        <span class="meta coral">2021 – 2022</span> · <strong>Python Developer — Magical Umbrella Pvt. Ltd</strong>
         <p>Python automation saving 10+ hrs/week &amp; REST API backend engineering.</p>
       </div>
     </div>
     <div class="card">
       <h3>Academic Qualifications &amp; Repo Highlights</h3>
       <div class="exp-item">
-        <span class="meta mint">PURSUING · 2024–PRESENT</span> · <strong>MBA in Finance &amp; IT</strong>
+        <span class="meta aqua">PURSUING · 2024–PRESENT</span> · <strong>MBA in Finance &amp; IT</strong>
         <p>Gondwana University · Blending engineering architecture with finance &amp; IT governance.</p>
       </div>
       <div class="exp-item">
@@ -212,15 +215,15 @@
         <p>Gondwana University · Data Analysis, Machine Learning, Deep Learning, Web Development.</p>
       </div>
       <div class="exp-item">
-        <span class="meta blue">GITHUB PROFILE ARCHITECTURE</span>
-        <p>3D studio Hero Banners + 48 Arctic Blue Dark/Light Bento SVGs (animated architecture flow, radar &amp; telemetry) via <code>scripts/generate_assets.py</code>.</p>
+        <span class="meta coral">GITHUB PROFILE ARCHITECTURE</span>
+        <p>GTA VI Vice-Sunset key-art Hero Banners + 48 Dark/Light Bento SVGs (animated architecture flow, radar &amp; sunset ethos) via <code>scripts/generate_assets.py</code>.</p>
       </div>
     </div>
   </div>
 
   <footer>
     <span>github.com/shubham-bramhane · Chandrapur, Maharashtra</span>
-    <span>&lt;SB/&gt; Arctic Midnight Blue Overview</span>
+    <span>&lt;SB/&gt; Vice Sunset Edition Overview</span>
   </footer>
 </body>
 </html>

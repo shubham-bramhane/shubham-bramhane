@@ -3,21 +3,21 @@
     
     <linearGradient id="ccCard" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F3F8FE"/>
+      <stop offset="100%" stop-color="#FFF6FA"/>
     </linearGradient>
     <linearGradient id="ccSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="ccArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E40AF"/>
-      <stop offset="48%" stop-color="#0284C7"/>
-      <stop offset="100%" stop-color="#0D9488"/>
+    <linearGradient id="ccViceBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DB2777"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#0891B2"/>
     </linearGradient>
     <radialGradient id="ccGlow" cx="12%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#334155" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#334155" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="ccClip"><rect x="2" y="2" width="312" height="80" rx="14"/></clipPath>
   </defs>
@@ -25,14 +25,14 @@
     <rect x="2" y="2" width="312" height="80" fill="url(#ccCard)"/>
     <rect x="2" y="2" width="312" height="80" fill="url(#ccGlow)"/>
   </g>
-  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#D8E4F2" stroke-width="1.2"/>
+  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#EADAE5" stroke-width="1.2"/>
   <line x1="16" y1="2.8" x2="300" y2="2.8" stroke="url(#ccSpec)" stroke-width="1"/>
-  <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#334155"/>
+  <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#7C3AED"/>
   <g transform="translate(16, 21)">
-    <rect x="0" y="0" width="40" height="40" rx="10" fill="#EEF2F6" stroke="#CBD5E1" stroke-width="1"/>
-    <path d="M13 13 L18.7 20.6 L12.8 27 H15.2 L19.8 22 L23.6 27 H27.2 L21.2 19 L26.7 13 H24.3 L20.1 17.6 L16.6 13 Z" fill="#334155"/>
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="1"/>
+    <path d="M13 13 L18.7 20.6 L12.8 27 H15.2 L19.8 22 L23.6 27 H27.2 L21.2 19 L26.7 13 H24.3 L20.1 17.6 L16.6 13 Z" fill="#7C3AED"/>
   </g>
-  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0B1324">X / Twitter</text>
-  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#334155">↗</text>
-  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#44556E">@shubhbramhane16</text>
+  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#180E29">X / Twitter</text>
+  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#7C3AED">↗</text>
+  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#53426B">@shubhbramhane16</text>
 </svg>

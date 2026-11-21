@@ -3,17 +3,17 @@
     
     <linearGradient id="ccCard" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F3F8FE"/>
+      <stop offset="100%" stop-color="#FFF6FA"/>
     </linearGradient>
     <linearGradient id="ccSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="ccArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E40AF"/>
-      <stop offset="48%" stop-color="#0284C7"/>
-      <stop offset="100%" stop-color="#0D9488"/>
+    <linearGradient id="ccViceBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DB2777"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#0891B2"/>
     </linearGradient>
     <radialGradient id="ccGlow" cx="12%" cy="50%" r="55%">
       <stop offset="0%" stop-color="#0D9488" stop-opacity="0.09"/>
@@ -25,14 +25,14 @@
     <rect x="2" y="2" width="312" height="80" fill="url(#ccCard)"/>
     <rect x="2" y="2" width="312" height="80" fill="url(#ccGlow)"/>
   </g>
-  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#D8E4F2" stroke-width="1.2"/>
+  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#EADAE5" stroke-width="1.2"/>
   <line x1="16" y1="2.8" x2="300" y2="2.8" stroke="url(#ccSpec)" stroke-width="1"/>
   <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#0D9488"/>
   <g transform="translate(16, 21)">
     <rect x="0" y="0" width="40" height="40" rx="10" fill="#CCFBF1" stroke="#99F6E4" stroke-width="1"/>
     <rect x="12" y="14" width="16" height="12" rx="2.2" fill="none" stroke="#0D9488" stroke-width="1.8"/><polyline points="12.5,15.2 20,21 27.5,15.2" fill="none" stroke="#0D9488" stroke-width="1.8" stroke-linejoin="round"/>
   </g>
-  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0B1324">Email</text>
+  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#180E29">Email</text>
   <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0D9488">↗</text>
-  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#44556E">shubham.bramhane75@gmail.com</text>
+  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#53426B">shubham.bramhane75@gmail.com</text>
 </svg>

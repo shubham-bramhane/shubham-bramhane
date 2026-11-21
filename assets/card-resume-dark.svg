@@ -2,22 +2,22 @@
   <defs>
     
     <linearGradient id="ccCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#111A29"/>
-      <stop offset="100%" stop-color="#090E18"/>
+      <stop offset="0%" stop-color="#161024"/>
+      <stop offset="100%" stop-color="#0B0814"/>
     </linearGradient>
     <linearGradient id="ccSpec" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#BAE6FD" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFD6EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFD6EB" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFD6EB" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="ccArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2563EB"/>
-      <stop offset="48%" stop-color="#38BDF8"/>
-      <stop offset="100%" stop-color="#2DD4BF"/>
+    <linearGradient id="ccViceBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4D94"/>
+      <stop offset="50%" stop-color="#FFC457"/>
+      <stop offset="100%" stop-color="#00E5FF"/>
     </linearGradient>
     <radialGradient id="ccGlow" cx="12%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FF9248" stop-opacity="0.17"/>
+      <stop offset="100%" stop-color="#FF9248" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="ccClip"><rect x="2" y="2" width="312" height="80" rx="14"/></clipPath>
   </defs>
@@ -25,14 +25,14 @@
     <rect x="2" y="2" width="312" height="80" fill="url(#ccCard)"/>
     <rect x="2" y="2" width="312" height="80" fill="url(#ccGlow)"/>
   </g>
-  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#1E3F7D" stroke-width="1.2"/>
+  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#6E3B21" stroke-width="1.2"/>
   <line x1="16" y1="2.8" x2="300" y2="2.8" stroke="url(#ccSpec)" stroke-width="1"/>
-  <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#60A5FA"/>
+  <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#FF9248"/>
   <g transform="translate(16, 21)">
-    <rect x="0" y="0" width="40" height="40" rx="10" fill="#0E1F40" stroke="#1E3F7D" stroke-width="1"/>
-    <path d="M14 11 H22 L27 16 V29 H14 Z" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linejoin="round"/><polyline points="22,11 22,16 27,16" fill="none" stroke="#60A5FA" stroke-width="1.6"/><line x1="17" y1="20.5" x2="24" y2="20.5" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round"/><line x1="17" y1="24.5" x2="22" y2="24.5" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="#2E1910" stroke="#6E3B21" stroke-width="1"/>
+    <path d="M14 11 H22 L27 16 V29 H14 Z" fill="none" stroke="#FF9248" stroke-width="1.8" stroke-linejoin="round"/><polyline points="22,11 22,16 27,16" fill="none" stroke="#FF9248" stroke-width="1.6"/><line x1="17" y1="20.5" x2="24" y2="20.5" stroke="#FF9248" stroke-width="1.5" stroke-linecap="round"/><line x1="17" y1="24.5" x2="22" y2="24.5" stroke="#FF9248" stroke-width="1.5" stroke-linecap="round"/>
   </g>
-  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#F8FAFC">Download Resume</text>
-  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#60A5FA">↗</text>
-  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#9EB0C7">Shubham_Bramhane_Resume.pdf</text>
+  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#FFF8FC">Download Resume</text>
+  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#FF9248">↗</text>
+  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#C4B5D4">Shubham_Bramhane_Resume.pdf</text>
 </svg>

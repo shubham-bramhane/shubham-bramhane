@@ -4,9 +4,9 @@
 - Audited existing `README.md`, live portfolio (`https://my-portfolio-beta-bay-93.vercel.app/`), and public GitHub profile/repositories (`github.com/shubham-bramhane`).
 - Cataloged verified work history (5+ years), live production case studies, metrics, AI agentic stack, academic credentials, and social/contact links.
 
-## Phase 2: Studio 3D Hero + Arctic Midnight Blue Bento Design System v6.0 (Completed)
-- Replaced the crowded SVG hero with bespoke, ultra-clean 3D studio-lit frosted-glass Hero Banners (`assets/hero-banner-{dark,light}.png`) featuring crisp editorial typography and generous negative space.
-- Refined `scripts/generate_assets.py` (removing chunky `800` weights for crisp Windows/Mac rendering) to generate 48 XML-validated Arctic Midnight Blue & Glacier Cyan Dark/Light Bento SVGs under `assets/`.
+## Phase 2: GTA VI Vice Sunset Edition Design System v7.0 (Completed)
+- Created bespoke GTA VI Vice-Sunset painterly Hero Banners (`assets/hero-banner-{dark,light}.png`) pairing palm/skyline twilight & daylight sunset art with clean editorial typography.
+- Updated `scripts/generate_assets.py` to generate 48 XML-validated GTA VI Vice Sunset Dark/Light Bento SVGs under `assets/` (flamingo pink, Miami coral-gold, Ocean Drive aqua & striped Vice sunset disc ethos).
 
 ## Phase 3: README Assembly & Documentation Suite (Completed)
 - Assembled `README.md` with `<picture>` Dark/Light switching, percentage-responsive multi-column grids (`24%`, `48.5%`, `32%`), and collapsible plain-text `<details>` fallback.
