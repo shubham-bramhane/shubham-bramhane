@@ -4,31 +4,32 @@
 This repository (`shubham-bramhane/shubham-bramhane`) is a static GitHub Profile repository driven by GitHub Flavored Markdown, sanitized HTML `<picture>` containers, and self-hosted SVG assets built deterministically from Python.
 
 ```text
-scripts/generate_assets.py ──▶ assets/*-{dark,light}.svg (48 SVGs) ──▶ README.md (<picture> + responsive clickable <a> grids)
+scripts/generate_assets.py ──▶ assets/*-{dark,light}.svg (50 SVGs) ──▶ README.md (<picture> + responsive clickable <a> grids)
 scripts/verify_profile.py  ──▶ XML well-formedness, sandbox hygiene, link & doc verification
 docs/shubham-bramhane-overview.html ──▶ Chrome headless (--print-to-pdf) ──▶ docs/shubham-bramhane-overview.pdf
 ```
 
 ## 2. Technology Stack
 - **Markup:** GitHub Flavored Markdown + GitHub-allowed HTML (`<div>`, `<p>`, `<a>`, `<picture>`, `<source>`, `<img>`, `<details>`, `<summary>`, `<br/>`).
-- **Visual Assets:** 48 standalone SVG files (`24` Dark + `24` Light) using system sans/mono font stacks and GPU-friendly CSS `@keyframes` (`pulseDot`, `blinkCursor`, `breathe`, `flowTrace`, `scanBeam`, `packetFlow`, `footShimmer`).
+- **Visual Assets:** 50 standalone SVG files (`25` Dark + `25` Light) using Obsidian Glass vertical sheen gradients, specular top hairlines, ambient corner halos, sacred-geometry mandala accents, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
 - **Tooling:** Python 3 standard library only (`pathlib`, `html`, `math`, `xml.etree.ElementTree`, `re`, `sys`).
 - **PDF Pipeline:** Print-styled HTML/CSS compiled via Google Chrome headless (`--print-to-pdf`).
 
 ## 3. Asset Inventory & Dimensions
 | Asset Pattern | ViewBox | Rendered Width | Purpose |
 | :--- | :---: | :---: | :--- |
-| `assets/hero-{dark,light}.svg` | `1000×396` | `100%` | Cinematic Hero + `Architecture.ts` + Live Telemetry Sparkline |
-| `assets/cta-{portfolio,resume,linkedin,contact}-{dark,light}.svg` | `238×56` | `24%` | 4-across glowing clickable Hero Action Bar |
-| `assets/metrics-{dark,light}.svg` | `1000×128` | `100%` | 4-card KPI strip with embedded bar/sparkline/radial/pipeline charts |
-| `assets/architecture-flow-{dark,light}.svg` | `1000×276` | `100%` | Animated 4-layer Enterprise System Architecture Blueprint |
-| `assets/tech-stack-{dark,light}.svg` | `1000×424` | `100%` | 5-axis Engineering Capability Radar + 4-quadrant Stack Matrix |
+| `assets/hero-{dark,light}.svg` | `1000×404` | `100%` | Aurora Glass Hero + `Architecture.ts` + Animated Photon Sparkline |
+| `assets/cta-{portfolio,resume,linkedin,contact}-{dark,light}.svg` | `238×58` | `24%` | 4-across specular glowing clickable Hero Action Bar |
+| `assets/metrics-{dark,light}.svg` | `1000×130` | `100%` | 4-card KPI strip with embedded bar/sparkline/radial/pipeline charts |
+| `assets/architecture-flow-{dark,light}.svg` | `1000×280` | `100%` | Animated 4-layer Architecture Blueprint with gliding fiber-optic light orbs |
+| `assets/tech-stack-{dark,light}.svg` | `1000×428` | `100%` | 5-axis Engineering Capability Radar + 4-quadrant Glass Stack Matrix |
 | `assets/projects-header-{dark,light}.svg` | `1000×44` | `100%` | Case studies eyebrow header |
-| `assets/proj-{oncquest,fieldassist,lalpath,bigbasket,umbrella,portfolio}-{dark,light}.svg` | `488×160` | `48.5%` | 6 clickable 2×3 project cards with mini architectural thumbnails |
-| `assets/journey-{dark,light}.svg` | `1000×400` | `100%` | Career timeline + Academic credentials + Snapshot |
+| `assets/proj-{oncquest,fieldassist,lalpath,bigbasket,umbrella,portfolio}-{dark,light}.svg` | `488×162` | `48.5%` | 6 clickable 2×3 glass project cards with mini architectural thumbnails |
+| `assets/telemetry-{dark,light}.svg` | `1000×198` | `100%` | Open-Source Language Spectrum + Golden Mandala Philosophy Card |
+| `assets/journey-{dark,light}.svg` | `1000×396` | `100%` | Career timeline + Academic credentials + Base & Collaboration card |
 | `assets/connect-header-{dark,light}.svg` | `1000×90` | `100%` | Contact callout header |
-| `assets/card-{portfolio,resume,linkedin,email,twitter,phone}-{dark,light}.svg` | `316×82` | `32%` | 6 clickable 3×2 contact Bento cards |
-| `assets/footer-{dark,light}.svg` | `1000×74` | `100%` | Animated dual-wave shimmer `<SB/>` closing bar |
+| `assets/card-{portfolio,resume,linkedin,email,twitter,phone}-{dark,light}.svg` | `316×84` | `32%` | 6 clickable 3×2 glass contact Bento cards |
+| `assets/footer-{dark,light}.svg` | `1000×76` | `100%` | Animated dual-wave shimmer `<SB/>` closing bar |
 
 ## 4. Layout & Sanitization Constraints
 - **Responsive Multi-Column Alignment Across All Viewports (760px–1440px+):**

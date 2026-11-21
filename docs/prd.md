@@ -11,8 +11,8 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 ## 3. Goals & Non-Goals
 ### Goals
 - Align the GitHub Profile README 1:1 with the Obsidian + Electric Purple / Sunset Coral-Amber / Emerald Bento visual identity of `https://my-portfolio-beta-bay-93.vercel.app/`.
-- Provide native GitHub Dark & Light mode adaptation across all 48 self-hosted SVG visuals (`24` Dark + `24` Light) via `<picture>`.
-- Elevate the profile beyond text cards using bespoke vector data visualizations: live Hero telemetry sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar chart, and custom case-study preview thumbnails.
+- Provide native GitHub Dark & Light mode adaptation across all 50 self-hosted SVG visuals (`25` Dark + `25` Light) via `<picture>`.
+- Elevate the profile with Obsidian Glass depth (specular top rims, ambient corner halos, aurora silk ribbons), bespoke vector data visualizations (live photon sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar, stacked language spectrum), and a signature `धैर्यं सर्वत्र साधनम्।` Engineering Philosophy card echoing the GitHub avatar's golden sacred-geometry motif.
 - Make the Hero CTA bar (4 buttons), featured production case studies (6 cards), and contact channels (6 cards) individually clickable with responsive percentage widths (`24%`, `48.5%`, `32%`) so multi-column alignment holds across laptop and desktop screens.
 - Preserve all verified credentials from both the live portfolio and original README (Python Data Science libraries, AWS RDS/DynamoDB, Django/Flask/Laravel, MBA Finance & IT, B.E. CSE).
 
@@ -32,6 +32,6 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 9. **Shareable Overview PDF (`docs/shubham-bramhane-overview.pdf`):** Clean 1-page executive overview tracked in Git and linked in `README.md`.
 
 ## 5. Success Metrics
-- 100% self-hosted SVG assets (`48` files) with zero external runtime image dependencies.
+- 100% self-hosted SVG assets (`50` files) with zero external runtime image dependencies.
 - 100% pass rate on `python scripts/verify_profile.py`.
 - Visual QA pass in headless Chrome for both GitHub Dark (`#0D1117`) and GitHub Light (`#FFFFFF`) simulated `780px` containers.

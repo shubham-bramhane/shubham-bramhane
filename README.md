@@ -124,6 +124,15 @@
 
 <br/>
 
+<!-- OPEN-SOURCE PULSE & ENGINEERING ETHOS -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/telemetry-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/telemetry-light.svg">
+  <img alt="Open-Source Pulse, Stack Spectrum and Engineering Philosophy — Patience is the solution to everything" src="./assets/telemetry-dark.svg" width="100%">
+</picture>
+
+<br/><br/>
+
 <!-- CAREER JOURNEY & CREDENTIALS -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/journey-dark.svg">

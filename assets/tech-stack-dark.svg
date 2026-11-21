@@ -1,9 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="424" viewBox="0 0 1000 424" role="img" aria-label="Engineering Capability Radar and Technical Ecosystem">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="428" viewBox="0 0 1000 428" role="img" aria-label="Engineering Capability Radar and Technical Ecosystem">
   <defs>
+    
+    <linearGradient id="tsCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151929"/>
+      <stop offset="100%" stop-color="#0B0D15"/>
+    </linearGradient>
+    <linearGradient id="tsSpec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radAmb" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="radarFill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.42"/>
-      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#FB923C" stop-opacity="0.34"/>
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#FB923C" stop-opacity="0.38"/>
     </linearGradient>
     <linearGradient id="radarStroke" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#C084FC"/>
@@ -14,141 +28,149 @@
 
   
   <g>
-    <rect x="6" y="10" width="8" height="8" rx="2.5" fill="#A855F7"/>
-    <text x="22" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#A6AFC9">CAPABILITY RADAR &amp; TECH STACK</text>
-    <line x1="278" y1="14" x2="763" y2="14" stroke="#1F253D" stroke-width="1"/>
-    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" fill="#6E7796">FULL-STACK DEPTH + AI ACCELERATORS</text>
+    <rect x="6" y="9" width="9" height="9" rx="3" fill="#A855F7"/>
+    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
+    <text x="23" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#A8B1CC">CAPABILITY RADAR &amp; TECH STACK</text>
+    <line x1="280" y1="14" x2="766" y2="14" stroke="#202742" stroke-width="1"/>
+    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#6E7899">FULL-STACK DEPTH + AI ACCELERATORS</text>
   </g>
 
   <!-- Left Bento: 5-Axis Capability Radar Chart -->
   <g>
-    <rect x="4" y="38" width="342" height="380" rx="16" fill="#0E1019" stroke="#232842" stroke-width="1.2"/>
-    <rect x="24" y="38" width="58" height="3" rx="1.5" fill="#A855F7"/>
+    <rect x="4" y="38" width="342" height="382" rx="16" fill="url(#tsCard)" stroke="#242A45" stroke-width="1.15"/>
+  <line x1="20" y1="38.8" x2="330" y2="38.8" stroke="url(#tsSpec)" stroke-width="1"/>
+  <rect x="22" y="38" width="56" height="3" rx="1.5" fill="#A855F7"/>
+    <circle cx="175" cy="224" r="115" fill="url(#radAmb)"/>
     <text x="24" y="66" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.1" fill="#C084FC">ENGINEERING RADAR</text>
-    <text x="24" y="84" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#6E7796">Multi-domain production capability map</text>
+    <text x="24" y="84" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#6E7899">Multi-domain production capability map</text>
 
-    <polygon points="175.0,196.0 201.6,215.3 191.5,246.7 158.5,246.7 148.4,215.3" fill="none" stroke="#262D4A" stroke-width="1"/><polygon points="175.0,172.0 224.5,207.9 205.6,266.1 144.4,266.1 125.5,207.9" fill="none" stroke="#262D4A" stroke-width="1"/><polygon points="175.0,144.0 251.1,199.3 222.0,288.7 128.0,288.7 98.9,199.3" fill="none" stroke="#262D4A" stroke-width="1"/>
-    <line x1="175" y1="224" x2="175.0" y2="144.0" stroke="#262D4A" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="251.1" y2="199.3" stroke="#262D4A" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="222.0" y2="288.7" stroke="#262D4A" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="128.0" y2="288.7" stroke="#262D4A" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="98.9" y2="199.3" stroke="#262D4A" stroke-width="0.9" stroke-dasharray="3 3"/>
-    <polygon points="175.0,147.2 246.5,200.8 218.7,284.2 133.6,281.0 106.5,201.8" fill="url(#radarFill)" stroke="url(#radarStroke)" stroke-width="2.2" stroke-linejoin="round"/>
-    <circle cx="175.0" cy="147.2" r="4.2" fill="#0E1019" stroke="#C084FC" stroke-width="2.2"/><circle cx="246.5" cy="200.8" r="4.2" fill="#0E1019" stroke="#C084FC" stroke-width="2.2"/><circle cx="218.7" cy="284.2" r="4.2" fill="#0E1019" stroke="#C084FC" stroke-width="2.2"/><circle cx="133.6" cy="281.0" r="4.2" fill="#0E1019" stroke="#C084FC" stroke-width="2.2"/><circle cx="106.5" cy="201.8" r="4.2" fill="#0E1019" stroke="#C084FC" stroke-width="2.2"/>
-    <text x="175.0" y="131.0" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#A6AFC9">Laravel &amp; Backend</text><text x="261.1" y="197.3" text-anchor="start" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#A6AFC9">AI Velocity</text><text x="230.0" y="302.7" text-anchor="start" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#A6AFC9">DB &amp; Redis</text><text x="120.0" y="302.7" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#A6AFC9">Python &amp; AWS</text><text x="88.9" y="197.3" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#A6AFC9">Frontend UI</text>
+    <polygon points="175.0,197.6 200.1,215.8 190.5,245.4 159.5,245.4 149.9,215.8" fill="none" stroke="#293152" stroke-width="1"/><polygon points="175.0,171.2 225.2,207.7 206.0,266.7 144.0,266.7 124.8,207.7" fill="none" stroke="#293152" stroke-width="1"/><polygon points="175.0,144.0 251.1,199.3 222.0,288.7 128.0,288.7 98.9,199.3" fill="none" stroke="#293152" stroke-width="1"/>
+    <line x1="175" y1="224" x2="175.0" y2="144.0" stroke="#293152" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="251.1" y2="199.3" stroke="#293152" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="222.0" y2="288.7" stroke="#293152" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="128.0" y2="288.7" stroke="#293152" stroke-width="0.9" stroke-dasharray="3 3"/><line x1="175" y1="224" x2="98.9" y2="199.3" stroke="#293152" stroke-width="0.9" stroke-dasharray="3 3"/>
+    <polygon points="175.0,147.2 246.5,200.8 218.7,284.2 133.6,281.0 106.5,201.8" fill="url(#radarFill)" stroke="url(#radarStroke)" stroke-width="2.3" stroke-linejoin="round"/>
+    <polygon points="175.0,176.4 219.3,209.6 202.1,261.3 149.3,259.3 132.5,210.2" fill="none" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="175.0" cy="147.2" r="6.8" fill="#C084FC" fill-opacity="0.22"/><circle cx="175.0" cy="147.2" r="3.8" fill="#0F121D" stroke="#C084FC" stroke-width="2.2"/><circle cx="246.5" cy="200.8" r="6.8" fill="#FBBF24" fill-opacity="0.22"/><circle cx="246.5" cy="200.8" r="3.8" fill="#0F121D" stroke="#FBBF24" stroke-width="2.2"/><circle cx="218.7" cy="284.2" r="6.8" fill="#34D399" fill-opacity="0.22"/><circle cx="218.7" cy="284.2" r="3.8" fill="#0F121D" stroke="#34D399" stroke-width="2.2"/><circle cx="133.6" cy="281.0" r="6.8" fill="#38BDF8" fill-opacity="0.22"/><circle cx="133.6" cy="281.0" r="3.8" fill="#0F121D" stroke="#38BDF8" stroke-width="2.2"/><circle cx="106.5" cy="201.8" r="6.8" fill="#E879F9" fill-opacity="0.22"/><circle cx="106.5" cy="201.8" r="3.8" fill="#0F121D" stroke="#E879F9" stroke-width="2.2"/>
+    <text x="175.0" y="131.0" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#A8B1CC">Laravel &amp; Backend</text><text x="261.1" y="197.3" text-anchor="start" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#A8B1CC">AI Velocity</text><text x="230.0" y="302.7" text-anchor="start" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#A8B1CC">DB &amp; Redis</text><text x="120.0" y="302.7" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#A8B1CC">Python &amp; AWS</text><text x="88.9" y="197.3" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#A8B1CC">Frontend UI</text>
 
     <!-- Radar Legend Footer -->
-    <line x1="24" y1="354" x2="326" y2="354" stroke="#1F253D" stroke-width="1"/>
-    <text x="24" y="376" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#34D399">● CORE STRENGTH:</text>
-    <text x="148" y="376" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#A6AFC9">Laravel · Redis · AI</text>
-    <text x="24" y="396" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#FBBF24">● STRATEGIC EDGE:</text>
-    <text x="148" y="396" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#A6AFC9">Tech + MBA Finance ROI</text>
+    <line x1="24" y1="354" x2="326" y2="354" stroke="#202742" stroke-width="1"/>
+    <text x="24" y="377" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#34D399">● CORE STRENGTH:</text>
+    <text x="148" y="377" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#A8B1CC">Laravel · Redis · AI</text>
+    <text x="24" y="397" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#FBBF24">● STRATEGIC EDGE:</text>
+    <text x="148" y="397" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#A8B1CC">Tech + MBA Finance ROI</text>
   </g>
 
   <!-- Right Top: Backend & Python Data Science -->
   <g>
-    <rect x="360" y="38" width="636" height="106" rx="15" fill="#0E1019" stroke="#232842" stroke-width="1.2"/>
-    <rect x="378" y="38" width="54" height="3" rx="1.5" fill="#A855F7"/>
+    <rect x="360" y="38" width="636" height="106" rx="15" fill="url(#tsCard)" stroke="#242A45" stroke-width="1.15"/>
+  <line x1="375" y1="38.8" x2="981" y2="38.8" stroke="url(#tsSpec)" stroke-width="1"/>
+  <rect x="378" y="38" width="56" height="3" rx="1.5" fill="#A855F7"/>
     <text x="378" y="65" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="#C084FC">BACKEND ARCHITECTURE &amp; PYTHON DATA SCIENCE</text>
-    <text x="976" y="65" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#6E7796">13 TECHNOLOGIES</text>
-    <rect x="378" y="84" width="157" height="24" rx="12" fill="#211438" stroke="#4C2B80" stroke-width="1"/>
+    <text x="976" y="65" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#6E7899">13 TECHNOLOGIES</text>
+    <rect x="378" y="84" width="156" height="24" rx="12" fill="#21143B" stroke="#52308F" stroke-width="1"/>
 <circle cx="389.5" cy="96.0" r="3" fill="#A855F7"/>
 <text x="398" y="99.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#C084FC">PHP 8.3 &amp; Laravel 11</text>
-<rect x="541" y="84" width="109" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="595.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">REST &amp; Swagger</text>
-<rect x="656" y="84" width="67" height="24" rx="12" fill="#211438" stroke="#4C2B80" stroke-width="1"/>
-<circle cx="667.5" cy="96.0" r="3" fill="#A855F7"/>
-<text x="676" y="99.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#C084FC">Python</text>
-<rect x="729" y="84" width="58" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="758.0" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Django</text>
-<rect x="793" y="84" width="51" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="818.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Flask</text>
-<rect x="850" y="84" width="64" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="882.0" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Node.js</text>
-<rect x="378" y="114" width="58" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="407.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Pandas</text>
-<rect x="442" y="114" width="51" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="467.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">NumPy</text>
-<rect x="499" y="114" width="51" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="524.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">SciPy</text>
-<rect x="556" y="114" width="96" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="604.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Scikit-learn</text>
-<rect x="658" y="114" width="58" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="687.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">OpenCV</text>
-<rect x="722" y="114" width="84" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="764.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Matplotlib</text>
-<rect x="812" y="114" width="64" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<text x="844.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Seaborn</text>
+<rect x="540" y="84" width="109" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="594.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">REST &amp; Swagger</text>
+<rect x="655" y="84" width="66" height="24" rx="12" fill="#21143B" stroke="#52308F" stroke-width="1"/>
+<circle cx="666.5" cy="96.0" r="3" fill="#A855F7"/>
+<text x="675" y="99.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#C084FC">Python</text>
+<rect x="727" y="84" width="57" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="755.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Django</text>
+<rect x="790" y="84" width="51" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="815.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Flask</text>
+<rect x="847" y="84" width="64" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="879.0" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Node.js</text>
+<rect x="917" y="84" width="57" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="945.5" y="99.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Pandas</text>
+<rect x="378" y="114" width="51" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="403.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">NumPy</text>
+<rect x="435" y="114" width="51" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="460.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">SciPy</text>
+<rect x="492" y="114" width="96" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="540.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Scikit-learn</text>
+<rect x="594" y="114" width="57" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="622.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">OpenCV</text>
+<rect x="657" y="114" width="83" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="698.5" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Matplotlib</text>
+<rect x="746" y="114" width="64" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<text x="778.0" y="129.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Seaborn</text>
   </g>
 
   <!-- Right Middle: AI Agentic Engineering -->
   <g>
-    <rect x="360" y="154" width="636" height="96" rx="15" fill="#0E1019" stroke="#6B3E17" stroke-width="1.2"/>
-    <rect x="378" y="154" width="54" height="3" rx="1.5" fill="#FB923C"/>
+    <rect x="360" y="154" width="636" height="96" rx="15" fill="url(#tsCard)" stroke="#734219" stroke-width="1.15"/>
+  <line x1="375" y1="154.8" x2="981" y2="154.8" stroke="url(#tsSpec)" stroke-width="1"/>
+  <rect x="378" y="154" width="56" height="3" rx="1.5" fill="#FB923C"/>
     <text x="378" y="180" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="#FBBF24">AI AGENTIC ENGINEERING &amp; AUTOMATION</text>
-    <rect x="870" y="164" width="108" height="20" rx="10" fill="#2E1C0E" stroke="#6B3E17" stroke-width="0.9"/>
+    <rect x="870" y="164" width="108" height="20" rx="10" fill="#2E1C0E" stroke="#734219" stroke-width="0.9"/>
     <text x="924" y="177.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.2" font-weight="700" fill="#FBBF24">⚡ SUPERCHARGED</text>
-    <rect x="378" y="194" width="170" height="24" rx="12" fill="#2E1C0E" stroke="#6B3E17" stroke-width="1"/>
+    <rect x="378" y="194" width="169" height="24" rx="12" fill="#2E1C0E" stroke="#734219" stroke-width="1"/>
 <circle cx="389.5" cy="206.0" r="3" fill="#FB923C"/>
 <text x="398" y="209.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#FBBF24">Google Antigravity IDE</text>
-<rect x="554" y="194" width="118" height="24" rx="12" fill="#2E1C0E" stroke="#6B3E17" stroke-width="1"/>
-<circle cx="565.5" cy="206.0" r="3" fill="#FB923C"/>
-<text x="574" y="209.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#FBBF24">GitHub Copilot</text>
-<rect x="678" y="194" width="84" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="720.0" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Claude 3.7</text>
-<rect x="768" y="194" width="51" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="793.5" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">GPT-4</text>
-<rect x="825" y="194" width="142" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="896.0" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Prompt Architecture</text>
-<rect x="378" y="224" width="161" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="458.5" y="239.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Autonomous Refactoring</text>
-<rect x="545" y="224" width="96" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="593.0" y="239.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Synthetic QA</text>
+<rect x="553" y="194" width="118" height="24" rx="12" fill="#2E1C0E" stroke="#734219" stroke-width="1"/>
+<circle cx="564.5" cy="206.0" r="3" fill="#FB923C"/>
+<text x="573" y="209.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#FBBF24">GitHub Copilot</text>
+<rect x="677" y="194" width="83" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="718.5" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Claude 3.7</text>
+<rect x="766" y="194" width="51" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="791.5" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">GPT-4</text>
+<rect x="823" y="194" width="141" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="893.5" y="209.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Prompt Architecture</text>
+<rect x="378" y="224" width="160" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="458.0" y="239.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Autonomous Refactoring</text>
+<rect x="544" y="224" width="96" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="592.0" y="239.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Synthetic QA</text>
   </g>
 
   <!-- Right Bottom-Left: Frontend & UI -->
   <g>
-    <rect x="360" y="260" width="310" height="158" rx="15" fill="#0E1019" stroke="#232842" stroke-width="1.2"/>
-    <rect x="378" y="260" width="48" height="3" rx="1.5" fill="#38BDF8"/>
+    <rect x="360" y="260" width="310" height="160" rx="15" fill="url(#tsCard)" stroke="#242A45" stroke-width="1.15"/>
+  <line x1="375" y1="260.8" x2="655" y2="260.8" stroke="url(#tsSpec)" stroke-width="1"/>
+  <rect x="378" y="260" width="56" height="3" rx="1.5" fill="#38BDF8"/>
     <text x="378" y="286" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="#38BDF8">FRONTEND &amp; UI SYSTEMS</text>
-    <rect x="378" y="304" width="80" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
+    <rect x="378" y="304" width="79" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
 <circle cx="389.5" cy="316.0" r="3" fill="#38BDF8"/>
 <text x="398" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">React.js</text>
-<rect x="464" y="304" width="92" height="24" rx="12" fill="#0D273D" stroke="#1A5175" stroke-width="1"/>
-<circle cx="475.5" cy="316.0" r="3" fill="#38BDF8"/>
-<text x="484" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Next.js 16</text>
-<rect x="378" y="334" width="103" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="429.5" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Vue.js &amp; Vuex</text>
-<rect x="487" y="334" width="84" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="529.0" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">TypeScript</text>
-<rect x="577" y="334" width="77" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="615.5" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">JS / AJAX</text>
-<rect x="378" y="364" width="96" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
+<rect x="463" y="304" width="92" height="24" rx="12" fill="#0D273F" stroke="#1C567D" stroke-width="1"/>
+<circle cx="474.5" cy="316.0" r="3" fill="#38BDF8"/>
+<text x="483" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#38BDF8">Next.js 16</text>
+<rect x="378" y="334" width="102" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="429.0" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Vue.js &amp; Vuex</text>
+<rect x="486" y="334" width="83" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="527.5" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">TypeScript</text>
+<rect x="575" y="334" width="77" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="613.5" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">JS / AJAX</text>
+<rect x="378" y="364" width="96" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
 <text x="426.0" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Tailwind CSS</text>
-<rect x="480" y="364" width="51" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
+<rect x="480" y="364" width="51" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
 <text x="505.5" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Blade</text>
   </g>
 
   <!-- Right Bottom-Right: Databases, Cloud & DevOps -->
   <g>
-    <rect x="682" y="260" width="314" height="158" rx="15" fill="#0E1019" stroke="#232842" stroke-width="1.2"/>
-    <rect x="698" y="260" width="48" height="3" rx="1.5" fill="#34D399"/>
+    <rect x="682" y="260" width="314" height="160" rx="15" fill="url(#tsCard)" stroke="#242A45" stroke-width="1.15"/>
+  <line x1="697" y1="260.8" x2="981" y2="260.8" stroke="url(#tsSpec)" stroke-width="1"/>
+  <rect x="700" y="260" width="56" height="3" rx="1.5" fill="#34D399"/>
     <text x="698" y="286" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="#34D399">DATABASES, CLOUD &amp; DEVOPS</text>
-    <rect x="698" y="304" width="60" height="24" rx="12" fill="#0B2B22" stroke="#165C48" stroke-width="1"/>
+    <rect x="698" y="304" width="60" height="24" rx="12" fill="#0B2C23" stroke="#18634E" stroke-width="1"/>
 <circle cx="709.5" cy="316.0" r="3" fill="#34D399"/>
 <text x="718" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#34D399">MySQL</text>
-<rect x="764" y="304" width="92" height="24" rx="12" fill="#0B2B22" stroke="#165C48" stroke-width="1"/>
+<rect x="764" y="304" width="92" height="24" rx="12" fill="#0B2C23" stroke="#18634E" stroke-width="1"/>
 <circle cx="775.5" cy="316.0" r="3" fill="#34D399"/>
 <text x="784" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#34D399">PostgreSQL</text>
-<rect x="862" y="304" width="99" height="24" rx="12" fill="#0B2B22" stroke="#165C48" stroke-width="1"/>
+<rect x="862" y="304" width="98" height="24" rx="12" fill="#0B2C23" stroke="#18634E" stroke-width="1"/>
 <circle cx="873.5" cy="316.0" r="3" fill="#34D399"/>
 <text x="882" y="319.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#34D399">Redis Cache</text>
-<rect x="698" y="334" width="144" height="24" rx="12" fill="#2E1C0E" stroke="#6B3E17" stroke-width="1"/>
+<rect x="698" y="334" width="143" height="24" rx="12" fill="#2E1C0E" stroke="#734219" stroke-width="1"/>
 <circle cx="709.5" cy="346.0" r="3" fill="#FB923C"/>
 <text x="718" y="349.6" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#FBBF24">AWS RDS &amp; DynamoDB</text>
-<rect x="848" y="334" width="96" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="896.0" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">GitHub CI/CD</text>
-<rect x="698" y="364" width="50" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
+<rect x="847" y="334" width="96" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="895.0" y="349.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">GitHub CI/CD</text>
+<rect x="698" y="364" width="50" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
 <text x="723.0" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">JIRA</text>
-<rect x="754" y="364" width="64" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
+<rect x="754" y="364" width="64" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
 <text x="786.0" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Postman</text>
-<rect x="824" y="364" width="129" height="24" rx="12" fill="#191D30" stroke="#232842" stroke-width="1"/>
-<text x="888.5" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Razorpay / Stripe</text>
+<rect x="824" y="364" width="128" height="24" rx="12" fill="#1A1F34" stroke="#242A45" stroke-width="1"/>
+<text x="888.0" y="379.6" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.4" font-weight="600" fill="#F8FAFC">Razorpay / Stripe</text>
   </g>
 </svg>

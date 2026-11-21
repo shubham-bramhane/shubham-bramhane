@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-label="Career Experience and Academic Credentials">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="396" viewBox="0 0 1000 396" role="img" aria-label="Career Experience and Academic Credentials">
   <defs>
+    
+    <linearGradient id="jrCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F6F8FC"/>
+    </linearGradient>
+    <linearGradient id="jrSpec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <linearGradient id="spineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#059669"/>
       <stop offset="50%" stop-color="#7C3AED"/>
@@ -13,32 +23,37 @@
 
   
   <g>
-    <rect x="6" y="10" width="8" height="8" rx="2.5" fill="#0284C7"/>
-    <text x="22" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#475569">CAREER JOURNEY &amp; CREDENTIALS</text>
-    <line x1="270" y1="14" x2="750" y2="14" stroke="#E2E8F0" stroke-width="1"/>
-    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" fill="#64748B">5+ YEARS PRODUCTION · MBA + B.E. CSE</text>
+    <rect x="6" y="9" width="9" height="9" rx="3" fill="#0284C7"/>
+    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
+    <text x="23" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#475569">CAREER JOURNEY &amp; CREDENTIALS</text>
+    <line x1="272" y1="14" x2="754" y2="14" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#64748B">5+ YEARS PRODUCTION · MBA + B.E. CSE</text>
   </g>
 
   <!-- Left Panel: Work Experience -->
   <g>
-    <rect x="4" y="38" width="564" height="354" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
-    <rect x="24" y="38" width="60" height="3" rx="1.5" fill="#7C3AED"/>
+    <rect x="4" y="38" width="564" height="352" rx="16" fill="url(#jrCard)" stroke="#E2E8F0" stroke-width="1.15"/>
+  <line x1="20" y1="38.8" x2="552" y2="38.8" stroke="url(#jrSpec)" stroke-width="1"/>
+  <rect x="22" y="38" width="56" height="3" rx="1.5" fill="#7C3AED"/>
     <text x="24" y="66" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="#6D28D9">PROFESSIONAL EXPERIENCE</text>
-    <line x1="34" y1="98" x2="34" y2="294" stroke="url(#spineGrad)" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="34" y1="98" x2="34" y2="294" stroke="url(#spineGrad)" stroke-width="2.2" stroke-dasharray="4 4"/>
     
-    <circle cx="34" cy="94" r="6.8" fill="#FFFFFF" stroke="#059669" stroke-width="2.2"/>
+    <circle cx="34" cy="94" r="11" fill="#059669" fill-opacity="0.14"/>
+    <circle cx="34" cy="94" r="6.5" fill="#FFFFFF" stroke="#059669" stroke-width="2.2"/>
     <circle cx="34" cy="94" r="2.8" fill="#059669" class="live-dot"/>
     <text x="54" y="90" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#059669">2023 – PRESENT · CURRENT ROLE</text>
     <text x="54" y="109" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Laravel Developer <tspan font-size="12" font-weight="600" fill="#475569">— Abym Technology Pvt. Ltd · Noida</tspan></text>
     <text x="54" y="129" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#475569">⚡ +30% performance boost via SQL optimization &amp; Redis caching · Swagger APIs</text>
     <text x="54" y="147" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#64748B">▸ Modular full-stack platforms with Laravel 11, React.js &amp; Vue.js</text>
-    <circle cx="34" cy="191" r="6.8" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.2"/>
+    <circle cx="34" cy="191" r="11" fill="#7C3AED" fill-opacity="0.14"/>
+    <circle cx="34" cy="191" r="6.5" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.2"/>
     <circle cx="34" cy="191" r="2.8" fill="#7C3AED"/>
     <text x="54" y="187" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#7C3AED">2022 – 2023 · FULL-STACK</text>
     <text x="54" y="206" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Laravel Developer <tspan font-size="12" font-weight="600" fill="#475569">— Finesoft Technologies Pvt. Ltd · Noida</tspan></text>
     <text x="54" y="226" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#475569">⚡ Full-stack Blade &amp; Vue.js delivery · 3rd-party payment gateways &amp; SMS</text>
     <text x="54" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#64748B">▸ High-concurrency relational DB schemas with optimized query execution</text>
-    <circle cx="34" cy="288" r="6.8" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.2"/>
+    <circle cx="34" cy="288" r="11" fill="#0284C7" fill-opacity="0.14"/>
+    <circle cx="34" cy="288" r="6.5" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.2"/>
     <circle cx="34" cy="288" r="2.8" fill="#0284C7"/>
     <text x="54" y="284" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#0284C7">2021 – 2022 · AUTOMATION</text>
     <text x="54" y="303" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Python Developer <tspan font-size="12" font-weight="600" fill="#475569">— Magical Umbrella Pvt. Ltd</tspan></text>
@@ -48,29 +63,31 @@
 
   <!-- Right Top Panel: Academic Qualifications -->
   <g>
-    <rect x="584" y="38" width="412" height="238" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
-    <rect x="604" y="38" width="60" height="3" rx="1.5" fill="#059669"/>
+    <rect x="584" y="38" width="412" height="240" rx="16" fill="url(#jrCard)" stroke="#E2E8F0" stroke-width="1.15"/>
+  <line x1="600" y1="38.8" x2="980" y2="38.8" stroke="url(#jrSpec)" stroke-width="1"/>
+  <rect x="602" y="38" width="56" height="3" rx="1.5" fill="#059669"/>
     <text x="604" y="66" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="#059669">ACADEMIC QUALIFICATIONS</text>
 
-    <rect x="604" y="82" width="372" height="79" rx="12" fill="#F1F5F9" stroke="#A7F3D0" stroke-width="1"/>
+    <rect x="604" y="82" width="372" height="80" rx="12" fill="#F1F5F9" stroke="#A7F3D0" stroke-width="1"/>
     <circle cx="622" cy="100" r="3.5" fill="#059669" class="live-dot"/>
     <text x="632" y="103.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" font-weight="700" fill="#059669">PURSUING · 2024 – PRESENT</text>
     <text x="618" y="125" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">MBA in Finance &amp; IT</text>
     <text x="618" y="145" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.6" fill="#475569">Gondwana University · Business ROI &amp; IT Governance</text>
 
-    <rect x="604" y="173" width="372" height="87" rx="12" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-    <text x="618" y="192" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" font-weight="700" fill="#0284C7">COMPLETED OCT 2020 · 74.60% DISTINCTION</text>
-    <text x="618" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">B.E. in Computer Science</text>
-    <text x="618" y="233" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.6" fill="#475569">Gondwana University</text>
-    <text x="618" y="249" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#64748B">Data Analysis · ML · Deep Learning · Web Dev</text>
+    <rect x="604" y="174" width="372" height="88" rx="12" fill="#F1F5F9" stroke="#BAE6FD" stroke-width="1"/>
+    <text x="618" y="193" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" font-weight="700" fill="#0284C7">COMPLETED OCT 2020 · 74.60% DISTINCTION</text>
+    <text x="618" y="215" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A">B.E. in Computer Science</text>
+    <text x="618" y="234" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.6" fill="#475569">Gondwana University</text>
+    <text x="618" y="250" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#64748B">Data Analysis · ML · Deep Learning · Web Dev</text>
   </g>
 
-  <!-- Right Bottom Panel: Identity & Motto -->
+  <!-- Right Bottom Panel: Base & Languages -->
   <g>
-    <rect x="584" y="290" width="412" height="102" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2"/>
-    <rect x="604" y="290" width="60" height="3" rx="1.5" fill="#EA580C"/>
-    <text x="604" y="317" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="#D97706">PROFILE SNAPSHOT</text>
-    <text x="604" y="341" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.6" fill="#475569">📍 Chandrapur, Maharashtra · 🌐 English, Hindi, Marathi</text>
-    <text x="604" y="368" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#6D28D9">✦ &quot;Patience is the solution to everything&quot;</text>
+    <rect x="584" y="292" width="412" height="98" rx="16" fill="url(#jrCard)" stroke="#E2E8F0" stroke-width="1.15"/>
+  <line x1="600" y1="292.8" x2="980" y2="292.8" stroke="url(#jrSpec)" stroke-width="1"/>
+  <rect x="602" y="292" width="56" height="3" rx="1.5" fill="#EA580C"/>
+    <text x="604" y="319" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="#D97706">BASE &amp; COLLABORATION</text>
+    <text x="604" y="344" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" font-weight="600" fill="#0F172A">📍 Chandrapur, Maharashtra, India (IST · UTC+5:30)</text>
+    <text x="604" y="368" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#475569">🌐 English · Hindi · Marathi  |  Remote &amp; Hybrid Ready</text>
   </g>
 </svg>

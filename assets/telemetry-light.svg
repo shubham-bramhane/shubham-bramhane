@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="198" viewBox="0 0 1000 198" role="img" aria-label="Open Source Pulse and Engineering Philosophy">
+  <defs>
+    
+    <linearGradient id="ethCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F6F8FC"/>
+    </linearGradient>
+    <linearGradient id="ethSpec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="goldAura" cx="88%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ethRClip"><rect x="582" y="38" width="414" height="154" rx="16"/></clipPath>
+  </defs>
+
+  
+  <g>
+    <rect x="6" y="9" width="9" height="9" rx="3" fill="#D97706"/>
+    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
+    <text x="23" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#475569">OPEN-SOURCE PULSE &amp; ENGINEERING ETHOS</text>
+    <line x1="345" y1="14" x2="754" y2="14" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#64748B">26 REPOSITORIES · 504+ CONTRIBUTIONS</text>
+  </g>
+
+  <!-- Left Card: Open-Source Language Spectrum & Flagship Repos -->
+  <g>
+    <rect x="4" y="38" width="564" height="154" rx="16" fill="url(#ethCard)" stroke="#E2E8F0" stroke-width="1.15"/>
+  <line x1="20" y1="38.8" x2="552" y2="38.8" stroke="url(#ethSpec)" stroke-width="1"/>
+  <rect x="22" y="38" width="56" height="3" rx="1.5" fill="#7C3AED"/>
+    <text x="26" y="67" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="#6D28D9">GITHUB ECOSYSTEM &amp; STACK SPECTRUM</text>
+    <rect x="408" y="51" width="138" height="22" rx="11" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.9"/>
+    <text x="477" y="65.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#059669">26 REPOS · 504+ COMMITS</text>
+
+    <text x="26" y="88" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#64748B">Production &amp; open-source distribution across backend, data science &amp; modern UI</text>
+    <rect x="26" y="102" width="193" height="10" rx="5" fill="#7C3AED"/><rect x="222" y="102" width="121" height="10" rx="5" fill="#0284C7"/><rect x="346" y="102" width="101" height="10" rx="5" fill="#EA580C"/><rect x="450" y="102" width="59" height="10" rx="5" fill="#059669"/><rect x="512" y="102" width="27" height="10" rx="5" fill="#E11D48"/>
+    <circle cx="30" cy="129" r="3.4" fill="#7C3AED"/><text x="37" y="132.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">PHP / Laravel</text><circle cx="122" cy="129" r="3.4" fill="#0284C7"/><text x="129" y="132.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">Python &amp; ML</text><circle cx="203" cy="129" r="3.4" fill="#EA580C"/><text x="210" y="132.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">TS / React / Next</text><circle cx="317" cy="129" r="3.4" fill="#059669"/><text x="324" y="132.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">Vue / Blade / JS</text><circle cx="426" cy="129" r="3.4" fill="#E11D48"/><text x="433" y="132.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">SQL / Redis</text>
+    <rect x="26" y="152" width="136" height="24" rx="12" fill="#F3E8FF" stroke="#DDD6FE" stroke-width="1"/>
+<circle cx="37.5" cy="164.0" r="3" fill="#7C3AED"/>
+<text x="46" y="167.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="600" fill="#6D28D9">hotel-pos-laravel</text>
+<rect x="168" y="152" width="108" height="24" rx="12" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1"/>
+<circle cx="179.5" cy="164.0" r="3" fill="#0284C7"/>
+<text x="188" y="167.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="600" fill="#0284C7">my-portfolio</text>
+<rect x="282" y="152" width="126" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+<circle cx="293.5" cy="164.0" r="3" fill="#059669"/>
+<text x="302" y="167.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="600" fill="#059669">Admin-Dashboard</text>
+<rect x="414" y="152" width="128" height="24" rx="12" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<circle cx="425.5" cy="164.0" r="3" fill="#EA580C"/>
+<text x="434" y="167.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="600" fill="#D97706">ML-Recommenders</text>
+  </g>
+
+  <!-- Right Card: Signature Motto & Golden Sacred-Geometry Art (Matching GitHub Avatar) -->
+  <g>
+    <g clip-path="url(#ethRClip)">
+      <rect x="582" y="38" width="414" height="154" fill="url(#ethCard)"/>
+      <rect x="582" y="38" width="414" height="154" fill="url(#goldAura)"/>
+      <g><circle cx="936" cy="115" r="68.0" fill="none" stroke="#D97706" stroke-width="0.9" stroke-opacity="0.18"/>
+    <circle cx="936" cy="115" r="49.0" fill="none" stroke="#D97706" stroke-width="0.8" stroke-dasharray="3 3" stroke-opacity="0.18"/>
+    <circle cx="936" cy="115" r="29.9" fill="none" stroke="#D97706" stroke-width="0.9" stroke-opacity="0.18"/>
+    <circle cx="936" cy="115" r="12.2" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="965.9" y1="115.0" x2="1004.0" y2="115.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="983.3" cy="127.7" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="961.9" y1="130.0" x2="994.9" y2="149.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="970.6" cy="149.6" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="951.0" y1="140.9" x2="970.0" y2="173.9" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="948.7" cy="162.3" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="936.0" y1="144.9" x2="936.0" y2="183.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="923.3" cy="162.3" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="921.0" y1="140.9" x2="902.0" y2="173.9" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="901.4" cy="149.6" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="910.1" y1="130.0" x2="877.1" y2="149.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="888.7" cy="127.7" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="906.1" y1="115.0" x2="868.0" y2="115.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="888.7" cy="102.3" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="910.1" y1="100.0" x2="877.1" y2="81.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="901.4" cy="80.4" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="921.0" y1="89.1" x2="902.0" y2="56.1" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="923.3" cy="67.7" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="936.0" y1="85.1" x2="936.0" y2="47.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="948.7" cy="67.7" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="951.0" y1="89.1" x2="970.0" y2="56.1" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="970.6" cy="80.4" r="1.8" fill="#D97706" fill-opacity="0.18"/>
+    <line x1="961.9" y1="100.0" x2="994.9" y2="81.0" stroke="#D97706" stroke-width="0.7" stroke-opacity="0.18"/>
+    <circle cx="983.3" cy="102.3" r="1.8" fill="#D97706" fill-opacity="0.18"/></g>
+    </g>
+    <rect x="582" y="38" width="414" height="154" rx="16" fill="none" stroke="#FED7AA" stroke-width="1.2"/>
+    <line x1="600" y1="38.8" x2="978" y2="38.8" stroke="url(#ethSpec)" stroke-width="1"/>
+    <rect x="602" y="38" width="58" height="3" rx="1.5" fill="#D97706"/>
+
+    <text x="604" y="67" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="#D97706">ENGINEERING PHILOSOPHY</text>
+    <text x="604" y="102" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="19.5" font-weight="800" fill="#0F172A">धैर्यं सर्वत्र साधनम्।</text>
+    <text x="604" y="124" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#D97706">&quot;Patience is the solution to everything.&quot;</text>
+    <text x="604" y="150" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#475569">Architecting calm, resilient software where clean</text>
+    <text x="604" y="167" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.4" fill="#475569">engineering meets measurable business ROI.</text>
+  </g>
+</svg>

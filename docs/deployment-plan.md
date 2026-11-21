@@ -7,7 +7,7 @@
 
 ## 2. Regeneration & Validation Steps
 ```powershell
-# 1. Regenerate 48 Dark/Light SVG visuals (v2.0 Data-Driven Bento Edition)
+# 1. Regenerate 50 Dark/Light SVG visuals (v3.0 Aurora Glass Edition)
 python scripts/generate_assets.py
 
 # 2. Regenerate shareable 1-page PDF overview (after editing docs/shubham-bramhane-overview.html)

@@ -2,9 +2,9 @@
 
 ## 1. Test Pyramid
 1. **Automated Static Verification (`scripts/verify_profile.py`):**
-   - XML well-formedness & `viewBox` presence across all 48 SVG files in `assets/`.
+   - XML well-formedness & `viewBox` presence across all 50 SVG files in `assets/`.
    - Security/sandbox checks ensuring zero `<script>`, `@import`, or external `http(s)` references inside SVGs.
-   - Link integrity verifying every local `src` and `srcset` path (`72` refs) in `README.md` exists on disk.
+   - Link integrity verifying every local `src` and `srcset` path (`75` refs) in `README.md` exists on disk.
    - Fact & deliverable checks verifying core URLs (Portfolio, Resume PDF, LinkedIn, X, Email, Phone, flagship platforms) and all 6 mandatory `docs/` deliverables exist and are linked.
 2. **Visual Regression & Layout Inspection (Headless Chrome):**
    - Render a simulated GitHub README container (`780px` laptop viewport width) in both Dark (`#0D1117`) and Light (`#FFFFFF`) modes and capture full-page PNG screenshots.

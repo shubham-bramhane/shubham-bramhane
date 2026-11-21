@@ -1,16 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="74" viewBox="0 0 1000 74" role="img" aria-label="Shubham Bramhane Footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="76" viewBox="0 0 1000 76" role="img" aria-label="Shubham Bramhane Footer">
   <defs>
+    
+    <linearGradient id="ftCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F6F8FC"/>
+    </linearGradient>
+    <linearGradient id="ftSpec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <clipPath id="footClip">
-      <rect x="4" y="4" width="992" height="66" rx="16"/>
+      <rect x="4" y="4" width="992" height="68" rx="16"/>
     </clipPath>
     <linearGradient id="footWave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
-      <stop offset="50%" stop-color="#EA580C" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.22"/>
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="#EA580C" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.24"/>
     </linearGradient>
     <linearGradient id="footWave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.14"/>
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#C026D3" stop-opacity="0.15"/>
     </linearGradient>
     <linearGradient id="footLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7C3AED"/>
@@ -18,17 +28,18 @@
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
     <style>
-      @keyframes footShimmer { 0% { transform: translateX(-220px); opacity: 0; } 25% { opacity: 0.7; } 75% { opacity: 0.7; } 100% { transform: translateX(1020px); opacity: 0; } }
+      @keyframes footShimmer { 0% { transform: translateX(-220px); opacity: 0; } 25% { opacity: 0.75; } 75% { opacity: 0.75; } 100% { transform: translateX(1020px); opacity: 0; } }
       .shimmer { animation: footShimmer 6s ease-in-out infinite; }
     </style>
   </defs>
   <g clip-path="url(#footClip)">
-    <rect x="4" y="4" width="992" height="66" fill="#FFFFFF"/>
-    <path d="M0 50 Q250 20 500 44 T1000 34 L1000 74 L0 74 Z" fill="url(#footWave1)"/>
-    <path d="M0 40 Q280 62 560 32 T1000 48 L1000 74 L0 74 Z" fill="url(#footWave2)"/>
-    <rect x="4" y="67" width="992" height="3" fill="url(#footLine)"/>
-    <rect x="0" y="67" width="180" height="3" fill="#FFFFFF" class="shimmer"/>
+    <rect x="4" y="4" width="992" height="68" fill="url(#ftCard)"/>
+    <path d="M0 52 Q250 20 500 46 T1000 34 L1000 76 L0 76 Z" fill="url(#footWave1)"/>
+    <path d="M0 40 Q280 64 560 32 T1000 50 L1000 76 L0 76 Z" fill="url(#footWave2)"/>
+    <rect x="4" y="69" width="992" height="3" fill="url(#footLine)"/>
+    <rect x="0" y="69" width="180" height="3" fill="#FFFFFF" class="shimmer"/>
   </g>
-  <rect x="4" y="4" width="992" height="66" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
-  <text x="500" y="42" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="0.9" fill="#475569">&lt;SB/&gt;  SHUBHAM BRAMHANE  ·  ARCHITECTING HIGH-THROUGHPUT SYSTEMS WITH AI VELOCITY</text>
+  <rect x="4" y="4" width="992" height="68" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+  <line x1="22" y1="4.8" x2="978" y2="4.8" stroke="url(#ftSpec)" stroke-width="1"/>
+  <text x="500" y="43" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="0.9" fill="#475569">&lt;SB/&gt;  SHUBHAM BRAMHANE  ·  ARCHITECTING HIGH-THROUGHPUT SYSTEMS WITH AI VELOCITY</text>
 </svg>
