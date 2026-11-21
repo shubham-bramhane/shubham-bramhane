@@ -2,124 +2,129 @@
   <defs>
     
     <linearGradient id="bpCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F6F8FC"/>
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F6F2EA"/>
     </linearGradient>
     <linearGradient id="bpSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="bpGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A5518"/>
+      <stop offset="35%" stop-color="#B88735"/>
+      <stop offset="68%" stop-color="#9A6E24"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
     <pattern id="bpGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#E2E8F0" stroke-width="0.7" stroke-opacity="0.65"/>
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#EAE2D5" stroke-width="0.7" stroke-opacity="0.7"/>
     </pattern>
     <clipPath id="bpClip">
       <rect x="4" y="36" width="992" height="238" rx="18"/>
     </clipPath>
-    <radialGradient id="n1Glow" cx="20%" cy="0%" r="85%"><stop offset="0%" stop-color="#0284C7" stop-opacity="0.09"/><stop offset="100%" stop-color="#0284C7" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n2Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="#7C3AED" stop-opacity="0.09"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n3Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="#059669" stop-opacity="0.09"/><stop offset="100%" stop-color="#059669" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n4Glow" cx="80%" cy="0%" r="85%"><stop offset="0%" stop-color="#EA580C" stop-opacity="0.09"/><stop offset="100%" stop-color="#EA580C" stop-opacity="0"/></radialGradient>
-    <linearGradient id="flow1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0284C7"/><stop offset="100%" stop-color="#7C3AED"/></linearGradient>
-    <linearGradient id="flow2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#059669"/></linearGradient>
-    <linearGradient id="flow3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#EA580C"/></linearGradient>
+    <radialGradient id="n1Glow" cx="20%" cy="0%" r="85%"><stop offset="0%" stop-color="#47423B" stop-opacity="0.09"/><stop offset="100%" stop-color="#47423B" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n2Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="#9A6E24" stop-opacity="0.09"/><stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n3Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="#197A55" stop-opacity="0.09"/><stop offset="100%" stop-color="#197A55" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n4Glow" cx="80%" cy="0%" r="85%"><stop offset="0%" stop-color="#9A562B" stop-opacity="0.09"/><stop offset="100%" stop-color="#9A562B" stop-opacity="0"/></radialGradient>
+    <linearGradient id="flow1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#47423B"/><stop offset="100%" stop-color="#9A6E24"/></linearGradient>
+    <linearGradient id="flow2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#9A6E24"/><stop offset="100%" stop-color="#197A55"/></linearGradient>
+    <linearGradient id="flow3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#197A55"/><stop offset="100%" stop-color="#9A562B"/></linearGradient>
     <style>
       @keyframes packetFlow { from { stroke-dashoffset: 64; } to { stroke-dashoffset: 0; } }
       @keyframes softBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
-      .flow-line { stroke-dasharray: 7 7; animation: packetFlow 1.7s linear infinite; }
-      .live-glow { animation: softBlink 2s ease-in-out infinite; }
+      .flow-line { stroke-dasharray: 7 7; animation: packetFlow 1.8s linear infinite; }
+      .live-glow { animation: softBlink 2.2s ease-in-out infinite; }
     </style>
   </defs>
 
   
   <g>
-    <rect x="6" y="9" width="9" height="9" rx="3" fill="#0284C7"/>
-    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
-    <text x="23" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#475569">SYSTEM ARCHITECTURE BLUEPRINT</text>
-    <line x1="280" y1="14" x2="653" y2="14" stroke="#E2E8F0" stroke-width="1"/>
-    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#64748B">HOW I ARCHITECT HIGH-THROUGHPUT PRODUCTION PLATFORMS</text>
+    <polygon points="10.5,8.5 15.5,13.5 10.5,18.5 5.5,13.5" fill="#9A6E24"/>
+    <text x="24" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="2.0" fill="#524B42">SYSTEM ARCHITECTURE BLUEPRINT</text>
+    <line x1="280" y1="13.8" x2="653" y2="13.8" stroke="#E6DFD3" stroke-width="1"/>
+    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.0" fill="#7D756A">HOW I ARCHITECT HIGH-THROUGHPUT PRODUCTION PLATFORMS</text>
   </g>
 
   <g clip-path="url(#bpClip)">
     <rect x="4" y="36" width="992" height="238" fill="url(#bpCard)"/>
     <rect x="4" y="36" width="992" height="238" fill="url(#bpGrid)"/>
   </g>
-  <rect x="4" y="36" width="992" height="238" rx="18" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+  <rect x="4" y="36" width="992" height="238" rx="18" fill="none" stroke="#E5DDD0" stroke-width="1.2"/>
   <line x1="24" y1="36.8" x2="976" y2="36.8" stroke="url(#bpSpec)" stroke-width="1"/>
 
-  <!-- Animated Fiber-Optic Connector Pipes + Gliding Light Orbs -->
+  <!-- Animated Champagne-Gold Connector Streams + Gliding Light Orbs -->
   <g>
-    <line x1="226" y1="136" x2="274" y2="136" stroke="url(#flow1)" stroke-width="2.4" class="flow-line"/>
-    <polygon points="274,136 266,131 266,141" fill="#7C3AED"/>
-    <circle r="3.4" fill="#FFFFFF"><animateMotion dur="1.6s" repeatCount="indefinite" path="M 226 136 L 269 136"/></circle>
+    <line x1="226" y1="136" x2="274" y2="136" stroke="url(#flow1)" stroke-width="2.2" class="flow-line"/>
+    <polygon points="274,136 266,131 266,141" fill="#9A6E24"/>
+    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" repeatCount="indefinite" path="M 226 136 L 269 136"/></circle>
 
-    <line x1="496" y1="136" x2="544" y2="136" stroke="url(#flow2)" stroke-width="2.4" class="flow-line"/>
-    <polygon points="544,136 536,131 536,141" fill="#059669"/>
-    <circle r="3.4" fill="#FFFFFF"><animateMotion dur="1.6s" begin="0.5s" repeatCount="indefinite" path="M 496 136 L 539 136"/></circle>
+    <line x1="496" y1="136" x2="544" y2="136" stroke="url(#flow2)" stroke-width="2.2" class="flow-line"/>
+    <polygon points="544,136 536,131 536,141" fill="#197A55"/>
+    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" begin="0.55s" repeatCount="indefinite" path="M 496 136 L 539 136"/></circle>
 
-    <line x1="752" y1="136" x2="796" y2="136" stroke="url(#flow3)" stroke-width="2.4" class="flow-line"/>
-    <polygon points="796,136 788,131 788,141" fill="#EA580C"/>
-    <circle r="3.4" fill="#FFFFFF"><animateMotion dur="1.6s" begin="1.0s" repeatCount="indefinite" path="M 752 136 L 791 136"/></circle>
+    <line x1="752" y1="136" x2="796" y2="136" stroke="url(#flow3)" stroke-width="2.2" class="flow-line"/>
+    <polygon points="796,136 788,131 788,141" fill="#9A562B"/>
+    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" begin="1.1s" repeatCount="indefinite" path="M 752 136 L 791 136"/></circle>
   </g>
 
   <!-- Node 1: Client & UI Edge -->
   <g transform="translate(24, 58)">
-    <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#bpCard)" stroke="#BAE6FD" stroke-width="1.2"/>
+    <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#bpCard)" stroke="#D6CFC4" stroke-width="1.2"/>
     <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#n1Glow)"/>
-    <rect x="16" y="0" width="44" height="3" rx="1.5" fill="#0284C7"/>
-    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#0284C7">01 · CLIENT &amp; UI EDGE</text>
-    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Reactive Interfaces</text>
-    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ React.js &amp; Next.js 16</text>
-    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ Vue.js / Vuex · Blade</text>
-    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ TypeScript · Tailwind</text>
-    <rect x="16" y="125" width="170" height="19" rx="6" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="0.7"/>
-    <text x="101" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#0284C7">SPA · SSR · RESPONSIVE</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="#47423B"/>
+    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#47423B">01 · CLIENT &amp; UI EDGE</text>
+    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#181512">Reactive Interfaces</text>
+    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ React.js &amp; Next.js 16</text>
+    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ Vue.js / Vuex · Blade</text>
+    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ TypeScript · Tailwind</text>
+    <rect x="16" y="125" width="170" height="19" rx="6" fill="#EFECE6" stroke="#D6CFC4" stroke-width="0.7"/>
+    <text x="101" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#47423B">SPA · SSR · RESPONSIVE</text>
   </g>
 
   <!-- Node 2: Core API + AI-Augmented Engine -->
   <g transform="translate(274, 54)">
-    <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#bpCard)" stroke="#DDD6FE" stroke-width="1.4"/>
+    <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#bpCard)" stroke="#E2CBA0" stroke-width="1.4"/>
     <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#n2Glow)"/>
-    <rect x="16" y="0" width="60" height="3" rx="1.5" fill="#7C3AED"/>
-    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#6D28D9">02 · APPLICATION &amp; AI CORE</text>
-    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Laravel 11 &amp; Python</text>
-    <text x="16" y="72" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ PHP 8.3 · REST / Swagger</text>
-    <text x="16" y="91" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ Django · Flask · Fast ETL</text>
-    <rect x="14" y="107" width="194" height="43" rx="9" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
-    <text x="24" y="124" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#D97706">⚡ 3.5x AI VELOCITY ENGINE</text>
-    <text x="24" y="140" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#475569">Antigravity · Copilot · Claude</text>
+    <rect x="16" y="0" width="60" height="2.8" rx="1.4" fill="url(#bpGoldFoil)"/>
+    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#B88735">02 · APPLICATION &amp; AI CORE</text>
+    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#181512">Laravel 11 &amp; Python</text>
+    <text x="16" y="72" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ PHP 8.3 · REST / Swagger</text>
+    <text x="16" y="91" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ Django · Flask · Fast ETL</text>
+    <rect x="14" y="107" width="194" height="43" rx="9" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
+    <text x="24" y="124" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.3" font-weight="700" fill="#B88735">✦ 3.5x AI VELOCITY ENGINE</text>
+    <text x="24" y="140" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" fill="#524B42">Antigravity · Copilot · Claude</text>
   </g>
 
   <!-- Node 3: Data, Cache & Cloud -->
   <g transform="translate(544, 58)">
-    <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#bpCard)" stroke="#A7F3D0" stroke-width="1.2"/>
+    <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#bpCard)" stroke="#B2DEC8" stroke-width="1.2"/>
     <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#n3Glow)"/>
-    <rect x="16" y="0" width="44" height="3" rx="1.5" fill="#059669"/>
-    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#059669">03 · DATA &amp; CLOUD LAYER</text>
-    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Cache &amp; Persistence</text>
-    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ Redis Cache (+30% Speed)</text>
-    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ MySQL · PostgreSQL</text>
-    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#475569">▸ AWS RDS &amp; DynamoDB</text>
-    <rect x="16" y="125" width="176" height="19" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.7"/>
-    <text x="104" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#059669">INDEXED · HIGH-CONCURRENCY</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="#197A55"/>
+    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#197A55">03 · DATA &amp; CLOUD LAYER</text>
+    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#181512">Cache &amp; Persistence</text>
+    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ Redis Cache (+30% Speed)</text>
+    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ MySQL · PostgreSQL</text>
+    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.3" fill="#524B42">▸ AWS RDS &amp; DynamoDB</text>
+    <rect x="16" y="125" width="176" height="19" rx="6" fill="#EBF7F1" stroke="#B2DEC8" stroke-width="0.7"/>
+    <text x="104" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#197A55">INDEXED · HIGH-CONCURRENCY</text>
   </g>
 
   <!-- Node 4: Production Scale -->
   <g transform="translate(796, 58)">
-    <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#bpCard)" stroke="#FED7AA" stroke-width="1.2"/>
+    <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#bpCard)" stroke="#E5C5AE" stroke-width="1.2"/>
     <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#n4Glow)"/>
-    <rect x="16" y="0" width="44" height="3" rx="1.5" fill="#EA580C"/>
-    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#D97706">04 · PRODUCTION</text>
-    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Real-World Impact</text>
-    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#475569">✦ Pan-India Diagnostics</text>
-    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#475569">✦ Big Basket Scale TMS</text>
-    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#475569">✦ 10+ hrs/wk Automated</text>
-    <rect x="16" y="125" width="148" height="19" rx="6" fill="#FFF7ED" stroke="#FED7AA" stroke-width="0.7"/>
-    <text x="90" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#D97706">ENTERPRISE DELIVERY</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="#9A562B"/>
+    <text x="16" y="25" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.4" font-weight="700" fill="#9A562B">04 · PRODUCTION</text>
+    <text x="16" y="48" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#181512">Real-World Impact</text>
+    <text x="16" y="73" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#524B42">✦ Pan-India Diagnostics</text>
+    <text x="16" y="93" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#524B42">✦ Big Basket Scale TMS</text>
+    <text x="16" y="113" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#524B42">✦ 10+ hrs/wk Automated</text>
+    <rect x="16" y="125" width="148" height="19" rx="6" fill="#FBF0E8" stroke="#E5C5AE" stroke-width="0.7"/>
+    <text x="90" y="137.8" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#9A562B">ENTERPRISE DELIVERY</text>
   </g>
 
   <!-- Bottom Architecture Telemetry Strip -->
-  <line x1="24" y1="232" x2="976" y2="232" stroke="#E2E8F0" stroke-width="1"/>
-  <circle cx="34" cy="253" r="3.4" fill="#059669" class="live-glow"/>
-  <text x="45" y="256.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#475569">CSRF &amp; SQLi Defense  ·  Swagger OpenAPI Specs  ·  Razorpay / Stripe Gateways  ·  GitHub CI/CD  ·  MBA Finance &amp; IT Governance</text>
+  <line x1="24" y1="232" x2="976" y2="232" stroke="#E6DFD3" stroke-width="1"/>
+  <circle cx="34" cy="253" r="3.4" fill="#197A55" class="live-glow"/>
+  <text x="45" y="256.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#524B42">CSRF &amp; SQLi Defense  ·  Swagger OpenAPI Specs  ·  Razorpay / Stripe Gateways  ·  GitHub CI/CD  ·  MBA Finance &amp; IT Governance</text>
 </svg>

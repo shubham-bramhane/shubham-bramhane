@@ -11,7 +11,7 @@ docs/shubham-bramhane-overview.html ──▶ Chrome headless (--print-to-pdf) �
 
 ## 2. Technology Stack
 - **Markup:** GitHub Flavored Markdown + GitHub-allowed HTML (`<div>`, `<p>`, `<a>`, `<picture>`, `<source>`, `<img>`, `<details>`, `<summary>`, `<br/>`).
-- **Visual Assets:** 50 standalone SVG files (`25` Dark + `25` Light) using Obsidian Glass vertical sheen gradients, specular top hairlines, ambient corner halos, sacred-geometry mandala accents, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
+- **Visual Assets:** 50 standalone SVG files (`25` Dark + `25` Light) styled in the **Obsidian & Champagne Gold** luxury system (matte charcoal `#171619`/`#0C0C0E`, brushed gold `#D9B36C`/`#F3D999`, antique bronze `#C88A56`, muted jade `#58C495`, warm platinum `#D6D1C7`, warm alabaster light mode `#FFFDF9`/`#F6F2EA`), using specular top hairlines, ambient corner halos, sacred-geometry mandala accents, CSS `@keyframes`, and declarative SMIL `<animateMotion>` traveling data photons.
 - **Tooling:** Python 3 standard library only (`pathlib`, `html`, `math`, `xml.etree.ElementTree`, `re`, `sys`).
 - **PDF Pipeline:** Print-styled HTML/CSS compiled via Google Chrome headless (`--print-to-pdf`).
 

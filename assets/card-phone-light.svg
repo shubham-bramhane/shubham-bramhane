@@ -2,17 +2,23 @@
   <defs>
     
     <linearGradient id="ccCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F6F8FC"/>
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F6F2EA"/>
     </linearGradient>
     <linearGradient id="ccSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="ccGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A5518"/>
+      <stop offset="35%" stop-color="#B88735"/>
+      <stop offset="68%" stop-color="#9A6E24"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
     <radialGradient id="ccGlow" cx="12%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#E11D48" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#9A6E24" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="ccClip"><rect x="2" y="2" width="312" height="80" rx="14"/></clipPath>
   </defs>
@@ -20,14 +26,14 @@
     <rect x="2" y="2" width="312" height="80" fill="url(#ccCard)"/>
     <rect x="2" y="2" width="312" height="80" fill="url(#ccGlow)"/>
   </g>
-  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+  <rect x="2" y="2" width="312" height="80" rx="14" fill="none" stroke="#E5DDD0" stroke-width="1.2"/>
   <line x1="16" y1="2.8" x2="300" y2="2.8" stroke="url(#ccSpec)" stroke-width="1"/>
-  <rect x="16" y="2" width="46" height="3" rx="1.5" fill="#E11D48"/>
+  <rect x="16" y="2" width="46" height="2.8" rx="1.4" fill="#9A6E24"/>
   <g transform="translate(16, 21)">
-    <rect x="0" y="0" width="40" height="40" rx="10" fill="#FFF1F2" stroke="#FECDD3" stroke-width="1"/>
-    <path d="M14.5 13 C13.7 13 13 13.7 13 14.6 C13 21.1 18.1 26.2 24.6 26.2 C25.5 26.2 26.2 25.5 26.2 24.7 V22.5 C26.2 21.9 25.8 21.4 25.1 21.3 L22.7 20.8 C22.2 20.7 21.7 20.9 21.4 21.3 L20.4 22.4 C18.6 21.5 17.7 20.6 16.8 18.8 L17.9 17.8 C18.3 17.5 18.5 17 18.4 16.5 L17.9 14.1 C17.8 13.5 17.3 13 16.7 13 Z" fill="none" stroke="#E11D48" stroke-width="1.7" stroke-linejoin="round"/>
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
+    <path d="M14.5 13 C13.7 13 13 13.7 13 14.6 C13 21.1 18.1 26.2 24.6 26.2 C25.5 26.2 26.2 25.5 26.2 24.7 V22.5 C26.2 21.9 25.8 21.4 25.1 21.3 L22.7 20.8 C22.2 20.7 21.7 20.9 21.4 21.3 L20.4 22.4 C18.6 21.5 17.7 20.6 16.8 18.8 L17.9 17.8 C18.3 17.5 18.5 17 18.4 16.5 L17.9 14.1 C17.8 13.5 17.3 13 16.7 13 Z" fill="none" stroke="#9A6E24" stroke-width="1.7" stroke-linejoin="round"/>
   </g>
-  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0F172A">Phone</text>
-  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#E11D48">↗</text>
-  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#475569">+91-8857916707</text>
+  <text x="68" y="39" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#181512">Phone</text>
+  <text x="298" y="39" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#9A6E24">↗</text>
+  <text x="68" y="58" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" fill="#524B42">+91-8857916707</text>
 </svg>

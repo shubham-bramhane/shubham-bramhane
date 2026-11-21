@@ -2,30 +2,30 @@
   <defs>
     
     <linearGradient id="cnCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#151929"/>
-      <stop offset="100%" stop-color="#0B0D15"/>
+      <stop offset="0%" stop-color="#171619"/>
+      <stop offset="100%" stop-color="#0C0C0E"/>
     </linearGradient>
     <linearGradient id="cnSpec" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#F6E2B3" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#F6E2B3" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#F6E2B3" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="connectGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A855F7"/>
-      <stop offset="50%" stop-color="#FB923C"/>
-      <stop offset="100%" stop-color="#34D399"/>
+    <linearGradient id="cnGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A47B34"/>
+      <stop offset="35%" stop-color="#F3D999"/>
+      <stop offset="68%" stop-color="#D9B36C"/>
+      <stop offset="100%" stop-color="#A47B34"/>
     </linearGradient>
   </defs>
   
   <g>
-    <rect x="6" y="9" width="9" height="9" rx="3" fill="#FB923C"/>
-    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.7"/>
-    <text x="23" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#A8B1CC">INITIATE CONTACT &amp; CONNECT</text>
-    <line x1="256" y1="14" x2="735" y2="14" stroke="#202742" stroke-width="1"/>
-    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.1" fill="#6E7899">OPEN FOR ROLES, ARCHITECTURE &amp; ADVISORY</text>
+    <polygon points="10.5,8.5 15.5,13.5 10.5,18.5 5.5,13.5" fill="#D9B36C"/>
+    <text x="24" y="18.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.4" font-weight="700" letter-spacing="2.0" fill="#B5AEA3">INITIATE CONTACT &amp; CONNECT</text>
+    <line x1="256" y1="13.8" x2="735" y2="13.8" stroke="#262320" stroke-width="1"/>
+    <text x="994" y="18.5" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.0" fill="#7A746B">OPEN FOR ROLES, ARCHITECTURE &amp; ADVISORY</text>
   </g>
-  <rect x="4" y="35" width="992" height="49" rx="14" fill="url(#cnCard)" stroke="#242A45" stroke-width="1.2"/>
-  <rect x="4" y="35" width="5" height="49" rx="2.5" fill="url(#connectGrad)"/>
+  <rect x="4" y="35" width="992" height="49" rx="14" fill="url(#cnCard)" stroke="#29272C" stroke-width="1.2"/>
+  <rect x="4" y="35" width="5" height="49" rx="2.5" fill="url(#cnGoldFoil)"/>
   <line x1="20" y1="35.8" x2="980" y2="35.8" stroke="url(#cnSpec)" stroke-width="1"/>
-  <text x="26" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#F8FAFC">Explore my live Next.js portfolio, download my resume, or connect directly across channels below.</text>
+  <text x="26" y="64" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#FAF7F2">Explore my live portfolio, download my resume, or connect directly across channels below.</text>
 </svg>

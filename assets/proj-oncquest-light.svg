@@ -2,17 +2,23 @@
   <defs>
     
     <linearGradient id="prCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F6F8FC"/>
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F6F2EA"/>
     </linearGradient>
     <linearGradient id="prSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="prGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A5518"/>
+      <stop offset="35%" stop-color="#B88735"/>
+      <stop offset="68%" stop-color="#9A6E24"/>
+      <stop offset="100%" stop-color="#7A5518"/>
+    </linearGradient>
     <radialGradient id="prGlow" cx="92%" cy="18%" r="55%">
-      <stop offset="0%" stop-color="#059669" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#197A55" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#197A55" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="prClip"><rect x="2" y="2" width="484" height="158" rx="16"/></clipPath>
     <style>
@@ -25,31 +31,31 @@
     <rect x="2" y="2" width="484" height="158" fill="url(#prCard)"/>
     <rect x="2" y="2" width="484" height="158" fill="url(#prGlow)"/>
   </g>
-  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#E2E8F0" stroke-width="1.15"/>
+  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#E5DDD0" stroke-width="1.15"/>
   <line x1="20" y1="2.8" x2="468" y2="2.8" stroke="url(#prSpec)" stroke-width="1"/>
-  <rect x="20" y="2" width="58" height="3" rx="1.5" fill="#059669"/>
+  <rect x="20" y="2" width="58" height="2.8" rx="1.4" fill="#197A55"/>
 
   <!-- Mini Architectural Visual Preview Thumbnail -->
   <g transform="translate(382, 16)">
-    <rect x="0" y="0" width="88" height="54" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
-    <polyline points="10,36 22,36 29,22 37,40 46,16 56,34 65,24 78,20" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="78" cy="20" r="3.2" fill="#059669"/>
+    <rect x="0" y="0" width="88" height="54" rx="10" fill="#EBF7F1" stroke="#B2DEC8" stroke-width="1"/>
+    <polyline points="10,36 22,36 29,22 37,40 46,16 56,34 65,24 78,20" fill="none" stroke="#197A55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="78" cy="20" r="3.2" fill="#197A55"/>
   </g>
 
-  <rect x="20" y="16" width="109" height="22" rx="11" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.9"/>
-  <text x="74.5" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#059669">+30% VELOCITY</text>
-  <text x="139" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#64748B">2023–Present · Healthcare</text>
+  <rect x="20" y="16" width="109" height="22" rx="11" fill="#EBF7F1" stroke="#B2DEC8" stroke-width="0.9"/>
+  <text x="74.5" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#197A55">+30% VELOCITY</text>
+  <text x="139" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#7D756A">2023–Present · Healthcare</text>
 
-  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="800" fill="#0F172A">Oncquest Healthcare &amp; Admin</text>
-  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#475569">Pan-India diagnostic booking platform &amp; centralized admin</text>
-  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#475569">control center with Redis caching &amp; optimized SQL pipelines.</text>
+  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="800" fill="#181512">Oncquest Healthcare &amp; Admin</text>
+  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#524B42">Pan-India diagnostic booking platform &amp; centralized admin</text>
+  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#524B42">control center with Redis caching &amp; optimized SQL pipelines.</text>
 
-  <rect x="20" y="122" width="67" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">Laravel</text><rect x="93" y="122" width="74" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="130.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">React.js</text><rect x="173" y="122" width="60" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="203.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">Vue.js</text><rect x="239" y="122" width="54" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="266.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">Redis</text><rect x="299" y="122" width="54" height="23" rx="11" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
-<text x="326.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#475569">MySQL</text>
+  <rect x="20" y="122" width="67" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
+<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">Laravel</text><rect x="93" y="122" width="74" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
+<text x="130.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">React.js</text><rect x="173" y="122" width="60" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
+<text x="203.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">Vue.js</text><rect x="239" y="122" width="54" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
+<text x="266.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">Redis</text><rect x="299" y="122" width="54" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
+<text x="326.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">MySQL</text>
 
-  <circle cx="422" cy="133.5" r="3" fill="#059669" class="lp"/>
-  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#059669">LIVE ↗</text>
+  <circle cx="422" cy="133.5" r="3" fill="#197A55" class="lp"/>
+  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#197A55">LIVE ↗</text>
 </svg>

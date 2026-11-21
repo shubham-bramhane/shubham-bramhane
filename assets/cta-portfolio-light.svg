@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="238" height="58" viewBox="0 0 238 58" role="img" aria-label="Explore Portfolio">
   
   <defs>
-    <linearGradient id="ctaPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="52%" stop-color="#C026D3"/>
-      <stop offset="100%" stop-color="#F97316"/>
+    <linearGradient id="ctaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6E2B3"/>
+      <stop offset="48%" stop-color="#D9B36C"/>
+      <stop offset="100%" stop-color="#B3873B"/>
     </linearGradient>
     <linearGradient id="ctaSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.65"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="234" height="54" rx="14" fill="url(#ctaPrimary)" stroke="#D8B4FE" stroke-width="1.2"/>
+  <rect x="2" y="2" width="234" height="54" rx="13" fill="url(#ctaGold)" stroke="#F3D999" stroke-width="1.2"/>
   <line x1="18" y1="2.9" x2="220" y2="2.9" stroke="url(#ctaSpec)" stroke-width="1.1"/>
   <g transform="translate(14, 15)">
-    <circle cx="14" cy="14" r="9.5" fill="none" stroke="#FFFFFF" stroke-width="1.8"/><ellipse cx="14" cy="14" rx="4.2" ry="9.5" fill="none" stroke="#FFFFFF" stroke-width="1.5"/><line x1="4.5" y1="14" x2="23.5" y2="14" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="14" cy="14" r="9.5" fill="none" stroke="#15120C" stroke-width="1.8"/><ellipse cx="14" cy="14" rx="4.2" ry="9.5" fill="none" stroke="#15120C" stroke-width="1.5"/><line x1="4.5" y1="14" x2="23.5" y2="14" stroke="#15120C" stroke-width="1.5"/>
   </g>
-  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="800" fill="#FFFFFF">Explore Portfolio</text>
-  <text x="48" y="43.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="600" fill="#FDF4FF">LIVE NEXT.JS SHOWCASE</text>
-  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">↗</text>
+  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="800" fill="#15120C">Explore Portfolio</text>
+  <text x="48" y="43.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#3A2D15">LIVE NEXT.JS SHOWCASE</text>
+  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#15120C">↗</text>
 </svg>

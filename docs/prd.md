@@ -10,9 +10,9 @@ The original `README.md` for `github.com/shubham-bramhane` was an outdated plain
 
 ## 3. Goals & Non-Goals
 ### Goals
-- Align the GitHub Profile README 1:1 with the Obsidian + Electric Purple / Sunset Coral-Amber / Emerald Bento visual identity of `https://my-portfolio-beta-bay-93.vercel.app/`.
+- Craft an independent, luxury **Obsidian & Champagne Gold** visual identity (matte charcoal surfaces, brushed gold/sand accents, warm ivory typography, antique bronze, warm platinum, and muted jade indicators) harmonizing seamlessly with Shubham's golden-mandala GitHub avatar — intentionally distinct from his purple/coral web portfolio theme.
 - Provide native GitHub Dark & Light mode adaptation across all 50 self-hosted SVG visuals (`25` Dark + `25` Light) via `<picture>`.
-- Elevate the profile with Obsidian Glass depth (specular top rims, ambient corner halos, aurora silk ribbons), bespoke vector data visualizations (live photon sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar, stacked language spectrum), and a signature `धैर्यं सर्वत्र साधनम्।` Engineering Philosophy card echoing the GitHub avatar's golden sacred-geometry motif.
+- Elevate the profile with Obsidian Glass depth (specular gold rims, ambient corner halos, champagne silk ribbons), bespoke vector data visualizations (live photon sparkline, KPI mini-charts, animated 4-layer System Architecture Blueprint, 5-axis Engineering Capability Radar, stacked language spectrum), and a signature `धैर्यं सर्वत्र साधनम्।` Engineering Philosophy card echoing the GitHub avatar's golden sacred-geometry motif.
 - Make the Hero CTA bar (4 buttons), featured production case studies (6 cards), and contact channels (6 cards) individually clickable with responsive percentage widths (`24%`, `48.5%`, `32%`) so multi-column alignment holds across laptop and desktop screens.
 - Preserve all verified credentials from both the live portfolio and original README (Python Data Science libraries, AWS RDS/DynamoDB, Django/Flask/Laravel, MBA Finance & IT, B.E. CSE).
 
