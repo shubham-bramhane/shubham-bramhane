@@ -7,7 +7,7 @@
 
 ## 2. Regeneration & Validation Steps
 ```powershell
-# 1. Regenerate 50 Dark/Light SVG visuals (v4.0 Obsidian & Champagne Gold Edition)
+# 1. Regenerate 50 Dark/Light SVG visuals (v5.0 Arctic Midnight Blue & Glacier Cyan Edition)
 python scripts/generate_assets.py
 
 # 2. Regenerate shareable 1-page PDF overview (after editing docs/shubham-bramhane-overview.html)

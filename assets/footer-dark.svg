@@ -2,45 +2,44 @@
   <defs>
     
     <linearGradient id="ftCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#171619"/>
-      <stop offset="100%" stop-color="#0C0C0E"/>
+      <stop offset="0%" stop-color="#111A29"/>
+      <stop offset="100%" stop-color="#090E18"/>
     </linearGradient>
     <linearGradient id="ftSpec" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F6E2B3" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#F6E2B3" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="#F6E2B3" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#BAE6FD" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#BAE6FD" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="ftGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A47B34"/>
-      <stop offset="35%" stop-color="#F3D999"/>
-      <stop offset="68%" stop-color="#D9B36C"/>
-      <stop offset="100%" stop-color="#A47B34"/>
+    <linearGradient id="ftArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="48%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
     </linearGradient>
     <clipPath id="footClip">
       <rect x="4" y="4" width="992" height="68" rx="16"/>
     </clipPath>
     <linearGradient id="footWave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D9B36C" stop-opacity="0.20"/>
-      <stop offset="50%" stop-color="#C88A56" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#58C495" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.22"/>
     </linearGradient>
     <linearGradient id="footWave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D6D1C7" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#D9B36C" stop-opacity="0.14"/>
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.16"/>
     </linearGradient>
     <style>
-      @keyframes footShimmer { 0% { transform: translateX(-220px); opacity: 0; } 25% { opacity: 0.75; } 75% { opacity: 0.75; } 100% { transform: translateX(1020px); opacity: 0; } }
-      .shimmer { animation: footShimmer 6.5s ease-in-out infinite; }
+      @keyframes footShimmer { 0% { transform: translateX(-220px); opacity: 0; } 25% { opacity: 0.78; } 75% { opacity: 0.78; } 100% { transform: translateX(1020px); opacity: 0; } }
+      .shimmer { animation: footShimmer 6s ease-in-out infinite; }
     </style>
   </defs>
   <g clip-path="url(#footClip)">
     <rect x="4" y="4" width="992" height="68" fill="url(#ftCard)"/>
     <path d="M0 52 Q250 20 500 46 T1000 34 L1000 76 L0 76 Z" fill="url(#footWave1)"/>
     <path d="M0 40 Q280 64 560 32 T1000 50 L1000 76 L0 76 Z" fill="url(#footWave2)"/>
-    <rect x="4" y="69" width="992" height="3" fill="url(#ftGoldFoil)"/>
-    <rect x="0" y="69" width="180" height="3" fill="#FFF8E7" class="shimmer"/>
+    <rect x="4" y="69" width="992" height="3" fill="url(#ftArcticBar)"/>
+    <rect x="0" y="69" width="180" height="3" fill="#FFFFFF" class="shimmer"/>
   </g>
-  <rect x="4" y="4" width="992" height="68" rx="16" fill="none" stroke="#29272C" stroke-width="1.2"/>
+  <rect x="4" y="4" width="992" height="68" rx="16" fill="none" stroke="#1E2E47" stroke-width="1.2"/>
   <line x1="22" y1="4.8" x2="978" y2="4.8" stroke="url(#ftSpec)" stroke-width="1"/>
-  <text x="500" y="43" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="1.0" fill="#B5AEA3">&lt;SB/&gt;  SHUBHAM BRAMHANE  ·  ARCHITECTING HIGH-THROUGHPUT SYSTEMS WITH AI VELOCITY</text>
+  <text x="500" y="43" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.2" font-weight="700" letter-spacing="1.0" fill="#9EB0C7">&lt;SB/&gt;  SHUBHAM BRAMHANE  ·  ARCHITECTING HIGH-THROUGHPUT SYSTEMS WITH AI VELOCITY</text>
 </svg>

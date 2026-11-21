@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Deterministic SVG visual asset generator (v4.0 — Obsidian & Champagne Gold Luxury Edition)
+Deterministic SVG visual asset generator (v5.0 — Arctic Midnight Blue & Glacier Cyan Edition)
 for Shubham Bramhane's GitHub Profile README.
-Designed around matte obsidian charcoal, brushed champagne gold, warm ivory,
-antique bronze, and muted jade — harmonizing seamlessly with his GitHub avatar.
+Crisp deep navy-slate glass, electric sky cyan, royal sapphire, arctic mint & frosted silver.
 Generates 50 XML-validated Dark & Light SVGs into ./assets/.
 Zero third-party dependencies — Python standard library only.
 """
@@ -25,110 +24,112 @@ FONT_MONO = "'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMon
 THEMES = {
     "dark": {
         "canvas": "#0D1117",
-        "card_top": "#171619",
-        "card_bot": "#0C0C0E",
-        "card": "#121215",
-        "card_alt": "#161519",
-        "elevated": "#1C1B1F",
-        "code_bg": "#0A0A0C",
-        "code_bar": "#141317",
-        "border": "#29272C",
-        "border_strong": "#3B373E",
-        "specular": "#F6E2B3",
-        "specular_op": "0.20",
-        "dot_grid": "#332E27",
-        "dot_opacity": "0.55",
-        "grid_line": "#221F1B",
-        "text": "#FAF7F2",
-        "text_sub": "#B5AEA3",
-        "text_muted": "#7A746B",
-        "rule": "#262320",
-        # Signature Luxury Palette: Champagne Gold, Burnished Bronze, Muted Jade, Warm Platinum, Slate Steel
-        "gold": "#D9B36C",
-        "gold_bright": "#F3D999",
-        "gold_deep": "#A47B34",
-        "gold_bg": "#211B11",
-        "gold_border": "#574423",
-        "bronze": "#C88A56",
-        "bronze_bg": "#231912",
-        "bronze_border": "#593C27",
-        "jade": "#58C495",
-        "jade_bg": "#0F241B",
-        "jade_border": "#1F4F3B",
-        "platinum": "#D6D1C7",
-        "platinum_bg": "#1F1E22",
-        "platinum_border": "#3E3B42",
-        "steel": "#9CB0C9",
-        "steel_bg": "#161B22",
-        "steel_border": "#303B4A",
-        "glow_opacity": "0.24",
-        "card_glow": "0.14",
-        "code_kw": "#E6C27A",
-        "code_cls": "#FAF7F2",
-        "code_str": "#6FD4A8",
-        "code_prop": "#D6D1C7",
-        "code_num": "#5C564E",
-        "code_punct": "#8A8277",
-        "code_comment": "#6E685F",
-        "grad_text_1": "#FFF6DF",
-        "grad_text_2": "#E5C17B",
-        "grad_text_3": "#B88940",
-        "radar_ring": "#2E2A25",
-        "mandala": "#D9B36C",
-        "mandala_op": "0.19",
+        "card_top": "#111A29",
+        "card_bot": "#090E18",
+        "card": "#0D1422",
+        "card_alt": "#111B2C",
+        "elevated": "#152136",
+        "code_bg": "#060A12",
+        "code_bar": "#0D1524",
+        "border": "#1E2E47",
+        "border_strong": "#2A4163",
+        "specular": "#BAE6FD",
+        "specular_op": "0.22",
+        "dot_grid": "#243754",
+        "dot_opacity": "0.52",
+        "grid_line": "#16243B",
+        "text": "#F8FAFC",
+        "text_sub": "#9EB0C7",
+        "text_muted": "#647894",
+        "rule": "#1A2840",
+        # Signature Arctic Palette: Glacier Cyan, Royal Sapphire, Arctic Mint/Teal, Ice Silver, Deep Azure
+        "cyan": "#38BDF8",
+        "cyan_bright": "#7DD3FC",
+        "cyan_deep": "#0284C7",
+        "cyan_bg": "#0B243B",
+        "cyan_border": "#174E78",
+        "blue": "#60A5FA",
+        "blue_deep": "#2563EB",
+        "blue_bg": "#0E1F40",
+        "blue_border": "#1E3F7D",
+        "mint": "#2DD4BF",
+        "mint_bg": "#0A2828",
+        "mint_border": "#155754",
+        "silver": "#CBD5E1",
+        "silver_bg": "#152030",
+        "silver_border": "#2C3E59",
+        "sky": "#0EA5E9",
+        "sky_bg": "#092338",
+        "sky_border": "#144D73",
+        "glow_opacity": "0.26",
+        "card_glow": "0.15",
+        "code_kw": "#7DD3FC",
+        "code_cls": "#FFFFFF",
+        "code_str": "#5EEAD4",
+        "code_prop": "#CBD5E1",
+        "code_num": "#4A607D",
+        "code_punct": "#6E85A3",
+        "code_comment": "#566D8A",
+        "grad_text_1": "#FFFFFF",
+        "grad_text_2": "#7DD3FC",
+        "grad_text_3": "#38BDF8",
+        "radar_ring": "#21334F",
+        "ornament": "#38BDF8",
+        "ornament_op": "0.18",
     },
     "light": {
         "canvas": "#FFFFFF",
-        "card_top": "#FFFDF9",
-        "card_bot": "#F6F2EA",
-        "card": "#FFFDF9",
-        "card_alt": "#F9F6F0",
-        "elevated": "#F2EDE3",
-        "code_bg": "#121110",
-        "code_bar": "#1C1A18",
-        "border": "#E5DDD0",
-        "border_strong": "#D2C6B4",
+        "card_top": "#FFFFFF",
+        "card_bot": "#F3F8FE",
+        "card": "#FFFFFF",
+        "card_alt": "#F7FAFE",
+        "elevated": "#EDF4FC",
+        "code_bg": "#0A111F",
+        "code_bar": "#111B30",
+        "border": "#D8E4F2",
+        "border_strong": "#BFD3E8",
         "specular": "#FFFFFF",
         "specular_op": "0.95",
-        "dot_grid": "#D5C9B6",
+        "dot_grid": "#C4D6EA",
         "dot_opacity": "0.65",
-        "grid_line": "#EAE2D5",
-        "text": "#181512",
-        "text_sub": "#524B42",
-        "text_muted": "#7D756A",
-        "rule": "#E6DFD3",
-        "gold": "#9A6E24",
-        "gold_bright": "#B88735",
-        "gold_deep": "#7A5518",
-        "gold_bg": "#FAF2E1",
-        "gold_border": "#E2CBA0",
-        "bronze": "#9A562B",
-        "bronze_bg": "#FBF0E8",
-        "bronze_border": "#E5C5AE",
-        "jade": "#197A55",
-        "jade_bg": "#EBF7F1",
-        "jade_border": "#B2DEC8",
-        "platinum": "#47423B",
-        "platinum_bg": "#EFECE6",
-        "platinum_border": "#D6CFC4",
-        "steel": "#3E5673",
-        "steel_bg": "#EDF2F7",
-        "steel_border": "#C8D5E3",
+        "grid_line": "#E2ECF7",
+        "text": "#0B1324",
+        "text_sub": "#44556E",
+        "text_muted": "#6B7E99",
+        "rule": "#DCE7F4",
+        "cyan": "#0284C7",
+        "cyan_bright": "#0369A1",
+        "cyan_deep": "#0369A1",
+        "cyan_bg": "#E0F2FE",
+        "cyan_border": "#BAE6FD",
+        "blue": "#1D4ED8",
+        "blue_deep": "#1E40AF",
+        "blue_bg": "#DBEAFE",
+        "blue_border": "#BFDBFE",
+        "mint": "#0D9488",
+        "mint_bg": "#CCFBF1",
+        "mint_border": "#99F6E4",
+        "silver": "#334155",
+        "silver_bg": "#EEF2F6",
+        "silver_border": "#CBD5E1",
+        "sky": "#0284C7",
+        "sky_bg": "#E0F2FE",
+        "sky_border": "#7DD3FC",
         "glow_opacity": "0.14",
         "card_glow": "0.09",
-        "code_kw": "#E6C27A",
-        "code_cls": "#FAF7F2",
-        "code_str": "#6FD4A8",
-        "code_prop": "#E7E2D8",
-        "code_num": "#787166",
-        "code_punct": "#9C9488",
-        "code_comment": "#877F73",
-        "grad_text_1": "#6E4B12",
-        "grad_text_2": "#9A6E24",
-        "grad_text_3": "#B88438",
-        "radar_ring": "#D8CEBE",
-        "mandala": "#B08230",
-        "mandala_op": "0.20",
+        "code_kw": "#7DD3FC",
+        "code_cls": "#FFFFFF",
+        "code_str": "#5EEAD4",
+        "code_prop": "#E2E8F0",
+        "code_num": "#64748B",
+        "code_punct": "#94A3B8",
+        "code_comment": "#7A8FA8",
+        "grad_text_1": "#0B2447",
+        "grad_text_2": "#1D4ED8",
+        "grad_text_3": "#0284C7",
+        "radar_ring": "#C7D8EB",
+        "ornament": "#0284C7",
+        "ornament_op": "0.18",
     },
 }
 
@@ -148,11 +149,10 @@ def glass_defs(t: dict[str, str], prefix: str = "g") -> str:
       <stop offset="50%" stop-color="{t['specular']}" stop-opacity="{t['specular_op']}"/>
       <stop offset="100%" stop-color="{t['specular']}" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="{prefix}GoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="{t['gold_deep']}"/>
-      <stop offset="35%" stop-color="{t['gold_bright']}"/>
-      <stop offset="68%" stop-color="{t['gold']}"/>
-      <stop offset="100%" stop-color="{t['gold_deep']}"/>
+    <linearGradient id="{prefix}ArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{t['blue_deep']}"/>
+      <stop offset="48%" stop-color="{t['cyan']}"/>
+      <stop offset="100%" stop-color="{t['mint']}"/>
     </linearGradient>"""
 
 
@@ -178,12 +178,12 @@ def glass_card(
     return "\n  ".join(parts)
 
 
-def mandala_geometry(cx: float, cy: float, r: float, color: str, opacity: str) -> str:
-    """Delicate golden sacred-geometry mandala echoing Shubham's GitHub profile emblem."""
+def geometric_orbit(cx: float, cy: float, r: float, color: str, opacity: str) -> str:
+    """Precision celestial / geometric concentric ring ornament."""
     elems = [
         f'<circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="none" stroke="{color}" stroke-width="0.9" stroke-opacity="{opacity}"/>',
-        f'<circle cx="{cx}" cy="{cy}" r="{r * 0.78:.1f}" fill="none" stroke="{color}" stroke-width="0.7" stroke-dasharray="2.5 3.5" stroke-opacity="{opacity}"/>',
-        f'<circle cx="{cx}" cy="{cy}" r="{r * 0.52:.1f}" fill="none" stroke="{color}" stroke-width="0.9" stroke-opacity="{opacity}"/>',
+        f'<circle cx="{cx}" cy="{cy}" r="{r * 0.76:.1f}" fill="none" stroke="{color}" stroke-width="0.7" stroke-dasharray="2.5 3.5" stroke-opacity="{opacity}"/>',
+        f'<circle cx="{cx}" cy="{cy}" r="{r * 0.50:.1f}" fill="none" stroke="{color}" stroke-width="0.9" stroke-opacity="{opacity}"/>',
         f'<circle cx="{cx}" cy="{cy}" r="{r * 0.24:.1f}" fill="none" stroke="{color}" stroke-width="0.8" stroke-opacity="{opacity}"/>',
         f'<circle cx="{cx}" cy="{cy}" r="{r * 0.10:.1f}" fill="{color}" fill-opacity="{opacity}"/>',
     ]
@@ -193,8 +193,8 @@ def mandala_geometry(cx: float, cy: float, r: float, color: str, opacity: str) -
         y1 = cy + r * 0.24 * math.sin(ang)
         x2 = cx + r * math.cos(ang)
         y2 = cy + r * math.sin(ang)
-        px = cx + r * 0.65 * math.cos(ang + math.radians(11.25))
-        py = cy + r * 0.65 * math.sin(ang + math.radians(11.25))
+        px = cx + r * 0.64 * math.cos(ang + math.radians(11.25))
+        py = cy + r * 0.64 * math.sin(ang + math.radians(11.25))
         elems.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{color}" stroke-width="0.65" stroke-opacity="{opacity}"/>')
         elems.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="1.5" fill="{color}" fill-opacity="{opacity}"/>')
     return "\n    ".join(elems)
@@ -283,8 +283,9 @@ def render_section_header(title: str, subtitle: str, t: dict[str, str], accent: 
         rule_end = right_end
     return f"""
   <g>
-    <polygon points="10.5,8.5 15.5,13.5 10.5,18.5 5.5,13.5" fill="{accent}"/>
-    <text x="24" y="18.5" font-family="{FONT_MONO}" font-size="11.4" font-weight="700" letter-spacing="2.0" fill="{t['text_sub']}">{esc(title)}</text>
+    <rect x="6" y="9" width="9" height="9" rx="2.8" fill="{accent}"/>
+    <circle cx="10.5" cy="13.5" r="1.8" fill="#FFFFFF" fill-opacity="0.75"/>
+    <text x="23" y="18.5" font-family="{FONT_MONO}" font-size="11.4" font-weight="700" letter-spacing="1.9" fill="{t['text_sub']}">{esc(title)}</text>
     <line x1="{rule_x}" y1="13.8" x2="{max(rule_x + 20, rule_end)}" y2="13.8" stroke="{t['rule']}" stroke-width="1"/>
     {sub_svg}
   </g>"""
@@ -295,12 +296,12 @@ def build_hero(theme_name: str) -> str:
     w, h = 1000, 404
 
     hero_pills = [
-        ("✦ PHP 8.3 / Laravel 11", t["gold_bg"], t["gold_border"], t["gold_bright"], None),
+        ("✦ PHP 8.3 / Laravel 11", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], None),
         ("✦ Redis (+30% Velocity)", t["elevated"], t["border_strong"], t["text"], None),
         ("✦ React.js & Next.js 16", t["elevated"], t["border_strong"], t["text"], None),
         ("✦ MySQL / PostgreSQL", t["elevated"], t["border_strong"], t["text"], None),
         ("✦ Python & AWS", t["elevated"], t["border_strong"], t["text"], None),
-        ("✦ Google Antigravity & Copilot", t["gold_bg"], t["gold_border"], t["gold_bright"], None),
+        ("✦ Google Antigravity & Copilot", t["blue_bg"], t["blue_border"], t["blue"], None),
     ]
     pills_svg = render_pills_wrapped(hero_pills, start_x=36, start_y=302, max_x=564, row_gap=34, col_gap=8, height=27, font_size=10.8)
 
@@ -321,8 +322,8 @@ def build_hero(theme_name: str) -> str:
     cy = 98
     for idx, (num, markup) in enumerate(code_lines):
         if idx == 8:
-            code_svg.append(f'    <rect x="590" y="{cy - 13}" width="376" height="18" fill="#D9B36C" fill-opacity="0.11"/>')
-            code_svg.append(f'    <rect x="590" y="{cy - 13}" width="3" height="18" fill="{t["gold"]}"/>')
+            code_svg.append(f'    <rect x="590" y="{cy - 13}" width="376" height="18" fill="#38BDF8" fill-opacity="0.11"/>')
+            code_svg.append(f'    <rect x="590" y="{cy - 13}" width="3" height="18" fill="{t["cyan"]}"/>')
         code_svg.append(f'    <text x="602" y="{cy}" font-family="{FONT_MONO}" font-size="10.4" fill="{t["code_num"]}">{num}</text>')
         code_svg.append(f'    <text x="623" y="{cy}" font-family="{FONT_MONO}" font-size="10.4">{markup}</text>')
         cy += 18.2
@@ -339,100 +340,98 @@ def build_hero(theme_name: str) -> str:
       <circle cx="2" cy="2" r="1.0" fill="{t['dot_grid']}" fill-opacity="{t['dot_opacity']}"/>
     </pattern>
     <linearGradient id="sbSeal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F3D999"/>
-      <stop offset="50%" stop-color="#D4AF63"/>
-      <stop offset="100%" stop-color="#9A722C"/>
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
     </linearGradient>
     <linearGradient id="headlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="{t['grad_text_1']}"/>
-      <stop offset="48%" stop-color="{t['grad_text_2']}"/>
+      <stop offset="50%" stop-color="{t['grad_text_2']}"/>
       <stop offset="100%" stop-color="{t['grad_text_3']}"/>
     </linearGradient>
-    <linearGradient id="goldSilk" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="0"/>
-      <stop offset="32%" stop-color="{t['gold']}" stop-opacity="0.14"/>
-      <stop offset="68%" stop-color="{t['bronze']}" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/>
+    <linearGradient id="iceSilk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{t['blue_deep']}" stop-opacity="0"/>
+      <stop offset="32%" stop-color="{t['cyan']}" stop-opacity="0.14"/>
+      <stop offset="68%" stop-color="{t['mint']}" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="{t['blue']}" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="sparkArea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="0.34"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/>
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="{t['cyan']}" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="{t['glow_opacity']}"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="{t['glow_opacity']}"/>
+      <stop offset="100%" stop-color="{t['cyan']}" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowBronze" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="{t['bronze']}" stop-opacity="{t['glow_opacity']}"/>
-      <stop offset="100%" stop-color="{t['bronze']}" stop-opacity="0"/>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="{t['blue_deep']}" stop-opacity="{t['glow_opacity']}"/>
+      <stop offset="100%" stop-color="{t['blue_deep']}" stop-opacity="0"/>
     </radialGradient>
     <style>
-      @keyframes pulseDot {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.28; }} }}
+      @keyframes pulseDot {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.25; }} }}
       @keyframes blinkCursor {{ 0%, 49% {{ opacity: 1; }} 50%, 100% {{ opacity: 0; }} }}
-      @keyframes breathe {{ 0%, 100% {{ opacity: 0.92; }} 50% {{ opacity: 0.52; }} }}
+      @keyframes breathe {{ 0%, 100% {{ opacity: 0.92; }} 50% {{ opacity: 0.50; }} }}
       @keyframes twinkle {{ 0%, 100% {{ opacity: 0.85; }} 50% {{ opacity: 0.15; }} }}
       @keyframes flowTrace {{ from {{ stroke-dashoffset: 240; }} to {{ stroke-dashoffset: 0; }} }}
       @keyframes scanBeam {{ 0% {{ transform: translateX(-260px); opacity: 0; }} 22% {{ opacity: 0.85; }} 78% {{ opacity: 0.85; }} 100% {{ transform: translateX(1040px); opacity: 0; }} }}
-      .pulse-dot {{ animation: pulseDot 2.2s ease-in-out infinite; }}
+      .pulse-dot {{ animation: pulseDot 2.1s ease-in-out infinite; }}
       .blink {{ animation: blinkCursor 1.15s steps(1) infinite; }}
       .orb {{ animation: breathe 6.5s ease-in-out infinite; }}
-      .star1 {{ animation: twinkle 3.4s ease-in-out infinite; }}
-      .star2 {{ animation: twinkle 4.6s ease-in-out 1.2s infinite; }}
-      .trace-flow {{ stroke-dasharray: 28 18; animation: flowTrace 6.5s linear infinite; }}
-      .scan {{ animation: scanBeam 6s ease-in-out infinite; }}
+      .star1 {{ animation: twinkle 3.2s ease-in-out infinite; }}
+      .star2 {{ animation: twinkle 4.4s ease-in-out 1.1s infinite; }}
+      .trace-flow {{ stroke-dasharray: 28 18; animation: flowTrace 6s linear infinite; }}
+      .scan {{ animation: scanBeam 5.8s ease-in-out infinite; }}
     </style>
   </defs>
 
   <g clip-path="url(#heroClip)">
     <rect x="4" y="4" width="992" height="396" fill="url(#heroCard)"/>
     <rect x="4" y="4" width="992" height="396" fill="url(#dotGrid)"/>
-    <circle cx="130" cy="48" r="275" fill="url(#glowGold)" class="orb"/>
-    <circle cx="885" cy="345" r="265" fill="url(#glowBronze)" class="orb"/>
+    <circle cx="130" cy="48" r="275" fill="url(#glowCyan)" class="orb"/>
+    <circle cx="885" cy="345" r="270" fill="url(#glowBlue)" class="orb"/>
 
-    <!-- Subtle Champagne Silk Wave -->
-    <path d="M -20 264 C 185 194, 365 322, 580 228 C 760 152, 890 250, 1030 172 L 1030 236 C 880 308, 745 208, 565 282 C 350 368, 175 248, -20 316 Z" fill="url(#goldSilk)"/>
+    <!-- Glacier Silk Wave -->
+    <path d="M -20 264 C 185 194, 365 322, 580 228 C 760 152, 890 250, 1030 172 L 1030 236 C 880 308, 745 208, 565 282 C 350 368, 175 248, -20 316 Z" fill="url(#iceSilk)"/>
 
-    <!-- Golden Mandala Filigree Echoing GitHub Avatar -->
-    <g>{mandala_geometry(518, 76, 66, t['mandala'], '0.13')}</g>
+    <!-- Precision Celestial Blue Orbit Filigree -->
+    <g>{geometric_orbit(518, 76, 66, t['ornament'], '0.12')}</g>
 
-    <!-- Champagne Starlight Dust -->
-    <circle cx="518" cy="144" r="1.6" fill="{t['gold_bright']}" class="star1"/>
-    <circle cx="484" cy="92" r="1.3" fill="{t['gold']}" class="star2"/>
-    <circle cx="556" cy="240" r="1.5" fill="{t['jade']}" class="star1"/>
-    <circle cx="290" cy="66" r="1.2" fill="{t['gold_bright']}" class="star2"/>
+    <!-- Icy Starlight Particles -->
+    <circle cx="518" cy="144" r="1.7" fill="{t['cyan_bright']}" class="star1"/>
+    <circle cx="484" cy="92" r="1.4" fill="{t['blue']}" class="star2"/>
+    <circle cx="556" cy="240" r="1.5" fill="{t['mint']}" class="star1"/>
+    <circle cx="290" cy="66" r="1.2" fill="{t['cyan_bright']}" class="star2"/>
 
-    <!-- Architectural Gold Hairline Trace -->
-    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="{t['gold']}" stroke-width="0.95" stroke-opacity="0.24"/>
-    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="{t['gold_bright']}" stroke-width="1.3" stroke-opacity="0.55" class="trace-flow"/>
+    <!-- Animated Blueprint Trace -->
+    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="{t['cyan']}" stroke-width="0.95" stroke-opacity="0.22"/>
+    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="{t['cyan_bright']}" stroke-width="1.35" stroke-opacity="0.55" class="trace-flow"/>
 
-    <!-- Brushed Gold Top Foil Trim + Light Glint -->
-    <rect x="4" y="4" width="992" height="3.5" fill="url(#heroGoldFoil)"/>
-    <rect x="0" y="4" width="210" height="3.5" fill="#FFF8E7" fill-opacity="0.7" class="scan"/>
+    <!-- Arctic Top Beam + Light Glint -->
+    <rect x="4" y="4" width="992" height="3.8" fill="url(#heroArcticBar)"/>
+    <rect x="0" y="4" width="215" height="3.8" fill="#FFFFFF" fill-opacity="0.7" class="scan"/>
   </g>
   <rect x="4" y="4" width="992" height="396" rx="22" fill="none" stroke="{t['border']}" stroke-width="1.2"/>
-  <line x1="28" y1="8.4" x2="972" y2="8.4" stroke="url(#heroSpec)" stroke-width="1"/>
+  <line x1="28" y1="8.6" x2="972" y2="8.6" stroke="url(#heroSpec)" stroke-width="1"/>
 
   <!-- Top Badges Row -->
   <g>
-    <!-- Engraved Brushed Gold <SB/> Monogram Seal -->
     <rect x="36" y="28" width="66" height="28" rx="9" fill="url(#sbSeal)"/>
-    <text x="69" y="46.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="12.2" font-weight="800" fill="#14110C">&lt;SB/&gt;</text>
+    <text x="69" y="46.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="12.2" font-weight="800" fill="#FFFFFF">&lt;SB/&gt;</text>
 
-    <rect x="111" y="28" width="268" height="28" rx="14" fill="{t['jade_bg']}" stroke="{t['jade_border']}" stroke-width="1"/>
-    <circle cx="126" cy="42" r="3.6" fill="{t['jade']}" class="pulse-dot"/>
-    <text x="137" y="46" font-family="{FONT_SANS}" font-size="11.1" font-weight="600" fill="{t['jade']}">Available for High-Impact Roles &amp; Advisory</text>
+    <rect x="111" y="28" width="268" height="28" rx="14" fill="{t['mint_bg']}" stroke="{t['mint_border']}" stroke-width="1"/>
+    <circle cx="126" cy="42" r="3.6" fill="{t['mint']}" class="pulse-dot"/>
+    <text x="137" y="46" font-family="{FONT_SANS}" font-size="11.1" font-weight="600" fill="{t['mint']}">Available for High-Impact Roles &amp; Advisory</text>
 
-    <rect x="388" y="28" width="136" height="28" rx="14" fill="{t['gold_bg']}" stroke="{t['gold_border']}" stroke-width="1"/>
-    <text x="456" y="46" text-anchor="middle" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" fill="{t['gold_bright']}">✦ 3.5x AI Velocity</text>
+    <rect x="388" y="28" width="136" height="28" rx="14" fill="{t['cyan_bg']}" stroke="{t['cyan_border']}" stroke-width="1"/>
+    <text x="456" y="46" text-anchor="middle" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" fill="{t['cyan_bright']}">✦ 3.5x AI Velocity</text>
   </g>
 
-  <!-- Editorial Display Heading -->
+  <!-- Main Editorial Heading -->
   <g>
     <text x="36" y="108" font-family="{FONT_SANS}" font-size="43" font-weight="800" letter-spacing="-1.0" fill="{t['text']}">Shubham Bramhane</text>
     <text x="36" y="142" font-family="{FONT_SANS}" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">Architecting High-Throughput Systems</text>
     <text x="36" y="168" font-family="{FONT_SANS}" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">with AI-Augmented Velocity.</text>
 
-    <text x="36" y="198" font-family="{FONT_SANS}" font-size="12.5" font-weight="700" fill="{t['jade']}">Senior Full-Stack Architect &amp; AI-Augmented Engineer</text>
+    <text x="36" y="198" font-family="{FONT_SANS}" font-size="12.5" font-weight="700" fill="{t['mint']}">Senior Full-Stack Architect &amp; AI-Augmented Engineer</text>
     <text x="362" y="198" font-family="{FONT_MONO}" font-size="10.6" font-weight="600" fill="{t['text_muted']}">· 5+ Yrs · MBA Finance &amp; IT</text>
 
     <text x="36" y="227" font-family="{FONT_SANS}" font-size="12.7" fill="{t['text_sub']}">5+ years mastering PHP 8.3 / Laravel 11, high-concurrency MySQL/PostgreSQL</text>
@@ -443,40 +442,40 @@ def build_hero(theme_name: str) -> str:
   <!-- Stack Highlight Pills -->
   {pills_svg}
 
-  <!-- Right Obsidian IDE + Golden Photon Sparkline Window -->
+  <!-- Right Midnight IDE + Glacier Photon Sparkline Window -->
   <g>
-    <rect x="590" y="28" width="376" height="346" rx="16" fill="{t['code_bg']}" stroke="{t['gold_border']}" stroke-width="1.15"/>
+    <rect x="590" y="28" width="376" height="346" rx="16" fill="{t['code_bg']}" stroke="{t['cyan_border']}" stroke-width="1.15"/>
     <path d="M606 28 H950 A16 16 0 0 1 966 44 V63 H590 V44 A16 16 0 0 1 606 28 Z" fill="{t['code_bar']}"/>
-    <line x1="590" y1="63" x2="966" y2="63" stroke="#28241E" stroke-width="1"/>
-    <circle cx="609" cy="45.5" r="4.4" fill="#6E5A38"/>
-    <circle cx="624" cy="45.5" r="4.4" fill="#A6854B"/>
-    <circle cx="639" cy="45.5" r="4.4" fill="#DFBE7D"/>
-    <rect x="658" y="35.5" width="108" height="20" rx="6" fill="#211C14" stroke="#574423" stroke-width="0.9"/>
-    <text x="712" y="49" text-anchor="middle" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="#FAF7F2">Architecture.ts</text>
-    <text x="778" y="49" font-family="{FONT_MONO}" font-size="9.8" fill="#7A746B">Live-Telemetry.log</text>
+    <line x1="590" y1="63" x2="966" y2="63" stroke="#182740" stroke-width="1"/>
+    <circle cx="609" cy="45.5" r="4.5" fill="#FF5F56"/>
+    <circle cx="624" cy="45.5" r="4.5" fill="#FFBD2E"/>
+    <circle cx="639" cy="45.5" r="4.5" fill="#27C93F"/>
+    <rect x="658" y="35.5" width="108" height="20" rx="6" fill="#13223A" stroke="#244470" stroke-width="0.9"/>
+    <text x="712" y="49" text-anchor="middle" font-family="{FONT_MONO}" font-size="10" font-weight="600" fill="#F8FAFC">Architecture.ts</text>
+    <text x="778" y="49" font-family="{FONT_MONO}" font-size="9.8" fill="#647894">Live-Telemetry.log</text>
 
 {chr(10).join(code_svg)}
-    <rect x="642" y="252" width="6.5" height="12" rx="1.5" fill="{t['gold_bright']}" class="blink"/>
+    <rect x="642" y="252" width="6.5" height="12" rx="1.5" fill="{t['cyan_bright']}" class="blink"/>
 
     <!-- Embedded Live Throughput Telemetry Panel -->
-    <line x1="590" y1="278" x2="966" y2="278" stroke="#24201A" stroke-width="1"/>
-    <text x="606" y="295" font-family="{FONT_MONO}" font-size="9.1" font-weight="700" letter-spacing="0.9" fill="#8A8277">LIVE TELEMETRY · REDIS + SQL PROFILING</text>
-    <text x="950" y="295" text-anchor="end" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{t['gold_bright']}">+30% THROUGHPUT</text>
+    <line x1="590" y1="278" x2="966" y2="278" stroke="#16243B" stroke-width="1"/>
+    <text x="606" y="295" font-family="{FONT_MONO}" font-size="9.1" font-weight="700" letter-spacing="0.9" fill="#6E85A3">LIVE TELEMETRY · REDIS + SQL PROFILING</text>
+    <text x="950" y="295" text-anchor="end" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{t['cyan_bright']}">+30% THROUGHPUT</text>
 
-    <!-- Brushed Gold Area Sparkline + Animated Photon -->
+    <!-- Glacier Cyan Area Sparkline + Animated Photon -->
     <path d="{spark_path} L 946 342 L 606 342 Z" fill="url(#sparkArea)"/>
-    <path d="{spark_path}" fill="none" stroke="{t['gold_bright']}" stroke-width="2.1" stroke-linecap="round"/>
-    <circle r="3.2" fill="#FFF8E7">
-      <animateMotion dur="3.8s" repeatCount="indefinite" path="{spark_path}"/>
+    <path d="{spark_path}" fill="none" stroke="{t['cyan']}" stroke-width="2.2" stroke-linecap="round"/>
+    <circle r="3.2" fill="#FFFFFF">
+      <animateMotion dur="3.6s" repeatCount="indefinite" path="{spark_path}"/>
     </circle>
-    <circle cx="946" cy="299" r="3.8" fill="{t['jade']}" class="pulse-dot"/>
-    <circle cx="946" cy="299" r="8.2" fill="{t['jade']}" fill-opacity="0.22" class="pulse-dot"/>
+    <circle cx="946" cy="299" r="3.8" fill="{t['mint']}" class="pulse-dot"/>
+    <circle cx="946" cy="299" r="8.2" fill="{t['mint']}" fill-opacity="0.22" class="pulse-dot"/>
 
     <!-- Status Bar -->
-    <line x1="590" y1="347" x2="966" y2="347" stroke="#24201A" stroke-width="1"/>
-    <circle cx="607" cy="360.5" r="3.2" fill="{t['jade']}" class="pulse-dot"/>
-    <text x="617" y="364" font-family="{FONT_MONO}" font-size="9.6" fill="#A69F95">Production Ready · AI-Assisted</text>
-    <text x="950" y="364" text-anchor="end" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['gold_bright']}">99.9% UPTIME</text>
+    <line x1="590" y1="347" x2="966" y2="347" stroke="#16243B" stroke-width="1"/>
+    <circle cx="607" cy="360.5" r="3.2" fill="{t['mint']}" class="pulse-dot"/>
+    <text x="617" y="364" font-family="{FONT_MONO}" font-size="9.6" fill="#94A3B8">Production Ready · AI-Assisted</text>
+    <text x="950" y="364" text-anchor="end" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['cyan_bright']}">99.9% UPTIME</text>
   </g>
 </svg>
 """
@@ -486,21 +485,21 @@ def build_cta_button(theme_name: str, key: str, label: str, sub: str, style: str
     t = THEMES[theme_name]
     w, h = 238, 58
     if style == "primary":
-        bg_fill = "url(#ctaGold)"
-        stroke = "#F3D999"
-        fg = "#15120C"
-        sub_fg = "#3A2D15"
-        icon_col = "#15120C"
+        bg_fill = "url(#ctaBlue)"
+        stroke = "#7DD3FC"
+        fg = "#FFFFFF"
+        sub_fg = "#E0F2FE"
+        icon_col = "#FFFFFF"
         defs = """
   <defs>
-    <linearGradient id="ctaGold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F6E2B3"/>
-      <stop offset="48%" stop-color="#D9B36C"/>
-      <stop offset="100%" stop-color="#B3873B"/>
+    <linearGradient id="ctaBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="52%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
     </linearGradient>
     <linearGradient id="ctaSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
   </defs>"""
@@ -547,43 +546,43 @@ def build_metrics(theme_name: str) -> str:
             "5+ Yrs",
             "Laravel Ecosystem",
             "Enterprise & Microservices",
-            t["gold"],
+            t["cyan"],
             "m0",
-            f'<rect x="164" y="50" width="9" height="16" rx="2.5" fill="{t["gold"]}" fill-opacity="0.28"/>'
-            f'<rect x="177" y="42" width="9" height="24" rx="2.5" fill="{t["gold"]}" fill-opacity="0.48"/>'
-            f'<rect x="190" y="33" width="9" height="33" rx="2.5" fill="{t["gold"]}" fill-opacity="0.72"/>'
-            f'<rect x="203" y="21" width="9" height="45" rx="2.5" fill="{t["gold_bright"]}"/>',
+            f'<rect x="164" y="50" width="9" height="16" rx="2.5" fill="{t["cyan"]}" fill-opacity="0.28"/>'
+            f'<rect x="177" y="42" width="9" height="24" rx="2.5" fill="{t["cyan"]}" fill-opacity="0.48"/>'
+            f'<rect x="190" y="33" width="9" height="33" rx="2.5" fill="{t["cyan"]}" fill-opacity="0.72"/>'
+            f'<rect x="203" y="21" width="9" height="45" rx="2.5" fill="{t["cyan"]}"/>',
         ),
         (
             "+30%",
             "Query Velocity",
             "Redis & SQL Profiling",
-            t["jade"],
+            t["mint"],
             "m1",
-            f'<path d="M 156 60 C 170 57, 178 48, 188 43 C 198 39, 204 29, 214 23 L 214 64 L 156 64 Z" fill="{t["jade"]}" fill-opacity="0.18"/>'
-            f'<path d="M 156 60 C 170 57, 178 48, 188 43 C 198 39, 204 29, 214 23" fill="none" stroke="{t["jade"]}" stroke-width="2.2" stroke-linecap="round"/>'
-            f'<circle cx="214" cy="23" r="3.6" fill="{t["jade"]}"/>',
+            f'<path d="M 156 60 C 170 57, 178 48, 188 43 C 198 39, 204 29, 214 23 L 214 64 L 156 64 Z" fill="{t["mint"]}" fill-opacity="0.18"/>'
+            f'<path d="M 156 60 C 170 57, 178 48, 188 43 C 198 39, 204 29, 214 23" fill="none" stroke="{t["mint"]}" stroke-width="2.2" stroke-linecap="round"/>'
+            f'<circle cx="214" cy="23" r="3.6" fill="{t["mint"]}"/>',
         ),
         (
             "3.5x",
             "AI Sprint Velocity",
             "Antigravity & Copilot",
-            t["gold_bright"],
+            t["blue"],
             "m2",
             f'<circle cx="192" cy="42" r="20" fill="none" stroke="{t["border_strong"]}" stroke-width="4.2"/>'
-            f'<circle cx="192" cy="42" r="20" fill="none" stroke="{t["gold"]}" stroke-width="4.2" stroke-dasharray="104 130" stroke-linecap="round" transform="rotate(-90 192 42)"/>'
-            f'<text x="192" y="45.5" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="800" fill="{t["gold_bright"]}">AI</text>',
+            f'<circle cx="192" cy="42" r="20" fill="none" stroke="{t["blue"]}" stroke-width="4.2" stroke-dasharray="104 130" stroke-linecap="round" transform="rotate(-90 192 42)"/>'
+            f'<text x="192" y="45.5" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="800" fill="{t["cyan_bright"]}">AI</text>',
         ),
         (
             "10+ hrs",
             "Weekly Automated",
             "Python Data Pipelines",
-            t["bronze"],
+            t["sky"],
             "m3",
-            f'<line x1="164" y1="43" x2="212" y2="43" stroke="{t["bronze"]}" stroke-width="2" stroke-dasharray="4 3"/>'
-            f'<circle cx="164" cy="43" r="5" fill="{t["bronze_bg"]}" stroke="{t["bronze"]}" stroke-width="1.8"/>'
-            f'<circle cx="188" cy="43" r="5" fill="{t["bronze_bg"]}" stroke="{t["bronze"]}" stroke-width="1.8"/>'
-            f'<circle cx="212" cy="43" r="5.5" fill="{t["bronze"]}"/>',
+            f'<line x1="164" y1="43" x2="212" y2="43" stroke="{t["sky"]}" stroke-width="2" stroke-dasharray="4 3"/>'
+            f'<circle cx="164" cy="43" r="5" fill="{t["sky_bg"]}" stroke="{t["sky"]}" stroke-width="1.8"/>'
+            f'<circle cx="188" cy="43" r="5" fill="{t["sky_bg"]}" stroke="{t["sky"]}" stroke-width="1.8"/>'
+            f'<circle cx="212" cy="43" r="5.5" fill="{t["sky"]}"/>',
         ),
     ]
 
@@ -636,22 +635,22 @@ def build_architecture_flow(theme_name: str) -> str:
     <clipPath id="bpClip">
       <rect x="4" y="36" width="992" height="238" rx="18"/>
     </clipPath>
-    <radialGradient id="n1Glow" cx="20%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['platinum']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['platinum']}" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n2Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['gold']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n3Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['jade']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['jade']}" stop-opacity="0"/></radialGradient>
-    <radialGradient id="n4Glow" cx="80%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['bronze']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['bronze']}" stop-opacity="0"/></radialGradient>
-    <linearGradient id="flow1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['platinum']}"/><stop offset="100%" stop-color="{t['gold']}"/></linearGradient>
-    <linearGradient id="flow2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['gold']}"/><stop offset="100%" stop-color="{t['jade']}"/></linearGradient>
-    <linearGradient id="flow3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['jade']}"/><stop offset="100%" stop-color="{t['bronze']}"/></linearGradient>
+    <radialGradient id="n1Glow" cx="20%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['silver']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['silver']}" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n2Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['cyan']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['cyan']}" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n3Glow" cx="50%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['mint']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['mint']}" stop-opacity="0"/></radialGradient>
+    <radialGradient id="n4Glow" cx="80%" cy="0%" r="85%"><stop offset="0%" stop-color="{t['blue']}" stop-opacity="{t['card_glow']}"/><stop offset="100%" stop-color="{t['blue']}" stop-opacity="0"/></radialGradient>
+    <linearGradient id="flow1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['silver']}"/><stop offset="100%" stop-color="{t['cyan']}"/></linearGradient>
+    <linearGradient id="flow2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['cyan']}"/><stop offset="100%" stop-color="{t['mint']}"/></linearGradient>
+    <linearGradient id="flow3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="{t['mint']}"/><stop offset="100%" stop-color="{t['blue']}"/></linearGradient>
     <style>
       @keyframes packetFlow {{ from {{ stroke-dashoffset: 64; }} to {{ stroke-dashoffset: 0; }} }}
       @keyframes softBlink {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.3; }} }}
-      .flow-line {{ stroke-dasharray: 7 7; animation: packetFlow 1.8s linear infinite; }}
+      .flow-line {{ stroke-dasharray: 7 7; animation: packetFlow 1.7s linear infinite; }}
       .live-glow {{ animation: softBlink 2.2s ease-in-out infinite; }}
     </style>
   </defs>
 
-  {render_section_header("SYSTEM ARCHITECTURE BLUEPRINT", "HOW I ARCHITECT HIGH-THROUGHPUT PRODUCTION PLATFORMS", t, t["gold"], w)}
+  {render_section_header("SYSTEM ARCHITECTURE BLUEPRINT", "HOW I ARCHITECT HIGH-THROUGHPUT PRODUCTION PLATFORMS", t, t["cyan"], w)}
 
   <g clip-path="url(#bpClip)">
     <rect x="4" y="36" width="992" height="238" fill="url(#bpCard)"/>
@@ -660,80 +659,80 @@ def build_architecture_flow(theme_name: str) -> str:
   <rect x="4" y="36" width="992" height="238" rx="18" fill="none" stroke="{t['border']}" stroke-width="1.2"/>
   <line x1="24" y1="36.8" x2="976" y2="36.8" stroke="url(#bpSpec)" stroke-width="1"/>
 
-  <!-- Animated Champagne-Gold Connector Streams + Gliding Light Orbs -->
+  <!-- Animated Glacier-Blue Fiber-Optic Pipes + Gliding Light Orbs -->
   <g>
-    <line x1="226" y1="136" x2="274" y2="136" stroke="url(#flow1)" stroke-width="2.2" class="flow-line"/>
-    <polygon points="274,136 266,131 266,141" fill="{t['gold']}"/>
-    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" repeatCount="indefinite" path="M 226 136 L 269 136"/></circle>
+    <line x1="226" y1="136" x2="274" y2="136" stroke="url(#flow1)" stroke-width="2.3" class="flow-line"/>
+    <polygon points="274,136 266,131 266,141" fill="{t['cyan']}"/>
+    <circle r="3.3" fill="#FFFFFF"><animateMotion dur="1.7s" repeatCount="indefinite" path="M 226 136 L 269 136"/></circle>
 
-    <line x1="496" y1="136" x2="544" y2="136" stroke="url(#flow2)" stroke-width="2.2" class="flow-line"/>
-    <polygon points="544,136 536,131 536,141" fill="{t['jade']}"/>
-    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" begin="0.55s" repeatCount="indefinite" path="M 496 136 L 539 136"/></circle>
+    <line x1="496" y1="136" x2="544" y2="136" stroke="url(#flow2)" stroke-width="2.3" class="flow-line"/>
+    <polygon points="544,136 536,131 536,141" fill="{t['mint']}"/>
+    <circle r="3.3" fill="#FFFFFF"><animateMotion dur="1.7s" begin="0.55s" repeatCount="indefinite" path="M 496 136 L 539 136"/></circle>
 
-    <line x1="752" y1="136" x2="796" y2="136" stroke="url(#flow3)" stroke-width="2.2" class="flow-line"/>
-    <polygon points="796,136 788,131 788,141" fill="{t['bronze']}"/>
-    <circle r="3.3" fill="#FFF6DF"><animateMotion dur="1.7s" begin="1.1s" repeatCount="indefinite" path="M 752 136 L 791 136"/></circle>
+    <line x1="752" y1="136" x2="796" y2="136" stroke="url(#flow3)" stroke-width="2.3" class="flow-line"/>
+    <polygon points="796,136 788,131 788,141" fill="{t['blue']}"/>
+    <circle r="3.3" fill="#FFFFFF"><animateMotion dur="1.7s" begin="1.1s" repeatCount="indefinite" path="M 752 136 L 791 136"/></circle>
   </g>
 
   <!-- Node 1: Client & UI Edge -->
   <g transform="translate(24, 58)">
-    <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#bpCard)" stroke="{t['platinum_border']}" stroke-width="1.2"/>
+    <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#bpCard)" stroke="{t['silver_border']}" stroke-width="1.2"/>
     <rect x="0" y="0" width="202" height="154" rx="14" fill="url(#n1Glow)"/>
-    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['platinum']}"/>
-    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['platinum']}">01 · CLIENT &amp; UI EDGE</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['silver']}"/>
+    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['silver']}">01 · CLIENT &amp; UI EDGE</text>
     <text x="16" y="48" font-family="{FONT_SANS}" font-size="14.5" font-weight="700" fill="{t['text']}">Reactive Interfaces</text>
     <text x="16" y="73" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ React.js &amp; Next.js 16</text>
     <text x="16" y="93" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ Vue.js / Vuex · Blade</text>
     <text x="16" y="113" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ TypeScript · Tailwind</text>
-    <rect x="16" y="125" width="170" height="19" rx="6" fill="{t['platinum_bg']}" stroke="{t['platinum_border']}" stroke-width="0.7"/>
-    <text x="101" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['platinum']}">SPA · SSR · RESPONSIVE</text>
+    <rect x="16" y="125" width="170" height="19" rx="6" fill="{t['silver_bg']}" stroke="{t['silver_border']}" stroke-width="0.7"/>
+    <text x="101" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['silver']}">SPA · SSR · RESPONSIVE</text>
   </g>
 
   <!-- Node 2: Core API + AI-Augmented Engine -->
   <g transform="translate(274, 54)">
-    <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#bpCard)" stroke="{t['gold_border']}" stroke-width="1.4"/>
+    <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#bpCard)" stroke="{t['cyan_border']}" stroke-width="1.4"/>
     <rect x="0" y="0" width="222" height="162" rx="14" fill="url(#n2Glow)"/>
-    <rect x="16" y="0" width="60" height="2.8" rx="1.4" fill="url(#bpGoldFoil)"/>
-    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['gold_bright']}">02 · APPLICATION &amp; AI CORE</text>
+    <rect x="16" y="0" width="60" height="2.8" rx="1.4" fill="url(#bpArcticBar)"/>
+    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['cyan_bright']}">02 · APPLICATION &amp; AI CORE</text>
     <text x="16" y="48" font-family="{FONT_SANS}" font-size="14.5" font-weight="700" fill="{t['text']}">Laravel 11 &amp; Python</text>
     <text x="16" y="72" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ PHP 8.3 · REST / Swagger</text>
     <text x="16" y="91" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ Django · Flask · Fast ETL</text>
-    <rect x="14" y="107" width="194" height="43" rx="9" fill="{t['gold_bg']}" stroke="{t['gold_border']}" stroke-width="1"/>
-    <text x="24" y="124" font-family="{FONT_MONO}" font-size="9.3" font-weight="700" fill="{t['gold_bright']}">✦ 3.5x AI VELOCITY ENGINE</text>
+    <rect x="14" y="107" width="194" height="43" rx="9" fill="{t['blue_bg']}" stroke="{t['blue_border']}" stroke-width="1"/>
+    <text x="24" y="124" font-family="{FONT_MONO}" font-size="9.3" font-weight="700" fill="{t['cyan_bright']}">✦ 3.5x AI VELOCITY ENGINE</text>
     <text x="24" y="140" font-family="{FONT_MONO}" font-size="9.1" fill="{t['text_sub']}">Antigravity · Copilot · Claude</text>
   </g>
 
   <!-- Node 3: Data, Cache & Cloud -->
   <g transform="translate(544, 58)">
-    <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#bpCard)" stroke="{t['jade_border']}" stroke-width="1.2"/>
+    <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#bpCard)" stroke="{t['mint_border']}" stroke-width="1.2"/>
     <rect x="0" y="0" width="208" height="154" rx="14" fill="url(#n3Glow)"/>
-    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['jade']}"/>
-    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['jade']}">03 · DATA &amp; CLOUD LAYER</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['mint']}"/>
+    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['mint']}">03 · DATA &amp; CLOUD LAYER</text>
     <text x="16" y="48" font-family="{FONT_SANS}" font-size="14.5" font-weight="700" fill="{t['text']}">Cache &amp; Persistence</text>
     <text x="16" y="73" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ Redis Cache (+30% Speed)</text>
     <text x="16" y="93" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ MySQL · PostgreSQL</text>
     <text x="16" y="113" font-family="{FONT_MONO}" font-size="10.3" fill="{t['text_sub']}">▸ AWS RDS &amp; DynamoDB</text>
-    <rect x="16" y="125" width="176" height="19" rx="6" fill="{t['jade_bg']}" stroke="{t['jade_border']}" stroke-width="0.7"/>
-    <text x="104" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['jade']}">INDEXED · HIGH-CONCURRENCY</text>
+    <rect x="16" y="125" width="176" height="19" rx="6" fill="{t['mint_bg']}" stroke="{t['mint_border']}" stroke-width="0.7"/>
+    <text x="104" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['mint']}">INDEXED · HIGH-CONCURRENCY</text>
   </g>
 
   <!-- Node 4: Production Scale -->
   <g transform="translate(796, 58)">
-    <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#bpCard)" stroke="{t['bronze_border']}" stroke-width="1.2"/>
+    <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#bpCard)" stroke="{t['blue_border']}" stroke-width="1.2"/>
     <rect x="0" y="0" width="180" height="154" rx="14" fill="url(#n4Glow)"/>
-    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['bronze']}"/>
-    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['bronze']}">04 · PRODUCTION</text>
+    <rect x="16" y="0" width="44" height="2.8" rx="1.4" fill="{t['blue']}"/>
+    <text x="16" y="25" font-family="{FONT_MONO}" font-size="9.4" font-weight="700" fill="{t['blue']}">04 · PRODUCTION</text>
     <text x="16" y="48" font-family="{FONT_SANS}" font-size="14.5" font-weight="700" fill="{t['text']}">Real-World Impact</text>
     <text x="16" y="73" font-family="{FONT_MONO}" font-size="10.1" fill="{t['text_sub']}">✦ Pan-India Diagnostics</text>
     <text x="16" y="93" font-family="{FONT_MONO}" font-size="10.1" fill="{t['text_sub']}">✦ Big Basket Scale TMS</text>
     <text x="16" y="113" font-family="{FONT_MONO}" font-size="10.1" fill="{t['text_sub']}">✦ 10+ hrs/wk Automated</text>
-    <rect x="16" y="125" width="148" height="19" rx="6" fill="{t['bronze_bg']}" stroke="{t['bronze_border']}" stroke-width="0.7"/>
-    <text x="90" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['bronze']}">ENTERPRISE DELIVERY</text>
+    <rect x="16" y="125" width="148" height="19" rx="6" fill="{t['blue_bg']}" stroke="{t['blue_border']}" stroke-width="0.7"/>
+    <text x="90" y="137.8" text-anchor="middle" font-family="{FONT_MONO}" font-size="9" font-weight="700" fill="{t['blue']}">ENTERPRISE DELIVERY</text>
   </g>
 
   <!-- Bottom Architecture Telemetry Strip -->
   <line x1="24" y1="232" x2="976" y2="232" stroke="{t['rule']}" stroke-width="1"/>
-  <circle cx="34" cy="253" r="3.4" fill="{t['jade']}" class="live-glow"/>
+  <circle cx="34" cy="253" r="3.4" fill="{t['mint']}" class="live-glow"/>
   <text x="45" y="256.5" font-family="{FONT_MONO}" font-size="10" fill="{t['text_sub']}">CSRF &amp; SQLi Defense  ·  Swagger OpenAPI Specs  ·  Razorpay / Stripe Gateways  ·  GitHub CI/CD  ·  MBA Finance &amp; IT Governance</text>
 </svg>
 """
@@ -746,11 +745,11 @@ def build_tech_stack_radar(theme_name: str) -> str:
     cx, cy = 175, 224
     max_r = 80
     axes = [
-        ("Laravel & Backend", 0.96, -90, 0, -13, "middle", t["gold_bright"]),
-        ("AI Velocity", 0.94, -18, 10, -2, "start", t["gold"]),
-        ("DB & Redis", 0.93, 54, 8, 14, "start", t["jade"]),
-        ("Python & AWS", 0.88, 126, -8, 14, "end", t["bronze"]),
-        ("Frontend UI", 0.90, 198, -10, -2, "end", t["platinum"]),
+        ("Laravel & Backend", 0.96, -90, 0, -13, "middle", t["cyan_bright"]),
+        ("AI Velocity", 0.94, -18, 10, -2, "start", t["blue"]),
+        ("DB & Redis", 0.93, 54, 8, 14, "start", t["mint"]),
+        ("Python & AWS", 0.88, 126, -8, 14, "end", t["sky"]),
+        ("Frontend UI", 0.90, 198, -10, -2, "end", t["silver"]),
     ]
 
     rings = []
@@ -784,23 +783,23 @@ def build_tech_stack_radar(theme_name: str) -> str:
         )
 
     backend_pills = [
-        ("PHP 8.3 & Laravel 11", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold"]),
+        ("PHP 8.3 & Laravel 11", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan"]),
         ("REST & Swagger", t["elevated"], t["border"], t["text"], None),
-        ("Python", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold"]),
+        ("Python", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan"]),
         ("Django", t["elevated"], t["border"], t["text"], None),
         ("Flask", t["elevated"], t["border"], t["text"], None),
         ("Node.js", t["elevated"], t["border"], t["text"], None),
-        ("Pandas", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("NumPy", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("SciPy", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("Scikit-learn", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("OpenCV", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("Matplotlib", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
-        ("Seaborn", t["bronze_bg"], t["bronze_border"], t["bronze"], None),
+        ("Pandas", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("NumPy", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("SciPy", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("Scikit-learn", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("OpenCV", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("Matplotlib", t["blue_bg"], t["blue_border"], t["blue"], None),
+        ("Seaborn", t["blue_bg"], t["blue_border"], t["blue"], None),
     ]
     ai_pills = [
-        ("Google Antigravity IDE", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold_bright"]),
-        ("GitHub Copilot", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold_bright"]),
+        ("Google Antigravity IDE", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan_bright"]),
+        ("GitHub Copilot", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan_bright"]),
         ("Claude 3.7", t["elevated"], t["border"], t["text"], None),
         ("GPT-4", t["elevated"], t["border"], t["text"], None),
         ("Prompt Architecture", t["elevated"], t["border"], t["text"], None),
@@ -808,8 +807,8 @@ def build_tech_stack_radar(theme_name: str) -> str:
         ("Synthetic QA", t["elevated"], t["border"], t["text"], None),
     ]
     frontend_pills = [
-        ("React.js", t["platinum_bg"], t["platinum_border"], t["platinum"], t["gold"]),
-        ("Next.js 16", t["platinum_bg"], t["platinum_border"], t["platinum"], t["gold"]),
+        ("React.js", t["blue_bg"], t["blue_border"], t["blue"], t["cyan"]),
+        ("Next.js 16", t["blue_bg"], t["blue_border"], t["blue"], t["cyan"]),
         ("Vue.js & Vuex", t["elevated"], t["border"], t["text"], None),
         ("TypeScript", t["elevated"], t["border"], t["text"], None),
         ("JS / AJAX", t["elevated"], t["border"], t["text"], None),
@@ -817,10 +816,10 @@ def build_tech_stack_radar(theme_name: str) -> str:
         ("Blade", t["elevated"], t["border"], t["text"], None),
     ]
     cloud_pills = [
-        ("MySQL", t["jade_bg"], t["jade_border"], t["jade"], t["jade"]),
-        ("PostgreSQL", t["jade_bg"], t["jade_border"], t["jade"], t["jade"]),
-        ("Redis Cache", t["jade_bg"], t["jade_border"], t["jade"], t["jade"]),
-        ("AWS RDS & DynamoDB", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold"]),
+        ("MySQL", t["mint_bg"], t["mint_border"], t["mint"], t["mint"]),
+        ("PostgreSQL", t["mint_bg"], t["mint_border"], t["mint"], t["mint"]),
+        ("Redis Cache", t["mint_bg"], t["mint_border"], t["mint"], t["mint"]),
+        ("AWS RDS & DynamoDB", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan"]),
         ("GitHub CI/CD", t["elevated"], t["border"], t["text"], None),
         ("JIRA", t["elevated"], t["border"], t["text"], None),
         ("Postman", t["elevated"], t["border"], t["text"], None),
@@ -836,73 +835,73 @@ def build_tech_stack_radar(theme_name: str) -> str:
   <defs>
     {glass_defs(t, "ts")}
     <radialGradient id="radAmb" cx="50%" cy="50%" r="55%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/>
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="{t['cyan']}" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="radarFill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{t['gold_bright']}" stop-opacity="0.38"/>
-      <stop offset="55%" stop-color="{t['jade']}" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="{t['bronze']}" stop-opacity="0.34"/>
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="0.40"/>
+      <stop offset="55%" stop-color="{t['blue_deep']}" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="{t['mint']}" stop-opacity="0.35"/>
     </linearGradient>
     <linearGradient id="radarStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="{t['gold_bright']}"/>
-      <stop offset="50%" stop-color="{t['jade']}"/>
-      <stop offset="100%" stop-color="{t['bronze']}"/>
+      <stop offset="0%" stop-color="{t['cyan_bright']}"/>
+      <stop offset="50%" stop-color="{t['blue']}"/>
+      <stop offset="100%" stop-color="{t['mint']}"/>
     </linearGradient>
   </defs>
 
-  {render_section_header("CAPABILITY RADAR & TECH STACK", "FULL-STACK DEPTH + AI ACCELERATORS", t, t["gold"], w)}
+  {render_section_header("CAPABILITY RADAR & TECH STACK", "FULL-STACK DEPTH + AI ACCELERATORS", t, t["cyan"], w)}
 
-  <!-- Left Bento: 5-Axis Chronometer Capability Radar -->
+  <!-- Left Bento: 5-Axis Glacier Radar -->
   <g>
-    {glass_card(4, 38, 342, 382, 16, t, accent="url(#tsGoldFoil)", prefix="ts")}
+    {glass_card(4, 38, 342, 382, 16, t, accent="url(#tsArcticBar)", prefix="ts")}
     <circle cx="{cx}" cy="{cy}" r="115" fill="url(#radAmb)"/>
-    <text x="24" y="66" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.1" fill="{t['gold_bright']}">ENGINEERING RADAR</text>
+    <text x="24" y="66" font-family="{FONT_MONO}" font-size="11" font-weight="700" letter-spacing="1.1" fill="{t['cyan_bright']}">ENGINEERING RADAR</text>
     <text x="24" y="84" font-family="{FONT_SANS}" font-size="11.5" fill="{t['text_muted']}">Multi-domain production capability map</text>
 
     {"".join(rings)}
     {"".join(spokes)}
     <polygon points="{" ".join(poly_pts)}" fill="url(#radarFill)" stroke="url(#radarStroke)" stroke-width="2.2" stroke-linejoin="round"/>
-    <polygon points="{" ".join(inner_pts)}" fill="none" stroke="{t['gold_bright']}" stroke-opacity="0.20" stroke-width="1" stroke-dasharray="3 3"/>
+    <polygon points="{" ".join(inner_pts)}" fill="none" stroke="{t['cyan_bright']}" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="3 3"/>
     {"".join(vertex_dots)}
     {"".join(axis_labels)}
 
     <!-- Radar Legend Footer -->
     <line x1="24" y1="354" x2="326" y2="354" stroke="{t['rule']}" stroke-width="1"/>
-    <text x="24" y="377" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['jade']}">● CORE STRENGTH:</text>
+    <text x="24" y="377" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['mint']}">● CORE STRENGTH:</text>
     <text x="148" y="377" font-family="{FONT_MONO}" font-size="9.6" fill="{t['text_sub']}">Laravel · Redis · AI</text>
-    <text x="24" y="397" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['gold_bright']}">● STRATEGIC EDGE:</text>
+    <text x="24" y="397" font-family="{FONT_MONO}" font-size="9.6" font-weight="700" fill="{t['cyan_bright']}">● STRATEGIC EDGE:</text>
     <text x="148" y="397" font-family="{FONT_MONO}" font-size="9.6" fill="{t['text_sub']}">Tech + MBA Finance ROI</text>
   </g>
 
   <!-- Right Top: Backend & Python Data Science -->
   <g>
-    {glass_card(360, 38, 636, 106, 15, t, accent=t["gold"], prefix="ts")}
-    <text x="378" y="65" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['gold_bright']}">BACKEND ARCHITECTURE &amp; PYTHON DATA SCIENCE</text>
+    {glass_card(360, 38, 636, 106, 15, t, accent=t["cyan"], prefix="ts")}
+    <text x="378" y="65" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['cyan_bright']}">BACKEND ARCHITECTURE &amp; PYTHON DATA SCIENCE</text>
     <text x="976" y="65" text-anchor="end" font-family="{FONT_MONO}" font-size="9.6" fill="{t['text_muted']}">13 TECHNOLOGIES</text>
     {b_svg}
   </g>
 
   <!-- Right Middle: AI Agentic Engineering -->
   <g>
-    {glass_card(360, 154, 636, 96, 15, t, accent="url(#tsGoldFoil)", border=t["gold_border"], prefix="ts")}
-    <text x="378" y="180" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['gold_bright']}">AI AGENTIC ENGINEERING &amp; AUTOMATION</text>
-    <rect x="870" y="164" width="108" height="20" rx="10" fill="{t['gold_bg']}" stroke="{t['gold_border']}" stroke-width="0.9"/>
-    <text x="924" y="177.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.2" font-weight="700" fill="{t['gold_bright']}">✦ 3.5x VELOCITY</text>
+    {glass_card(360, 154, 636, 96, 15, t, accent="url(#tsArcticBar)", border=t["cyan_border"], prefix="ts")}
+    <text x="378" y="180" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['cyan_bright']}">AI AGENTIC ENGINEERING &amp; AUTOMATION</text>
+    <rect x="870" y="164" width="108" height="20" rx="10" fill="{t['cyan_bg']}" stroke="{t['cyan_border']}" stroke-width="0.9"/>
+    <text x="924" y="177.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.2" font-weight="700" fill="{t['cyan_bright']}">✦ 3.5x VELOCITY</text>
     {a_svg}
   </g>
 
   <!-- Right Bottom-Left: Frontend & UI -->
   <g>
-    {glass_card(360, 260, 310, 160, 15, t, accent=t["platinum"], prefix="ts")}
-    <text x="378" y="286" font-family="{FONT_MONO}" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="{t['platinum']}">FRONTEND &amp; UI SYSTEMS</text>
+    {glass_card(360, 260, 310, 160, 15, t, accent=t["blue"], prefix="ts")}
+    <text x="378" y="286" font-family="{FONT_MONO}" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="{t['blue']}">FRONTEND &amp; UI SYSTEMS</text>
     {f_svg}
   </g>
 
   <!-- Right Bottom-Right: Databases, Cloud & DevOps -->
   <g>
-    {glass_card(682, 260, 314, 160, 15, t, accent=t["jade"], prefix="ts")}
-    <text x="698" y="286" font-family="{FONT_MONO}" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="{t['jade']}">DATABASES, CLOUD &amp; DEVOPS</text>
+    {glass_card(682, 260, 314, 160, 15, t, accent=t["mint"], prefix="ts")}
+    <text x="698" y="286" font-family="{FONT_MONO}" font-size="10.6" font-weight="700" letter-spacing="1.1" fill="{t['mint']}">DATABASES, CLOUD &amp; DEVOPS</text>
     {c_svg}
   </g>
 </svg>
@@ -913,7 +912,7 @@ def build_projects_header(theme_name: str) -> str:
     t = THEMES[theme_name]
     w, h = 1000, 44
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Featured Production Case Studies">
-  {render_section_header("FEATURED PRODUCTION CASE STUDIES", "CLICK ANY CARD TO LAUNCH LIVE PLATFORM", t, t["jade"], w)}
+  {render_section_header("FEATURED PRODUCTION CASE STUDIES", "CLICK ANY CARD TO LAUNCH LIVE PLATFORM", t, t["mint"], w)}
 </svg>
 """
 
@@ -994,11 +993,11 @@ def build_telemetry_ethos(theme_name: str) -> str:
     w, h = 1000, 198
 
     segments = [
-        ("PHP / Laravel", 196, t["gold"]),
-        ("Python & ML", 124, t["bronze"]),
-        ("TS / React / Next", 104, t["platinum"]),
-        ("Vue / Blade / JS", 62, t["jade"]),
-        ("SQL / Redis", 30, t["steel"]),
+        ("PHP / Laravel", 196, t["cyan"]),
+        ("Python & ML", 124, t["blue"]),
+        ("TS / React / Next", 104, t["mint"]),
+        ("Vue / Blade / JS", 62, t["sky"]),
+        ("SQL / Redis", 30, t["silver"]),
     ]
     bar_rects = []
     legend_items = []
@@ -1012,10 +1011,10 @@ def build_telemetry_ethos(theme_name: str) -> str:
         lx += int(len(label) * 5.45 + 22)
 
     repo_chips = [
-        ("hotel-pos-laravel", t["gold_bg"], t["gold_border"], t["gold_bright"], t["gold"], 136),
-        ("my-portfolio", t["platinum_bg"], t["platinum_border"], t["platinum"], t["platinum"], 108),
-        ("Admin-Dashboard", t["jade_bg"], t["jade_border"], t["jade"], t["jade"], 126),
-        ("ML-Recommenders", t["bronze_bg"], t["bronze_border"], t["bronze"], t["bronze"], 128),
+        ("hotel-pos-laravel", t["cyan_bg"], t["cyan_border"], t["cyan_bright"], t["cyan"], 136),
+        ("my-portfolio", t["blue_bg"], t["blue_border"], t["blue"], t["blue"], 108),
+        ("Admin-Dashboard", t["mint_bg"], t["mint_border"], t["mint"], t["mint"], 126),
+        ("ML-Recommenders", t["silver_bg"], t["silver_border"], t["silver"], t["silver"], 128),
     ]
     chip_parts = []
     cx = 26
@@ -1028,21 +1027,21 @@ def build_telemetry_ethos(theme_name: str) -> str:
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Open Source Pulse and Engineering Philosophy">
   <defs>
     {glass_defs(t, "eth")}
-    <radialGradient id="goldAura" cx="88%" cy="50%" r="58%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0"/>
+    <radialGradient id="iceAura" cx="88%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="{t['cyan']}" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="ethRClip"><rect x="582" y="38" width="414" height="154" rx="16"/></clipPath>
   </defs>
 
-  {render_section_header("OPEN-SOURCE PULSE & ENGINEERING ETHOS", "26 REPOSITORIES · 504+ CONTRIBUTIONS", t, t["gold"], w)}
+  {render_section_header("OPEN-SOURCE PULSE & ENGINEERING ETHOS", "26 REPOSITORIES · 504+ CONTRIBUTIONS", t, t["cyan"], w)}
 
   <!-- Left Card: Open-Source Language Spectrum & Flagship Repos -->
   <g>
-    {glass_card(4, 38, 564, 154, 16, t, accent=t["gold"], prefix="eth")}
-    <text x="26" y="67" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['gold_bright']}">GITHUB ECOSYSTEM &amp; STACK SPECTRUM</text>
-    <rect x="408" y="51" width="138" height="22" rx="11" fill="{t['jade_bg']}" stroke="{t['jade_border']}" stroke-width="0.9"/>
-    <text x="477" y="65.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{t['jade']}">26 REPOS · 504+ COMMITS</text>
+    {glass_card(4, 38, 564, 154, 16, t, accent=t["cyan"], prefix="eth")}
+    <text x="26" y="67" font-family="{FONT_MONO}" font-size="10.8" font-weight="700" letter-spacing="1.1" fill="{t['cyan_bright']}">GITHUB ECOSYSTEM &amp; STACK SPECTRUM</text>
+    <rect x="408" y="51" width="138" height="22" rx="11" fill="{t['mint_bg']}" stroke="{t['mint_border']}" stroke-width="0.9"/>
+    <text x="477" y="65.2" text-anchor="middle" font-family="{FONT_MONO}" font-size="9.5" font-weight="700" fill="{t['mint']}">26 REPOS · 504+ COMMITS</text>
 
     <text x="26" y="88" font-family="{FONT_SANS}" font-size="11.5" fill="{t['text_muted']}">Production &amp; open-source distribution across backend, data science &amp; modern UI</text>
     {"".join(bar_rects)}
@@ -1050,20 +1049,20 @@ def build_telemetry_ethos(theme_name: str) -> str:
     {chips_svg}
   </g>
 
-  <!-- Right Card: Signature Motto & Golden Sacred-Geometry Art (Matching GitHub Avatar) -->
+  <!-- Right Card: Engineering Philosophy + Celestial Ice Orbit -->
   <g>
     <g clip-path="url(#ethRClip)">
       <rect x="582" y="38" width="414" height="154" fill="url(#ethCard)"/>
-      <rect x="582" y="38" width="414" height="154" fill="url(#goldAura)"/>
-      <g>{mandala_geometry(936, 115, 72, t['mandala'], t['mandala_op'])}</g>
+      <rect x="582" y="38" width="414" height="154" fill="url(#iceAura)"/>
+      <g>{geometric_orbit(936, 115, 72, t['ornament'], t['ornament_op'])}</g>
     </g>
-    <rect x="582" y="38" width="414" height="154" rx="16" fill="none" stroke="{t['gold_border']}" stroke-width="1.2"/>
+    <rect x="582" y="38" width="414" height="154" rx="16" fill="none" stroke="{t['cyan_border']}" stroke-width="1.2"/>
     <line x1="600" y1="38.8" x2="978" y2="38.8" stroke="url(#ethSpec)" stroke-width="1"/>
-    <rect x="602" y="38" width="58" height="2.8" rx="1.4" fill="url(#ethGoldFoil)"/>
+    <rect x="602" y="38" width="58" height="2.8" rx="1.4" fill="url(#ethArcticBar)"/>
 
-    <text x="604" y="67" font-family="{FONT_MONO}" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="{t['gold_bright']}">ENGINEERING PHILOSOPHY</text>
+    <text x="604" y="67" font-family="{FONT_MONO}" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="{t['cyan_bright']}">ENGINEERING PHILOSOPHY</text>
     <text x="604" y="102" font-family="{FONT_SANS}" font-size="19.5" font-weight="800" fill="{t['text']}">धैर्यं सर्वत्र साधनम्।</text>
-    <text x="604" y="124" font-family="{FONT_MONO}" font-size="11" font-weight="600" fill="{t['gold_bright']}">&quot;Patience is the solution to everything.&quot;</text>
+    <text x="604" y="124" font-family="{FONT_MONO}" font-size="11" font-weight="600" fill="{t['cyan_bright']}">&quot;Patience is the solution to everything.&quot;</text>
     <text x="604" y="150" font-family="{FONT_SANS}" font-size="11.4" fill="{t['text_sub']}">Architecting calm, resilient software where clean</text>
     <text x="604" y="167" font-family="{FONT_SANS}" font-size="11.4" fill="{t['text_sub']}">engineering meets measurable business ROI.</text>
   </g>
@@ -1082,7 +1081,7 @@ def build_journey(theme_name: str) -> str:
             "Abym Technology Pvt. Ltd · Noida",
             "+30% performance boost via SQL optimization & Redis caching · Swagger APIs",
             "Modular full-stack platforms with Laravel 11, React.js & Vue.js",
-            t["jade"],
+            t["mint"],
             True,
         ),
         (
@@ -1091,7 +1090,7 @@ def build_journey(theme_name: str) -> str:
             "Finesoft Technologies Pvt. Ltd · Noida",
             "Full-stack Blade & Vue.js delivery · 3rd-party payment gateways & SMS",
             "High-concurrency relational DB schemas with optimized query execution",
-            t["gold_bright"],
+            t["cyan"],
             False,
         ),
         (
@@ -1100,7 +1099,7 @@ def build_journey(theme_name: str) -> str:
             "Magical Umbrella Pvt. Ltd",
             "Automated routine data pipelines in Python — saved 10+ manual hrs/week",
             "Engineered secure RESTful backend APIs & relational database designs",
-            t["bronze"],
+            t["blue"],
             False,
         ),
     ]
@@ -1123,9 +1122,9 @@ def build_journey(theme_name: str) -> str:
   <defs>
     {glass_defs(t, "jr")}
     <linearGradient id="spineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="{t['jade']}"/>
-      <stop offset="50%" stop-color="{t['gold']}"/>
-      <stop offset="100%" stop-color="{t['bronze']}"/>
+      <stop offset="0%" stop-color="{t['mint']}"/>
+      <stop offset="50%" stop-color="{t['cyan']}"/>
+      <stop offset="100%" stop-color="{t['blue']}"/>
     </linearGradient>
     <style>
       @keyframes pulseNode {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.25; }} }}
@@ -1133,29 +1132,29 @@ def build_journey(theme_name: str) -> str:
     </style>
   </defs>
 
-  {render_section_header("CAREER JOURNEY & CREDENTIALS", "5+ YEARS PRODUCTION · MBA + B.E. CSE", t, t["gold"], w)}
+  {render_section_header("CAREER JOURNEY & CREDENTIALS", "5+ YEARS PRODUCTION · MBA + B.E. CSE", t, t["blue"], w)}
 
   <!-- Left Panel: Work Experience -->
   <g>
-    {glass_card(4, 38, 564, 352, 16, t, accent="url(#jrGoldFoil)", prefix="jr")}
-    <text x="24" y="66" font-family="{FONT_MONO}" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="{t['gold_bright']}">PROFESSIONAL EXPERIENCE</text>
+    {glass_card(4, 38, 564, 352, 16, t, accent="url(#jrArcticBar)", prefix="jr")}
+    <text x="24" y="66" font-family="{FONT_MONO}" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="{t['cyan_bright']}">PROFESSIONAL EXPERIENCE</text>
     <line x1="34" y1="98" x2="34" y2="294" stroke="url(#spineGrad)" stroke-width="2.2" stroke-dasharray="4 4"/>
     {"".join(exp_svgs)}
   </g>
 
   <!-- Right Top Panel: Academic Qualifications -->
   <g>
-    {glass_card(584, 38, 412, 240, 16, t, accent=t["jade"], prefix="jr")}
-    <text x="604" y="66" font-family="{FONT_MONO}" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="{t['jade']}">ACADEMIC QUALIFICATIONS</text>
+    {glass_card(584, 38, 412, 240, 16, t, accent=t["mint"], prefix="jr")}
+    <text x="604" y="66" font-family="{FONT_MONO}" font-size="11.2" font-weight="700" letter-spacing="1.2" fill="{t['mint']}">ACADEMIC QUALIFICATIONS</text>
 
-    <rect x="604" y="82" width="372" height="80" rx="12" fill="{t['elevated']}" stroke="{t['jade_border']}" stroke-width="1"/>
-    <circle cx="622" cy="100" r="3.5" fill="{t['jade']}" class="live-dot"/>
-    <text x="632" y="103.5" font-family="{FONT_MONO}" font-size="9.8" font-weight="700" fill="{t['jade']}">PURSUING · 2024 – PRESENT</text>
+    <rect x="604" y="82" width="372" height="80" rx="12" fill="{t['elevated']}" stroke="{t['mint_border']}" stroke-width="1"/>
+    <circle cx="622" cy="100" r="3.5" fill="{t['mint']}" class="live-dot"/>
+    <text x="632" y="103.5" font-family="{FONT_MONO}" font-size="9.8" font-weight="700" fill="{t['mint']}">PURSUING · 2024 – PRESENT</text>
     <text x="618" y="125" font-family="{FONT_SANS}" font-size="14" font-weight="700" fill="{t['text']}">MBA in Finance &amp; IT</text>
     <text x="618" y="145" font-family="{FONT_SANS}" font-size="11.6" fill="{t['text_sub']}">Gondwana University · Business ROI &amp; IT Governance</text>
 
-    <rect x="604" y="174" width="372" height="88" rx="12" fill="{t['elevated']}" stroke="{t['gold_border']}" stroke-width="1"/>
-    <text x="618" y="193" font-family="{FONT_MONO}" font-size="9.8" font-weight="700" fill="{t['gold_bright']}">COMPLETED OCT 2020 · 74.60% DISTINCTION</text>
+    <rect x="604" y="174" width="372" height="88" rx="12" fill="{t['elevated']}" stroke="{t['cyan_border']}" stroke-width="1"/>
+    <text x="618" y="193" font-family="{FONT_MONO}" font-size="9.8" font-weight="700" fill="{t['cyan_bright']}">COMPLETED OCT 2020 · 74.60% DISTINCTION</text>
     <text x="618" y="215" font-family="{FONT_SANS}" font-size="14" font-weight="700" fill="{t['text']}">B.E. in Computer Science</text>
     <text x="618" y="234" font-family="{FONT_SANS}" font-size="11.6" fill="{t['text_sub']}">Gondwana University</text>
     <text x="618" y="250" font-family="{FONT_MONO}" font-size="9.8" fill="{t['text_muted']}">Data Analysis · ML · Deep Learning · Web Dev</text>
@@ -1163,8 +1162,8 @@ def build_journey(theme_name: str) -> str:
 
   <!-- Right Bottom Panel: Base & Languages -->
   <g>
-    {glass_card(584, 292, 412, 98, 16, t, accent=t["bronze"], prefix="jr")}
-    <text x="604" y="319" font-family="{FONT_MONO}" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="{t['bronze']}">BASE &amp; COLLABORATION</text>
+    {glass_card(584, 292, 412, 98, 16, t, accent=t["blue"], prefix="jr")}
+    <text x="604" y="319" font-family="{FONT_MONO}" font-size="10.4" font-weight="700" letter-spacing="1.2" fill="{t['blue']}">BASE &amp; COLLABORATION</text>
     <text x="604" y="344" font-family="{FONT_SANS}" font-size="11.8" font-weight="600" fill="{t['text']}">📍 Chandrapur, Maharashtra, India (IST · UTC+5:30)</text>
     <text x="604" y="368" font-family="{FONT_MONO}" font-size="10.6" fill="{t['text_sub']}">🌐 English · Hindi · Marathi  |  Remote &amp; Hybrid Ready</text>
   </g>
@@ -1179,9 +1178,9 @@ def build_connect_header(theme_name: str) -> str:
   <defs>
     {glass_defs(t, "cn")}
   </defs>
-  {render_section_header("INITIATE CONTACT & CONNECT", "OPEN FOR ROLES, ARCHITECTURE & ADVISORY", t, t["gold"], w)}
+  {render_section_header("INITIATE CONTACT & CONNECT", "OPEN FOR ROLES, ARCHITECTURE & ADVISORY", t, t["cyan"], w)}
   <rect x="4" y="35" width="992" height="49" rx="14" fill="url(#cnCard)" stroke="{t['border']}" stroke-width="1.2"/>
-  <rect x="4" y="35" width="5" height="49" rx="2.5" fill="url(#cnGoldFoil)"/>
+  <rect x="4" y="35" width="5" height="49" rx="2.5" fill="url(#cnArcticBar)"/>
   <line x1="20" y1="35.8" x2="980" y2="35.8" stroke="url(#cnSpec)" stroke-width="1"/>
   <text x="26" y="64" font-family="{FONT_SANS}" font-size="14" font-weight="700" fill="{t['text']}">Explore my live portfolio, download my resume, or connect directly across channels below.</text>
 </svg>
@@ -1239,25 +1238,25 @@ def build_footer(theme_name: str) -> str:
       <rect x="4" y="4" width="992" height="68" rx="16"/>
     </clipPath>
     <linearGradient id="footWave1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="{t['gold']}" stop-opacity="0.20"/>
-      <stop offset="50%" stop-color="{t['bronze']}" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="{t['jade']}" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="{t['blue_deep']}" stop-opacity="0.24"/>
+      <stop offset="50%" stop-color="{t['cyan']}" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="{t['mint']}" stop-opacity="0.22"/>
     </linearGradient>
     <linearGradient id="footWave2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="{t['platinum']}" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="{t['gold']}" stop-opacity="0.14"/>
+      <stop offset="0%" stop-color="{t['cyan']}" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="{t['blue']}" stop-opacity="0.16"/>
     </linearGradient>
     <style>
-      @keyframes footShimmer {{ 0% {{ transform: translateX(-220px); opacity: 0; }} 25% {{ opacity: 0.75; }} 75% {{ opacity: 0.75; }} 100% {{ transform: translateX(1020px); opacity: 0; }} }}
-      .shimmer {{ animation: footShimmer 6.5s ease-in-out infinite; }}
+      @keyframes footShimmer {{ 0% {{ transform: translateX(-220px); opacity: 0; }} 25% {{ opacity: 0.78; }} 75% {{ opacity: 0.78; }} 100% {{ transform: translateX(1020px); opacity: 0; }} }}
+      .shimmer {{ animation: footShimmer 6s ease-in-out infinite; }}
     </style>
   </defs>
   <g clip-path="url(#footClip)">
     <rect x="4" y="4" width="992" height="68" fill="url(#ftCard)"/>
     <path d="M0 52 Q250 20 500 46 T1000 34 L1000 76 L0 76 Z" fill="url(#footWave1)"/>
     <path d="M0 40 Q280 64 560 32 T1000 50 L1000 76 L0 76 Z" fill="url(#footWave2)"/>
-    <rect x="4" y="69" width="992" height="3" fill="url(#ftGoldFoil)"/>
-    <rect x="0" y="69" width="180" height="3" fill="#FFF8E7" class="shimmer"/>
+    <rect x="4" y="69" width="992" height="3" fill="url(#ftArcticBar)"/>
+    <rect x="0" y="69" width="180" height="3" fill="#FFFFFF" class="shimmer"/>
   </g>
   <rect x="4" y="4" width="992" height="68" rx="16" fill="none" stroke="{t['border']}" stroke-width="1.2"/>
   <line x1="22" y1="4.8" x2="978" y2="4.8" stroke="url(#ftSpec)" stroke-width="1"/>
@@ -1280,7 +1279,7 @@ CTA_BUTTONS = [
         "resume",
         "Download Resume",
         "VERIFIED PDF CV",
-        "bronze",
+        "cyan",
         '<path d="M8 4 H16 L21 9 V23 H8 Z" fill="none" stroke="{c}" stroke-width="1.8" stroke-linejoin="round"/>'
         '<polyline points="16,4 16,9 21,9" fill="none" stroke="{c}" stroke-width="1.5"/>'
         '<line x1="11" y1="14.5" x2="18" y2="14.5" stroke="{c}" stroke-width="1.5" stroke-linecap="round"/>'
@@ -1290,7 +1289,7 @@ CTA_BUTTONS = [
         "linkedin",
         "LinkedIn Profile",
         "IN/SHUBHAM1602",
-        "platinum",
+        "blue",
         '<rect x="6.5" y="11" width="3.2" height="10.5" rx="0.9" fill="{c}"/>'
         '<circle cx="8.1" cy="7.5" r="1.8" fill="{c}"/>'
         '<path d="M12.5 11 H15.5 V12.7 C16.3 11.4 17.5 10.7 19.1 10.7 C21.3 10.7 22.2 12.2 22.2 14.8 V21.5 H19 V15.4 C19 14 18.4 13.3 17.3 13.3 C16.2 13.3 15.6 14.1 15.6 15.4 V21.5 H12.5 Z" fill="{c}"/>',
@@ -1299,7 +1298,7 @@ CTA_BUTTONS = [
         "contact",
         "Initiate Contact",
         "DIRECT EMAIL",
-        "jade",
+        "mint",
         '<rect x="5" y="7.5" width="18" height="13" rx="2.4" fill="none" stroke="{c}" stroke-width="1.8"/>'
         '<polyline points="5.8,8.8 14,15.2 22.2,8.8" fill="none" stroke="{c}" stroke-width="1.8" stroke-linejoin="round"/>',
     ),
@@ -1316,7 +1315,7 @@ PROJECT_CARDS = [
         "Pan-India diagnostic booking platform & centralized admin",
         "control center with Redis caching & optimized SQL pipelines.",
         ["Laravel", "React.js", "Vue.js", "Redis", "MySQL"],
-        "jade",
+        "mint",
         '<polyline points="10,36 22,36 29,22 37,40 46,16 56,34 65,24 78,20" fill="none" stroke="{c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
         '<circle cx="78" cy="20" r="3.2" fill="{c}"/>',
     ),
@@ -1329,7 +1328,7 @@ PROJECT_CARDS = [
         "Real-time field operations app for phlebotomists managing",
         "home sample collections, verification & live order dispatch.",
         ["Laravel", "PHP", "MySQL", "Field Ops"],
-        "gold",
+        "cyan",
         '<path d="M 16 40 C 30 38, 34 18, 50 22 C 62 25, 64 16, 74 16" fill="none" stroke="{c}" stroke-width="2" stroke-dasharray="4 3"/>'
         '<circle cx="16" cy="40" r="4" fill="{c}"/><circle cx="50" cy="22" r="3.5" fill="none" stroke="{c}" stroke-width="2"/><circle cx="74" cy="16" r="4" fill="{c}"/>',
     ),
@@ -1342,7 +1341,7 @@ PROJECT_CARDS = [
         "Continuous feature engineering & custom dynamic SEO engine",
         "for a premier pan-India healthcare diagnostics chain.",
         ["Laravel", "PHP", "SEO Engine", "MySQL"],
-        "gold",
+        "blue",
         '<rect x="14" y="34" width="9" height="10" rx="2" fill="{c}" fill-opacity="0.35"/>'
         '<rect x="28" y="27" width="9" height="17" rx="2" fill="{c}" fill-opacity="0.55"/>'
         '<rect x="42" y="21" width="9" height="23" rx="2" fill="{c}" fill-opacity="0.78"/>'
@@ -1358,7 +1357,7 @@ PROJECT_CARDS = [
         "Centralized enterprise training platform handling trainer",
         "allocations, participant tracking, certs & eval analytics.",
         ["Laravel", "PHP", "MySQL", "REST API"],
-        "bronze",
+        "sky",
         '<rect x="12" y="11" width="64" height="32" rx="5" fill="none" stroke="{c}" stroke-width="1.5"/>'
         '<line x1="12" y1="20" x2="76" y2="20" stroke="{c}" stroke-width="1.2"/>'
         '<rect x="18" y="25" width="22" height="5" rx="2" fill="{c}" fill-opacity="0.75"/>'
@@ -1374,7 +1373,7 @@ PROJECT_CARDS = [
         "Automated Python data processing pipelines & REST workflows",
         "eliminating repetitive manual reporting & speeding delivery.",
         ["Python", "Automation", "REST APIs", "MySQL"],
-        "steel",
+        "cyan",
         '<rect x="12" y="20" width="16" height="14" rx="3" fill="none" stroke="{c}" stroke-width="1.6"/>'
         '<rect x="36" y="20" width="16" height="14" rx="3" fill="{c}" fill-opacity="0.3" stroke="{c}" stroke-width="1.6"/>'
         '<rect x="60" y="20" width="16" height="14" rx="3" fill="{c}"/>'
@@ -1390,7 +1389,7 @@ PROJECT_CARDS = [
         "Interactive Next.js 16 + TypeScript portfolio hub alongside",
         "offline-first Laravel LAN POS & open-source repositories.",
         ["Next.js 16", "React", "TypeScript", "Laravel POS"],
-        "platinum",
+        "silver",
         '<rect x="12" y="10" width="36" height="16" rx="4" fill="{c}" fill-opacity="0.35" stroke="{c}" stroke-width="1.4"/>'
         '<rect x="52" y="10" width="24" height="34" rx="4" fill="none" stroke="{c}" stroke-width="1.4"/>'
         '<rect x="12" y="30" width="16" height="14" rx="4" fill="none" stroke="{c}" stroke-width="1.4"/>'
@@ -1404,7 +1403,7 @@ CONTACT_CARDS = [
         "portfolio",
         "Live Portfolio",
         "my-portfolio-beta-bay-93.vercel.app",
-        "gold",
+        "cyan",
         '<circle cx="20" cy="20" r="8.5" fill="none" stroke="{c}" stroke-width="1.8"/>'
         '<ellipse cx="20" cy="20" rx="3.8" ry="8.5" fill="none" stroke="{c}" stroke-width="1.5"/>'
         '<line x1="11.5" y1="20" x2="28.5" y2="20" stroke="{c}" stroke-width="1.5"/>',
@@ -1414,7 +1413,7 @@ CONTACT_CARDS = [
         "resume",
         "Download Resume",
         "Shubham_Bramhane_Resume.pdf",
-        "bronze",
+        "blue",
         '<path d="M14 11 H22 L27 16 V29 H14 Z" fill="none" stroke="{c}" stroke-width="1.8" stroke-linejoin="round"/>'
         '<polyline points="22,11 22,16 27,16" fill="none" stroke="{c}" stroke-width="1.6"/>'
         '<line x1="17" y1="20.5" x2="24" y2="20.5" stroke="{c}" stroke-width="1.5" stroke-linecap="round"/>'
@@ -1425,7 +1424,7 @@ CONTACT_CARDS = [
         "linkedin",
         "LinkedIn",
         "linkedin.com/in/shubham1602",
-        "platinum",
+        "sky",
         '<rect x="13" y="17.5" width="3" height="9.5" rx="0.8" fill="{c}"/>'
         '<circle cx="14.5" cy="14" r="1.7" fill="{c}"/>'
         '<path d="M19 17.5 H21.8 V19.1 C22.5 17.9 23.7 17.2 25.1 17.2 C27.2 17.2 28 18.7 28 21.1 V27 H25 V21.6 C25 20.3 24.4 19.7 23.4 19.7 C22.4 19.7 21.9 20.4 21.9 21.6 V27 H19 Z" fill="{c}"/>',
@@ -1435,7 +1434,7 @@ CONTACT_CARDS = [
         "email",
         "Email",
         "shubham.bramhane75@gmail.com",
-        "jade",
+        "mint",
         '<rect x="12" y="14" width="16" height="12" rx="2.2" fill="none" stroke="{c}" stroke-width="1.8"/>'
         '<polyline points="12.5,15.2 20,21 27.5,15.2" fill="none" stroke="{c}" stroke-width="1.8" stroke-linejoin="round"/>',
         False,
@@ -1444,7 +1443,7 @@ CONTACT_CARDS = [
         "twitter",
         "X / Twitter",
         "@shubhbramhane16",
-        "steel",
+        "silver",
         '<path d="M13 13 L18.7 20.6 L12.8 27 H15.2 L19.8 22 L23.6 27 H27.2 L21.2 19 L26.7 13 H24.3 L20.1 17.6 L16.6 13 Z" fill="{c}"/>',
         False,
     ),
@@ -1452,7 +1451,7 @@ CONTACT_CARDS = [
         "phone",
         "Phone",
         "+91-8857916707",
-        "gold",
+        "cyan",
         '<path d="M14.5 13 C13.7 13 13 13.7 13 14.6 C13 21.1 18.1 26.2 24.6 26.2 C25.5 26.2 26.2 25.5 26.2 24.7 V22.5 C26.2 21.9 25.8 21.4 25.1 21.3 L22.7 20.8 C22.2 20.7 21.7 20.9 21.4 21.3 L20.4 22.4 C18.6 21.5 17.7 20.6 16.8 18.8 L17.9 17.8 C18.3 17.5 18.5 17 18.4 16.5 L17.9 14.1 C17.8 13.5 17.3 13 16.7 13 Z" fill="none" stroke="{c}" stroke-width="1.7" stroke-linejoin="round"/>',
         False,
     ),

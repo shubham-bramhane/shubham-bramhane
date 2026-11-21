@@ -2,232 +2,229 @@
   <defs>
     
     <linearGradient id="heroCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFDF9"/>
-      <stop offset="100%" stop-color="#F6F2EA"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F8FE"/>
     </linearGradient>
     <linearGradient id="heroSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="heroGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7A5518"/>
-      <stop offset="35%" stop-color="#B88735"/>
-      <stop offset="68%" stop-color="#9A6E24"/>
-      <stop offset="100%" stop-color="#7A5518"/>
+    <linearGradient id="heroArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="48%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0D9488"/>
     </linearGradient>
     <clipPath id="heroClip">
       <rect x="4" y="4" width="992" height="396" rx="22"/>
     </clipPath>
     <pattern id="dotGrid" width="22" height="22" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.0" fill="#D5C9B6" fill-opacity="0.65"/>
+      <circle cx="2" cy="2" r="1.0" fill="#C4D6EA" fill-opacity="0.65"/>
     </pattern>
     <linearGradient id="sbSeal" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F3D999"/>
-      <stop offset="50%" stop-color="#D4AF63"/>
-      <stop offset="100%" stop-color="#9A722C"/>
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
     </linearGradient>
     <linearGradient id="headlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6E4B12"/>
-      <stop offset="48%" stop-color="#9A6E24"/>
-      <stop offset="100%" stop-color="#B88438"/>
+      <stop offset="0%" stop-color="#0B2447"/>
+      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
     </linearGradient>
-    <linearGradient id="goldSilk" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9A6E24" stop-opacity="0"/>
-      <stop offset="32%" stop-color="#9A6E24" stop-opacity="0.14"/>
-      <stop offset="68%" stop-color="#9A562B" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/>
+    <linearGradient id="iceSilk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E40AF" stop-opacity="0"/>
+      <stop offset="32%" stop-color="#0284C7" stop-opacity="0.14"/>
+      <stop offset="68%" stop-color="#0D9488" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="sparkArea" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#9A6E24" stop-opacity="0.34"/>
-      <stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glowGold" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#9A6E24" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowBronze" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#9A562B" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#9A562B" stop-opacity="0"/>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E40AF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#1E40AF" stop-opacity="0"/>
     </radialGradient>
     <style>
-      @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.28; } }
+      @keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
       @keyframes blinkCursor { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      @keyframes breathe { 0%, 100% { opacity: 0.92; } 50% { opacity: 0.52; } }
+      @keyframes breathe { 0%, 100% { opacity: 0.92; } 50% { opacity: 0.50; } }
       @keyframes twinkle { 0%, 100% { opacity: 0.85; } 50% { opacity: 0.15; } }
       @keyframes flowTrace { from { stroke-dashoffset: 240; } to { stroke-dashoffset: 0; } }
       @keyframes scanBeam { 0% { transform: translateX(-260px); opacity: 0; } 22% { opacity: 0.85; } 78% { opacity: 0.85; } 100% { transform: translateX(1040px); opacity: 0; } }
-      .pulse-dot { animation: pulseDot 2.2s ease-in-out infinite; }
+      .pulse-dot { animation: pulseDot 2.1s ease-in-out infinite; }
       .blink { animation: blinkCursor 1.15s steps(1) infinite; }
       .orb { animation: breathe 6.5s ease-in-out infinite; }
-      .star1 { animation: twinkle 3.4s ease-in-out infinite; }
-      .star2 { animation: twinkle 4.6s ease-in-out 1.2s infinite; }
-      .trace-flow { stroke-dasharray: 28 18; animation: flowTrace 6.5s linear infinite; }
-      .scan { animation: scanBeam 6s ease-in-out infinite; }
+      .star1 { animation: twinkle 3.2s ease-in-out infinite; }
+      .star2 { animation: twinkle 4.4s ease-in-out 1.1s infinite; }
+      .trace-flow { stroke-dasharray: 28 18; animation: flowTrace 6s linear infinite; }
+      .scan { animation: scanBeam 5.8s ease-in-out infinite; }
     </style>
   </defs>
 
   <g clip-path="url(#heroClip)">
     <rect x="4" y="4" width="992" height="396" fill="url(#heroCard)"/>
     <rect x="4" y="4" width="992" height="396" fill="url(#dotGrid)"/>
-    <circle cx="130" cy="48" r="275" fill="url(#glowGold)" class="orb"/>
-    <circle cx="885" cy="345" r="265" fill="url(#glowBronze)" class="orb"/>
+    <circle cx="130" cy="48" r="275" fill="url(#glowCyan)" class="orb"/>
+    <circle cx="885" cy="345" r="270" fill="url(#glowBlue)" class="orb"/>
 
-    <!-- Subtle Champagne Silk Wave -->
-    <path d="M -20 264 C 185 194, 365 322, 580 228 C 760 152, 890 250, 1030 172 L 1030 236 C 880 308, 745 208, 565 282 C 350 368, 175 248, -20 316 Z" fill="url(#goldSilk)"/>
+    <!-- Glacier Silk Wave -->
+    <path d="M -20 264 C 185 194, 365 322, 580 228 C 760 152, 890 250, 1030 172 L 1030 236 C 880 308, 745 208, 565 282 C 350 368, 175 248, -20 316 Z" fill="url(#iceSilk)"/>
 
-    <!-- Golden Mandala Filigree Echoing GitHub Avatar -->
-    <g><circle cx="518" cy="76" r="66.0" fill="none" stroke="#B08230" stroke-width="0.9" stroke-opacity="0.13"/>
-    <circle cx="518" cy="76" r="51.5" fill="none" stroke="#B08230" stroke-width="0.7" stroke-dasharray="2.5 3.5" stroke-opacity="0.13"/>
-    <circle cx="518" cy="76" r="34.3" fill="none" stroke="#B08230" stroke-width="0.9" stroke-opacity="0.13"/>
-    <circle cx="518" cy="76" r="15.8" fill="none" stroke="#B08230" stroke-width="0.8" stroke-opacity="0.13"/>
-    <circle cx="518" cy="76" r="6.6" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="533.8" y1="76.0" x2="584.0" y2="76.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="560.1" cy="84.4" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="532.6" y1="82.1" x2="579.0" y2="101.3" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="553.7" cy="99.8" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="529.2" y1="87.2" x2="564.7" y2="122.7" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="541.8" cy="111.7" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="524.1" y1="90.6" x2="543.3" y2="137.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="526.4" cy="118.1" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="518.0" y1="91.8" x2="518.0" y2="142.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="509.6" cy="118.1" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="511.9" y1="90.6" x2="492.7" y2="137.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="494.2" cy="111.7" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="506.8" y1="87.2" x2="471.3" y2="122.7" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="482.3" cy="99.8" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="503.4" y1="82.1" x2="457.0" y2="101.3" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="475.9" cy="84.4" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="502.2" y1="76.0" x2="452.0" y2="76.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="475.9" cy="67.6" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="503.4" y1="69.9" x2="457.0" y2="50.7" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="482.3" cy="52.2" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="506.8" y1="64.8" x2="471.3" y2="29.3" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="494.2" cy="40.3" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="511.9" y1="61.4" x2="492.7" y2="15.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="509.6" cy="33.9" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="518.0" y1="60.2" x2="518.0" y2="10.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="526.4" cy="33.9" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="524.1" y1="61.4" x2="543.3" y2="15.0" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="541.8" cy="40.3" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="529.2" y1="64.8" x2="564.7" y2="29.3" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="553.7" cy="52.2" r="1.5" fill="#B08230" fill-opacity="0.13"/>
-    <line x1="532.6" y1="69.9" x2="579.0" y2="50.7" stroke="#B08230" stroke-width="0.65" stroke-opacity="0.13"/>
-    <circle cx="560.1" cy="67.6" r="1.5" fill="#B08230" fill-opacity="0.13"/></g>
+    <!-- Precision Celestial Blue Orbit Filigree -->
+    <g><circle cx="518" cy="76" r="66.0" fill="none" stroke="#0284C7" stroke-width="0.9" stroke-opacity="0.12"/>
+    <circle cx="518" cy="76" r="50.2" fill="none" stroke="#0284C7" stroke-width="0.7" stroke-dasharray="2.5 3.5" stroke-opacity="0.12"/>
+    <circle cx="518" cy="76" r="33.0" fill="none" stroke="#0284C7" stroke-width="0.9" stroke-opacity="0.12"/>
+    <circle cx="518" cy="76" r="15.8" fill="none" stroke="#0284C7" stroke-width="0.8" stroke-opacity="0.12"/>
+    <circle cx="518" cy="76" r="6.6" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="533.8" y1="76.0" x2="584.0" y2="76.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="559.4" cy="84.2" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="532.6" y1="82.1" x2="579.0" y2="101.3" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="553.1" cy="99.5" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="529.2" y1="87.2" x2="564.7" y2="122.7" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="541.5" cy="111.1" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="524.1" y1="90.6" x2="543.3" y2="137.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="526.2" cy="117.4" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="518.0" y1="91.8" x2="518.0" y2="142.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="509.8" cy="117.4" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="511.9" y1="90.6" x2="492.7" y2="137.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="494.5" cy="111.1" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="506.8" y1="87.2" x2="471.3" y2="122.7" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="482.9" cy="99.5" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="503.4" y1="82.1" x2="457.0" y2="101.3" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="476.6" cy="84.2" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="502.2" y1="76.0" x2="452.0" y2="76.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="476.6" cy="67.8" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="503.4" y1="69.9" x2="457.0" y2="50.7" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="482.9" cy="52.5" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="506.8" y1="64.8" x2="471.3" y2="29.3" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="494.5" cy="40.9" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="511.9" y1="61.4" x2="492.7" y2="15.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="509.8" cy="34.6" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="518.0" y1="60.2" x2="518.0" y2="10.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="526.2" cy="34.6" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="524.1" y1="61.4" x2="543.3" y2="15.0" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="541.5" cy="40.9" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="529.2" y1="64.8" x2="564.7" y2="29.3" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="553.1" cy="52.5" r="1.5" fill="#0284C7" fill-opacity="0.12"/>
+    <line x1="532.6" y1="69.9" x2="579.0" y2="50.7" stroke="#0284C7" stroke-width="0.65" stroke-opacity="0.12"/>
+    <circle cx="559.4" cy="67.8" r="1.5" fill="#0284C7" fill-opacity="0.12"/></g>
 
-    <!-- Champagne Starlight Dust -->
-    <circle cx="518" cy="144" r="1.6" fill="#B88735" class="star1"/>
-    <circle cx="484" cy="92" r="1.3" fill="#9A6E24" class="star2"/>
-    <circle cx="556" cy="240" r="1.5" fill="#197A55" class="star1"/>
-    <circle cx="290" cy="66" r="1.2" fill="#B88735" class="star2"/>
+    <!-- Icy Starlight Particles -->
+    <circle cx="518" cy="144" r="1.7" fill="#0369A1" class="star1"/>
+    <circle cx="484" cy="92" r="1.4" fill="#1D4ED8" class="star2"/>
+    <circle cx="556" cy="240" r="1.5" fill="#0D9488" class="star1"/>
+    <circle cx="290" cy="66" r="1.2" fill="#0369A1" class="star2"/>
 
-    <!-- Architectural Gold Hairline Trace -->
-    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="#9A6E24" stroke-width="0.95" stroke-opacity="0.24"/>
-    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="#B88735" stroke-width="1.3" stroke-opacity="0.55" class="trace-flow"/>
+    <!-- Animated Blueprint Trace -->
+    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="#0284C7" stroke-width="0.95" stroke-opacity="0.22"/>
+    <path d="M 4 278 H 124 L 148 302 H 572" fill="none" stroke="#0369A1" stroke-width="1.35" stroke-opacity="0.55" class="trace-flow"/>
 
-    <!-- Brushed Gold Top Foil Trim + Light Glint -->
-    <rect x="4" y="4" width="992" height="3.5" fill="url(#heroGoldFoil)"/>
-    <rect x="0" y="4" width="210" height="3.5" fill="#FFF8E7" fill-opacity="0.7" class="scan"/>
+    <!-- Arctic Top Beam + Light Glint -->
+    <rect x="4" y="4" width="992" height="3.8" fill="url(#heroArcticBar)"/>
+    <rect x="0" y="4" width="215" height="3.8" fill="#FFFFFF" fill-opacity="0.7" class="scan"/>
   </g>
-  <rect x="4" y="4" width="992" height="396" rx="22" fill="none" stroke="#E5DDD0" stroke-width="1.2"/>
-  <line x1="28" y1="8.4" x2="972" y2="8.4" stroke="url(#heroSpec)" stroke-width="1"/>
+  <rect x="4" y="4" width="992" height="396" rx="22" fill="none" stroke="#D8E4F2" stroke-width="1.2"/>
+  <line x1="28" y1="8.6" x2="972" y2="8.6" stroke="url(#heroSpec)" stroke-width="1"/>
 
   <!-- Top Badges Row -->
   <g>
-    <!-- Engraved Brushed Gold <SB/> Monogram Seal -->
     <rect x="36" y="28" width="66" height="28" rx="9" fill="url(#sbSeal)"/>
-    <text x="69" y="46.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="800" fill="#14110C">&lt;SB/&gt;</text>
+    <text x="69" y="46.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.2" font-weight="800" fill="#FFFFFF">&lt;SB/&gt;</text>
 
-    <rect x="111" y="28" width="268" height="28" rx="14" fill="#EBF7F1" stroke="#B2DEC8" stroke-width="1"/>
-    <circle cx="126" cy="42" r="3.6" fill="#197A55" class="pulse-dot"/>
-    <text x="137" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.1" font-weight="600" fill="#197A55">Available for High-Impact Roles &amp; Advisory</text>
+    <rect x="111" y="28" width="268" height="28" rx="14" fill="#CCFBF1" stroke="#99F6E4" stroke-width="1"/>
+    <circle cx="126" cy="42" r="3.6" fill="#0D9488" class="pulse-dot"/>
+    <text x="137" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.1" font-weight="600" fill="#0D9488">Available for High-Impact Roles &amp; Advisory</text>
 
-    <rect x="388" y="28" width="136" height="28" rx="14" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
-    <text x="456" y="46" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" fill="#B88735">✦ 3.5x AI Velocity</text>
+    <rect x="388" y="28" width="136" height="28" rx="14" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1"/>
+    <text x="456" y="46" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.8" font-weight="700" fill="#0369A1">✦ 3.5x AI Velocity</text>
   </g>
 
-  <!-- Editorial Display Heading -->
+  <!-- Main Editorial Heading -->
   <g>
-    <text x="36" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="-1.0" fill="#181512">Shubham Bramhane</text>
+    <text x="36" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="43" font-weight="800" letter-spacing="-1.0" fill="#0B1324">Shubham Bramhane</text>
     <text x="36" y="142" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">Architecting High-Throughput Systems</text>
     <text x="36" y="168" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="21.8" font-weight="800" letter-spacing="-0.25" fill="url(#headlineGrad)">with AI-Augmented Velocity.</text>
 
-    <text x="36" y="198" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#197A55">Senior Full-Stack Architect &amp; AI-Augmented Engineer</text>
-    <text x="362" y="198" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="600" fill="#7D756A">· 5+ Yrs · MBA Finance &amp; IT</text>
+    <text x="36" y="198" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0D9488">Senior Full-Stack Architect &amp; AI-Augmented Engineer</text>
+    <text x="362" y="198" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.6" font-weight="600" fill="#6B7E99">· 5+ Yrs · MBA Finance &amp; IT</text>
 
-    <text x="36" y="227" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#524B42">5+ years mastering PHP 8.3 / Laravel 11, high-concurrency MySQL/PostgreSQL</text>
-    <text x="36" y="246" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#524B42">&amp; Redis caching (+30% throughput), pan-India healthcare portals, Python</text>
-    <text x="36" y="265" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#524B42">automation pipelines, and agentic AI workflows (Antigravity &amp; Copilot).</text>
+    <text x="36" y="227" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#44556E">5+ years mastering PHP 8.3 / Laravel 11, high-concurrency MySQL/PostgreSQL</text>
+    <text x="36" y="246" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#44556E">&amp; Redis caching (+30% throughput), pan-India healthcare portals, Python</text>
+    <text x="36" y="265" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.7" fill="#44556E">automation pipelines, and agentic AI workflows (Antigravity &amp; Copilot).</text>
   </g>
 
   <!-- Stack Highlight Pills -->
-  <rect x="36" y="302" width="160" height="27" rx="13" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
-<text x="116.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#B88735">✦ PHP 8.3 / Laravel 11</text>
-<rect x="204" y="302" width="166" height="27" rx="13" fill="#F2EDE3" stroke="#D2C6B4" stroke-width="1"/>
-<text x="287.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#181512">✦ Redis (+30% Velocity)</text>
-<rect x="378" y="302" width="166" height="27" rx="13" fill="#F2EDE3" stroke="#D2C6B4" stroke-width="1"/>
-<text x="461.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#181512">✦ React.js &amp; Next.js 16</text>
-<rect x="36" y="336" width="147" height="27" rx="13" fill="#F2EDE3" stroke="#D2C6B4" stroke-width="1"/>
-<text x="109.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#181512">✦ MySQL / PostgreSQL</text>
-<rect x="191" y="336" width="109" height="27" rx="13" fill="#F2EDE3" stroke="#D2C6B4" stroke-width="1"/>
-<text x="245.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#181512">✦ Python &amp; AWS</text>
-<rect x="308" y="336" width="211" height="27" rx="13" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
-<text x="413.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#B88735">✦ Google Antigravity &amp; Copilot</text>
+  <rect x="36" y="302" width="160" height="27" rx="13" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1"/>
+<text x="116.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#0369A1">✦ PHP 8.3 / Laravel 11</text>
+<rect x="204" y="302" width="166" height="27" rx="13" fill="#EDF4FC" stroke="#BFD3E8" stroke-width="1"/>
+<text x="287.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#0B1324">✦ Redis (+30% Velocity)</text>
+<rect x="378" y="302" width="166" height="27" rx="13" fill="#EDF4FC" stroke="#BFD3E8" stroke-width="1"/>
+<text x="461.0" y="319.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#0B1324">✦ React.js &amp; Next.js 16</text>
+<rect x="36" y="336" width="147" height="27" rx="13" fill="#EDF4FC" stroke="#BFD3E8" stroke-width="1"/>
+<text x="109.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#0B1324">✦ MySQL / PostgreSQL</text>
+<rect x="191" y="336" width="109" height="27" rx="13" fill="#EDF4FC" stroke="#BFD3E8" stroke-width="1"/>
+<text x="245.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#0B1324">✦ Python &amp; AWS</text>
+<rect x="308" y="336" width="211" height="27" rx="13" fill="#DBEAFE" stroke="#BFDBFE" stroke-width="1"/>
+<text x="413.5" y="353.3" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.8" font-weight="600" fill="#1D4ED8">✦ Google Antigravity &amp; Copilot</text>
 
-  <!-- Right Obsidian IDE + Golden Photon Sparkline Window -->
+  <!-- Right Midnight IDE + Glacier Photon Sparkline Window -->
   <g>
-    <rect x="590" y="28" width="376" height="346" rx="16" fill="#121110" stroke="#E2CBA0" stroke-width="1.15"/>
-    <path d="M606 28 H950 A16 16 0 0 1 966 44 V63 H590 V44 A16 16 0 0 1 606 28 Z" fill="#1C1A18"/>
-    <line x1="590" y1="63" x2="966" y2="63" stroke="#28241E" stroke-width="1"/>
-    <circle cx="609" cy="45.5" r="4.4" fill="#6E5A38"/>
-    <circle cx="624" cy="45.5" r="4.4" fill="#A6854B"/>
-    <circle cx="639" cy="45.5" r="4.4" fill="#DFBE7D"/>
-    <rect x="658" y="35.5" width="108" height="20" rx="6" fill="#211C14" stroke="#574423" stroke-width="0.9"/>
-    <text x="712" y="49" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#FAF7F2">Architecture.ts</text>
-    <text x="778" y="49" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#7A746B">Live-Telemetry.log</text>
+    <rect x="590" y="28" width="376" height="346" rx="16" fill="#0A111F" stroke="#BAE6FD" stroke-width="1.15"/>
+    <path d="M606 28 H950 A16 16 0 0 1 966 44 V63 H590 V44 A16 16 0 0 1 606 28 Z" fill="#111B30"/>
+    <line x1="590" y1="63" x2="966" y2="63" stroke="#182740" stroke-width="1"/>
+    <circle cx="609" cy="45.5" r="4.5" fill="#FF5F56"/>
+    <circle cx="624" cy="45.5" r="4.5" fill="#FFBD2E"/>
+    <circle cx="639" cy="45.5" r="4.5" fill="#27C93F"/>
+    <rect x="658" y="35.5" width="108" height="20" rx="6" fill="#13223A" stroke="#244470" stroke-width="0.9"/>
+    <text x="712" y="49" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#F8FAFC">Architecture.ts</text>
+    <text x="778" y="49" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#647894">Live-Telemetry.log</text>
 
-    <text x="602" y="98" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">01</text>
-    <text x="623" y="98" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#877F73">// shubham-bramhane.ts — System Architecture</tspan></text>
-    <text x="602" y="116.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">02</text>
-    <text x="623" y="116.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#E6C27A">export const</tspan> <tspan fill="#FAF7F2" font-weight="700">architect</tspan> <tspan fill="#9C9488">= &#123;</tspan></text>
-    <text x="602" y="134.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">03</text>
-    <text x="623" y="134.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">name</tspan><tspan fill="#9C9488">:</tspan> <tspan fill="#6FD4A8">"Shubham Bramhane"</tspan><tspan fill="#9C9488">,</tspan></text>
-    <text x="602" y="152.6" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">04</text>
-    <text x="623" y="152.6" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">role</tspan><tspan fill="#9C9488">:</tspan> <tspan fill="#6FD4A8">"Full-Stack Architect &amp; AI Eng"</tspan><tspan fill="#9C9488">,</tspan></text>
-    <text x="602" y="170.79999999999998" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">05</text>
-    <text x="623" y="170.79999999999998" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">backend</tspan><tspan fill="#9C9488">: [</tspan><tspan fill="#6FD4A8">"Laravel 11"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Redis"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Python"</tspan><tspan fill="#9C9488">],</tspan></text>
-    <text x="602" y="188.99999999999997" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">06</text>
-    <text x="623" y="188.99999999999997" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">frontend</tspan><tspan fill="#9C9488">: [</tspan><tspan fill="#6FD4A8">"React"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Vue"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Next.js 16"</tspan><tspan fill="#9C9488">],</tspan></text>
-    <text x="602" y="207.19999999999996" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">07</text>
-    <text x="623" y="207.19999999999996" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">cloudDB</tspan><tspan fill="#9C9488">: [</tspan><tspan fill="#6FD4A8">"MySQL"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Postgres"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"AWS"</tspan><tspan fill="#9C9488">],</tspan></text>
-    <text x="602" y="225.39999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">08</text>
-    <text x="623" y="225.39999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">aiFlow</tspan><tspan fill="#9C9488">: [</tspan><tspan fill="#6FD4A8">"Antigravity"</tspan><tspan fill="#9C9488">,</tspan> <tspan fill="#6FD4A8">"Copilot"</tspan><tspan fill="#9C9488">],</tspan></text>
-    <rect x="590" y="230.59999999999994" width="376" height="18" fill="#D9B36C" fill-opacity="0.11"/>
-    <rect x="590" y="230.59999999999994" width="3" height="18" fill="#9A6E24"/>
-    <text x="602" y="243.59999999999994" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">09</text>
-    <text x="623" y="243.59999999999994" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E7E2D8">velocity</tspan><tspan fill="#9C9488">:</tspan> <tspan fill="#E6C27A">"3.5x AI · +30% Query"</tspan></text>
-    <text x="602" y="261.79999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#787166">10</text>
-    <text x="623" y="261.79999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#9C9488">&#125;;</tspan></text>
-    <rect x="642" y="252" width="6.5" height="12" rx="1.5" fill="#B88735" class="blink"/>
+    <text x="602" y="98" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">01</text>
+    <text x="623" y="98" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#7A8FA8">// shubham-bramhane.ts — System Architecture</tspan></text>
+    <text x="602" y="116.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">02</text>
+    <text x="623" y="116.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#7DD3FC">export const</tspan> <tspan fill="#FFFFFF" font-weight="700">architect</tspan> <tspan fill="#94A3B8">= &#123;</tspan></text>
+    <text x="602" y="134.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">03</text>
+    <text x="623" y="134.4" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">name</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#5EEAD4">"Shubham Bramhane"</tspan><tspan fill="#94A3B8">,</tspan></text>
+    <text x="602" y="152.6" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">04</text>
+    <text x="623" y="152.6" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">role</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#5EEAD4">"Full-Stack Architect &amp; AI Eng"</tspan><tspan fill="#94A3B8">,</tspan></text>
+    <text x="602" y="170.79999999999998" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">05</text>
+    <text x="623" y="170.79999999999998" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">backend</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#5EEAD4">"Laravel 11"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Redis"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Python"</tspan><tspan fill="#94A3B8">],</tspan></text>
+    <text x="602" y="188.99999999999997" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">06</text>
+    <text x="623" y="188.99999999999997" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">frontend</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#5EEAD4">"React"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Vue"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Next.js 16"</tspan><tspan fill="#94A3B8">],</tspan></text>
+    <text x="602" y="207.19999999999996" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">07</text>
+    <text x="623" y="207.19999999999996" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">cloudDB</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#5EEAD4">"MySQL"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Postgres"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"AWS"</tspan><tspan fill="#94A3B8">],</tspan></text>
+    <text x="602" y="225.39999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">08</text>
+    <text x="623" y="225.39999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">aiFlow</tspan><tspan fill="#94A3B8">: [</tspan><tspan fill="#5EEAD4">"Antigravity"</tspan><tspan fill="#94A3B8">,</tspan> <tspan fill="#5EEAD4">"Copilot"</tspan><tspan fill="#94A3B8">],</tspan></text>
+    <rect x="590" y="230.59999999999994" width="376" height="18" fill="#38BDF8" fill-opacity="0.11"/>
+    <rect x="590" y="230.59999999999994" width="3" height="18" fill="#0284C7"/>
+    <text x="602" y="243.59999999999994" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">09</text>
+    <text x="623" y="243.59999999999994" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4">  <tspan fill="#E2E8F0">velocity</tspan><tspan fill="#94A3B8">:</tspan> <tspan fill="#7DD3FC">"3.5x AI · +30% Query"</tspan></text>
+    <text x="602" y="261.79999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4" fill="#64748B">10</text>
+    <text x="623" y="261.79999999999995" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.4"><tspan fill="#94A3B8">&#125;;</tspan></text>
+    <rect x="642" y="252" width="6.5" height="12" rx="1.5" fill="#0369A1" class="blink"/>
 
     <!-- Embedded Live Throughput Telemetry Panel -->
-    <line x1="590" y1="278" x2="966" y2="278" stroke="#24201A" stroke-width="1"/>
-    <text x="606" y="295" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="700" letter-spacing="0.9" fill="#8A8277">LIVE TELEMETRY · REDIS + SQL PROFILING</text>
-    <text x="950" y="295" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#B88735">+30% THROUGHPUT</text>
+    <line x1="590" y1="278" x2="966" y2="278" stroke="#16243B" stroke-width="1"/>
+    <text x="606" y="295" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.1" font-weight="700" letter-spacing="0.9" fill="#6E85A3">LIVE TELEMETRY · REDIS + SQL PROFILING</text>
+    <text x="950" y="295" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#0369A1">+30% THROUGHPUT</text>
 
-    <!-- Brushed Gold Area Sparkline + Animated Photon -->
+    <!-- Glacier Cyan Area Sparkline + Animated Photon -->
     <path d="M 606 340 C 640 337, 668 331, 702 325 C 742 318, 774 322, 816 312 C 858 303, 898 306, 946 299 L 946 342 L 606 342 Z" fill="url(#sparkArea)"/>
-    <path d="M 606 340 C 640 337, 668 331, 702 325 C 742 318, 774 322, 816 312 C 858 303, 898 306, 946 299" fill="none" stroke="#B88735" stroke-width="2.1" stroke-linecap="round"/>
-    <circle r="3.2" fill="#FFF8E7">
-      <animateMotion dur="3.8s" repeatCount="indefinite" path="M 606 340 C 640 337, 668 331, 702 325 C 742 318, 774 322, 816 312 C 858 303, 898 306, 946 299"/>
+    <path d="M 606 340 C 640 337, 668 331, 702 325 C 742 318, 774 322, 816 312 C 858 303, 898 306, 946 299" fill="none" stroke="#0284C7" stroke-width="2.2" stroke-linecap="round"/>
+    <circle r="3.2" fill="#FFFFFF">
+      <animateMotion dur="3.6s" repeatCount="indefinite" path="M 606 340 C 640 337, 668 331, 702 325 C 742 318, 774 322, 816 312 C 858 303, 898 306, 946 299"/>
     </circle>
-    <circle cx="946" cy="299" r="3.8" fill="#197A55" class="pulse-dot"/>
-    <circle cx="946" cy="299" r="8.2" fill="#197A55" fill-opacity="0.22" class="pulse-dot"/>
+    <circle cx="946" cy="299" r="3.8" fill="#0D9488" class="pulse-dot"/>
+    <circle cx="946" cy="299" r="8.2" fill="#0D9488" fill-opacity="0.22" class="pulse-dot"/>
 
     <!-- Status Bar -->
-    <line x1="590" y1="347" x2="966" y2="347" stroke="#24201A" stroke-width="1"/>
-    <circle cx="607" cy="360.5" r="3.2" fill="#197A55" class="pulse-dot"/>
-    <text x="617" y="364" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#A69F95">Production Ready · AI-Assisted</text>
-    <text x="950" y="364" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#B88735">99.9% UPTIME</text>
+    <line x1="590" y1="347" x2="966" y2="347" stroke="#16243B" stroke-width="1"/>
+    <circle cx="607" cy="360.5" r="3.2" fill="#0D9488" class="pulse-dot"/>
+    <text x="617" y="364" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" fill="#94A3B8">Production Ready · AI-Assisted</text>
+    <text x="950" y="364" text-anchor="end" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#0369A1">99.9% UPTIME</text>
   </g>
 </svg>

@@ -2,23 +2,22 @@
   <defs>
     
     <linearGradient id="prCard" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFDF9"/>
-      <stop offset="100%" stop-color="#F6F2EA"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F8FE"/>
     </linearGradient>
     <linearGradient id="prSpec" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="prGoldFoil" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7A5518"/>
-      <stop offset="35%" stop-color="#B88735"/>
-      <stop offset="68%" stop-color="#9A6E24"/>
-      <stop offset="100%" stop-color="#7A5518"/>
+    <linearGradient id="prArcticBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="48%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0D9488"/>
     </linearGradient>
     <radialGradient id="prGlow" cx="92%" cy="18%" r="55%">
-      <stop offset="0%" stop-color="#9A6E24" stop-opacity="0.09"/>
-      <stop offset="100%" stop-color="#9A6E24" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="prClip"><rect x="2" y="2" width="484" height="158" rx="16"/></clipPath>
     <style>
@@ -31,30 +30,30 @@
     <rect x="2" y="2" width="484" height="158" fill="url(#prCard)"/>
     <rect x="2" y="2" width="484" height="158" fill="url(#prGlow)"/>
   </g>
-  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#E5DDD0" stroke-width="1.15"/>
+  <rect x="2" y="2" width="484" height="158" rx="16" fill="none" stroke="#D8E4F2" stroke-width="1.15"/>
   <line x1="20" y1="2.8" x2="468" y2="2.8" stroke="url(#prSpec)" stroke-width="1"/>
-  <rect x="20" y="2" width="58" height="2.8" rx="1.4" fill="#9A6E24"/>
+  <rect x="20" y="2" width="58" height="2.8" rx="1.4" fill="#1D4ED8"/>
 
   <!-- Mini Architectural Visual Preview Thumbnail -->
   <g transform="translate(382, 16)">
-    <rect x="0" y="0" width="88" height="54" rx="10" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="1"/>
-    <rect x="14" y="34" width="9" height="10" rx="2" fill="#9A6E24" fill-opacity="0.35"/><rect x="28" y="27" width="9" height="17" rx="2" fill="#9A6E24" fill-opacity="0.55"/><rect x="42" y="21" width="9" height="23" rx="2" fill="#9A6E24" fill-opacity="0.78"/><rect x="56" y="13" width="9" height="31" rx="2" fill="#9A6E24"/><polyline points="16,28 32,20 48,16 66,9" fill="none" stroke="#9A6E24" stroke-width="1.6" stroke-linecap="round"/>
+    <rect x="0" y="0" width="88" height="54" rx="10" fill="#DBEAFE" stroke="#BFDBFE" stroke-width="1"/>
+    <rect x="14" y="34" width="9" height="10" rx="2" fill="#1D4ED8" fill-opacity="0.35"/><rect x="28" y="27" width="9" height="17" rx="2" fill="#1D4ED8" fill-opacity="0.55"/><rect x="42" y="21" width="9" height="23" rx="2" fill="#1D4ED8" fill-opacity="0.78"/><rect x="56" y="13" width="9" height="31" rx="2" fill="#1D4ED8"/><polyline points="16,28 32,20 48,16 66,9" fill="none" stroke="#1D4ED8" stroke-width="1.6" stroke-linecap="round"/>
   </g>
 
-  <rect x="20" y="16" width="102" height="22" rx="11" fill="#FAF2E1" stroke="#E2CBA0" stroke-width="0.9"/>
-  <text x="71.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#9A6E24">SEO &amp; GROWTH</text>
-  <text x="132" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#7D756A">2023–2024 · Healthcare</text>
+  <rect x="20" y="16" width="102" height="22" rx="11" fill="#DBEAFE" stroke="#BFDBFE" stroke-width="0.9"/>
+  <text x="71.0" y="30.2" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#1D4ED8">SEO &amp; GROWTH</text>
+  <text x="132" y="30.2" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.8" fill="#6B7E99">2023–2024 · Healthcare</text>
 
-  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="800" fill="#181512">Lal Path Labs &amp; SEO Engine</text>
-  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#524B42">Continuous feature engineering &amp; custom dynamic SEO engine</text>
-  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#524B42">for a premier pan-India healthcare diagnostics chain.</text>
+  <text x="20" y="65" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="800" fill="#0B1324">Lal Path Labs &amp; SEO Engine</text>
+  <text x="20" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#44556E">Continuous feature engineering &amp; custom dynamic SEO engine</text>
+  <text x="20" y="104" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.8" fill="#44556E">for a premier pan-India healthcare diagnostics chain.</text>
 
-  <rect x="20" y="122" width="67" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
-<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">Laravel</text><rect x="93" y="122" width="50" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
-<text x="118.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">PHP</text><rect x="149" y="122" width="88" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
-<text x="193.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">SEO Engine</text><rect x="243" y="122" width="54" height="23" rx="11" fill="#F2EDE3" stroke="#E5DDD0" stroke-width="1"/>
-<text x="270.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#524B42">MySQL</text>
+  <rect x="20" y="122" width="67" height="23" rx="11" fill="#EDF4FC" stroke="#D8E4F2" stroke-width="1"/>
+<text x="53.5" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#44556E">Laravel</text><rect x="93" y="122" width="50" height="23" rx="11" fill="#EDF4FC" stroke="#D8E4F2" stroke-width="1"/>
+<text x="118.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#44556E">PHP</text><rect x="149" y="122" width="88" height="23" rx="11" fill="#EDF4FC" stroke="#D8E4F2" stroke-width="1"/>
+<text x="193.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#44556E">SEO Engine</text><rect x="243" y="122" width="54" height="23" rx="11" fill="#EDF4FC" stroke="#D8E4F2" stroke-width="1"/>
+<text x="270.0" y="137.1" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.2" font-weight="600" fill="#44556E">MySQL</text>
 
-  <circle cx="422" cy="133.5" r="3" fill="#9A6E24" class="lp"/>
-  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#9A6E24">LIVE ↗</text>
+  <circle cx="422" cy="133.5" r="3" fill="#1D4ED8" class="lp"/>
+  <text x="430" y="137" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#1D4ED8">LIVE ↗</text>
 </svg>

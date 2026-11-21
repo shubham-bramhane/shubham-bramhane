@@ -2,21 +2,21 @@
   
   <defs>
     <linearGradient id="ctaGlass" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#EFECE6"/>
-      <stop offset="100%" stop-color="#F6F2EA"/>
+      <stop offset="0%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#F3F8FE"/>
     </linearGradient>
     <linearGradient id="ctaSpec" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#47423B" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#47423B" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#47423B" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#1D4ED8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="2" width="234" height="54" rx="13" fill="url(#ctaGlass)" stroke="#D6CFC4" stroke-width="1.2"/>
+  <rect x="2" y="2" width="234" height="54" rx="13" fill="url(#ctaGlass)" stroke="#BFDBFE" stroke-width="1.2"/>
   <line x1="18" y1="2.9" x2="220" y2="2.9" stroke="url(#ctaSpec)" stroke-width="1.1"/>
   <g transform="translate(14, 15)">
-    <rect x="6.5" y="11" width="3.2" height="10.5" rx="0.9" fill="#47423B"/><circle cx="8.1" cy="7.5" r="1.8" fill="#47423B"/><path d="M12.5 11 H15.5 V12.7 C16.3 11.4 17.5 10.7 19.1 10.7 C21.3 10.7 22.2 12.2 22.2 14.8 V21.5 H19 V15.4 C19 14 18.4 13.3 17.3 13.3 C16.2 13.3 15.6 14.1 15.6 15.4 V21.5 H12.5 Z" fill="#47423B"/>
+    <rect x="6.5" y="11" width="3.2" height="10.5" rx="0.9" fill="#1D4ED8"/><circle cx="8.1" cy="7.5" r="1.8" fill="#1D4ED8"/><path d="M12.5 11 H15.5 V12.7 C16.3 11.4 17.5 10.7 19.1 10.7 C21.3 10.7 22.2 12.2 22.2 14.8 V21.5 H19 V15.4 C19 14 18.4 13.3 17.3 13.3 C16.2 13.3 15.6 14.1 15.6 15.4 V21.5 H12.5 Z" fill="#1D4ED8"/>
   </g>
-  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="800" fill="#181512">LinkedIn Profile</text>
-  <text x="48" y="43.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#47423B">IN/SHUBHAM1602</text>
-  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#47423B">↗</text>
+  <text x="48" y="27.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.2" font-weight="800" fill="#0B1324">LinkedIn Profile</text>
+  <text x="48" y="43.5" font-family="'Cascadia Code', 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.6" font-weight="700" fill="#1D4ED8">IN/SHUBHAM1602</text>
+  <text x="223" y="34" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#1D4ED8">↗</text>
 </svg>
